@@ -1,0 +1,56 @@
+question_id,question_order,name,about,group_id,group_name
+trinity,1,Trinity,the Trinity and whether Jesus is God,god,God and the Bible
+authority,2,Authority,Scripture and authority,god,God and the Bible
+speaks,3,Revelation today,how God speaks today,god,God and the Bible
+canon,4,Books of the Bible,how many books are in the Bible,god,God and the Bible
+inspiration,5,How the Bible was written,how the Bible was written,god,God and the Bible
+preservation,6,How the Bible was kept,how the Bible was handed down,god,God and the Bible
+inerrancy,7,Bible without error,whether the Bible is without error,god,God and the Bible
+creation,8,Creation,creation,god,God and the Bible
+filioque,9,The Holy Spirit's origin,where the Holy Spirit proceeds from,god,God and the Bible
+salvation,10,Salvation,salvation,saved,Salvation
+lost,11,Losing salvation,whether salvation can be lost,saved,Salvation
+election,12,God's choosing,predestination and free will,saved,Salvation
+who,13,Who is saved,who will be saved,saved,Salvation
+sin,14,Original sin,original sin,saved,Salvation
+nature,15,Human nature,human nature and free will,saved,Salvation
+perfection,16,Holiness in this life,becoming holy in this life,saved,Salvation
+law,17,Old Testament law,the Old Testament law,saved,Salvation
+baptism,18,Baptism,baptism,sacr,Baptism and Communion
+mode,19,How baptism is done,how baptism is done,sacr,Baptism and Communion
+spirit,20,Receiving the Spirit,when the Holy Spirit is received,sacr,Baptism and Communion
+deadbaptism,21,Baptism for the dead,baptism for the dead,sacr,Baptism and Communion
+communion,22,Communion,Communion,sacr,Baptism and Communion
+table,23,Who takes Communion,who may take Communion,sacr,Baptism and Communion
+bread,24,Communion bread and wine,the bread and wine of Communion,sacr,Baptism and Communion
+sacraments,25,Sacraments,the sacraments,sacr,Baptism and Communion
+government,26,Leadership,how the church is led,church,Church and worship
+clergy,27,Who may be ordained,who may become a minister,church,Church and worship
+women,28,Women ministers,women as pastors and priests,church,Church and worship
+confession,29,Confession,confession of sins,church,Church and worship
+sabbath,30,Day of worship,the day of worship,church,Church and worship
+music,31,Worship music,music in worship,church,Church and worship
+icons,32,Icons and images,icons and statues,church,Church and worship
+tongues,33,Speaking in tongues,speaking in tongues,church,Church and worship
+gifts,34,Spiritual gifts today,the gifts of the Spirit today,church,Church and worship
+demons,35,Demons and exorcism,demons and exorcism,church,Church and worship
+headcovering,36,Head coverings,head coverings,church,Church and worship
+mary,37,Mary,Mary,mary,Mary and the saints
+marysin,38,Was Mary sinless,whether Mary was without sin,mary,Mary and the saints
+saints,39,Praying to saints,praying to the saints,mary,Mary and the saints
+death,40,After death,what happens after death,end,Death and the end
+purgatory,41,Purgatory,purgatory,end,Death and the end
+hell,42,Hell,hell,end,Death and the end
+rapture,43,The rapture,the rapture,end,Death and the end
+tribulation,44,The Tribulation,the Tribulation,end,Death and the end
+millennium,45,The thousand years,the millennium,end,Death and the end
+dispensations,46,Dispensations,dispensationalism,end,Death and the end
+marriage,47,Marriage,marriage,family,Marriage and family
+sex,48,Sex outside marriage,sex outside marriage,family,Marriage and family
+divorce,49,Divorce,divorce,family,Marriage and family
+remarriage,50,Remarriage,remarriage after divorce,family,Marriage and family
+contraception,51,Contraception,contraception,family,Marriage and family
+abortion,52,Abortion,abortion and when life begins,family,Marriage and family
+blood,53,Blood transfusions,blood transfusions,life,Life and conscience
+alcohol,54,Alcohol,alcohol,life,Life and conscience
+war,55,War and military service,war and military service,life,Life and conscience

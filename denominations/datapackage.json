@@ -1,0 +1,398 @@
+{
+ "profile": "data-package",
+ "name": "christianpure-denominations",
+ "title": "What 22 Christian churches teach: 55 questions, in their own words",
+ "description": "Answers from 22 churches and traditions, plus Protestants in general, to 55 questions of belief and practice, each answered from the church's own documents, with the passage named and linked. The data behind Compare Christian Denominations at https://christianpure.com/compare-denominations/. The CC BY 4.0 licence covers our selection of which passage answers which question, our arrangement, ids and notes. The quoted words belong to the churches that wrote them, so they are not included: follow source_url to read each passage.",
+ "version": "1.0.0",
+ "created": "2026-11-18T00:00:00Z",
+ "homepage": "https://christianpure.com/compare-denominations/",
+ "licenses": [
+  {
+   "name": "CC-BY-4.0",
+   "path": "https://creativecommons.org/licenses/by/4.0/",
+   "title": "Creative Commons Attribution 4.0 International"
+  }
+ ],
+ "contributors": [
+  {
+   "title": "Christian Pure",
+   "role": "author",
+   "path": "https://christianpure.com/"
+  }
+ ],
+ "keywords": [
+  "Christian denominations",
+  "churches",
+  "doctrine",
+  "beliefs",
+  "comparison",
+  "confessions of faith"
+ ],
+ "sources": [
+  {
+   "title": "Each church’s own documents, linked per answer in answers.csv",
+   "path": "https://christianpure.com/compare-denominations/"
+  }
+ ],
+ "resources": [
+  {
+   "name": "churches",
+   "path": "churches.csv",
+   "profile": "tabular-data-resource",
+   "title": "Churches",
+   "description": "One row per church or tradition.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "church_id",
+      "type": "string",
+      "description": "Id of the church or tradition.",
+      "constraints": {
+       "required": true,
+       "unique": true
+      }
+     },
+     {
+      "name": "church_order",
+      "type": "integer",
+      "description": "Order in the tool.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "name",
+      "type": "string",
+      "description": "Name of the church or tradition.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "short_name",
+      "type": "string",
+      "description": "Shorter name used in menus and tables.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "members",
+      "type": "string",
+      "description": "What its members are called, as used in a sentence.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "main_document",
+      "type": "string",
+      "description": "The document most answers quote. Empty for \"Protestant (in general)\", which quotes several."
+     },
+     {
+      "name": "main_document_url",
+      "type": "string",
+      "description": "Address of that document.",
+      "format": "uri"
+     }
+    ],
+    "primaryKey": [
+     "church_id"
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "questions",
+   "path": "questions.csv",
+   "profile": "tabular-data-resource",
+   "title": "Questions",
+   "description": "One row per question.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "question_id",
+      "type": "string",
+      "description": "Id of the question.",
+      "constraints": {
+       "required": true,
+       "unique": true
+      }
+     },
+     {
+      "name": "question_order",
+      "type": "integer",
+      "description": "Order in the tool.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "name",
+      "type": "string",
+      "description": "Short name of the question.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "about",
+      "type": "string",
+      "description": "What the question asks about, as used in a sentence.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "group_id",
+      "type": "string",
+      "description": "Group the question belongs to.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "group_name",
+      "type": "string",
+      "description": "Name of the group.",
+      "constraints": {
+       "required": true
+      }
+     }
+    ],
+    "primaryKey": [
+     "question_id"
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "answers",
+   "path": "answers.csv",
+   "profile": "tabular-data-resource",
+   "title": "Answers",
+   "description": "One row for every church and question, answered or not.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "church_id",
+      "type": "string",
+      "description": "Church (churches.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "question_id",
+      "type": "string",
+      "description": "Question (questions.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "status",
+      "type": "string",
+      "description": "answered: the tool answers with the passage named in source_title. no_official_statement: we looked and found no official statement. blank: not yet settled, no answer.",
+      "constraints": {
+       "required": true,
+       "enum": [
+        "answered",
+        "no_official_statement",
+        "blank"
+       ]
+      }
+     },
+     {
+      "name": "closest_only",
+      "type": "boolean",
+      "description": "true where the church has no teaching on this exact question and the passage is the closest statement."
+     },
+     {
+      "name": "source_kind",
+      "type": "string",
+      "description": "church_document: the church’s own document. christianpure_article: a Christian Pure article, where no document of the church was used.",
+      "constraints": {
+       "enum": [
+        "church_document",
+        "christianpure_article"
+       ]
+      }
+     },
+     {
+      "name": "source_title",
+      "type": "string",
+      "description": "The document and passage that answers the question."
+     },
+     {
+      "name": "source_url",
+      "type": "string",
+      "description": "Address of the passage.",
+      "format": "uri"
+     },
+     {
+      "name": "branch",
+      "type": "string",
+      "description": "Where churches of the tradition differ, the body the passage comes from."
+     },
+     {
+      "name": "branch_note",
+      "type": "string",
+      "description": "Our note on how the other bodies differ."
+     },
+     {
+      "name": "read_more_title",
+      "type": "string",
+      "description": "A Christian Pure article on the subject, if any."
+     },
+     {
+      "name": "read_more_url",
+      "type": "string",
+      "description": "Address of that article.",
+      "format": "uri"
+     }
+    ],
+    "primaryKey": [
+     "church_id",
+     "question_id"
+    ],
+    "missingValues": [
+     ""
+    ],
+    "foreignKeys": [
+     {
+      "fields": "church_id",
+      "reference": {
+       "resource": "churches",
+       "fields": "church_id"
+      }
+     },
+     {
+      "fields": "question_id",
+      "reference": {
+       "resource": "questions",
+       "fields": "question_id"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "church-pair-articles",
+   "path": "church-pair-articles.csv",
+   "profile": "tabular-data-resource",
+   "title": "Comparison articles",
+   "description": "Christian Pure articles that compare two of the churches.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "church_a",
+      "type": "string",
+      "description": "First church (churches.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "church_b",
+      "type": "string",
+      "description": "Second church.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "article_title",
+      "type": "string",
+      "description": "Title of the Christian Pure article comparing the two.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "article_url",
+      "type": "string",
+      "description": "Address of the article.",
+      "constraints": {
+       "required": true
+      },
+      "format": "uri"
+     }
+    ],
+    "primaryKey": [
+     "church_a",
+     "church_b"
+    ],
+    "missingValues": [
+     ""
+    ],
+    "foreignKeys": [
+     {
+      "fields": "church_a",
+      "reference": {
+       "resource": "churches",
+       "fields": "church_id"
+      }
+     },
+     {
+      "fields": "church_b",
+      "reference": {
+       "resource": "churches",
+       "fields": "church_id"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "denominations-json",
+   "path": "denominations.json",
+   "profile": "data-resource",
+   "title": "Everything as one JSON file",
+   "description": "Churches, questions, answers and comparison articles in one file.",
+   "format": "json",
+   "mediatype": "application/json",
+   "encoding": "utf-8"
+  }
+ ]
+}

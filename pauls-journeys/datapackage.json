@@ -1,0 +1,831 @@
+{
+ "profile": "data-package",
+ "name": "christianpure-pauls-journeys",
+ "title": "Paul's missionary journeys: stops, legs and places",
+ "description": "Every stop on Paul's three missionary journeys and his voyage to Rome, in order, with coordinates, the verse in Acts, distances by Roman road and by sea, heights, and the days Acts gives. The data behind the Christian Pure map at https://christianpure.com/pauls-missionary-journeys/.",
+ "version": "1.0.0",
+ "created": "2026-11-18T00:00:00Z",
+ "homepage": "https://christianpure.com/pauls-missionary-journeys/",
+ "licenses": [
+  {
+   "name": "CC-BY-4.0",
+   "path": "https://creativecommons.org/licenses/by/4.0/",
+   "title": "Creative Commons Attribution 4.0 International"
+  }
+ ],
+ "contributors": [
+  {
+   "title": "Christian Pure",
+   "role": "author",
+   "path": "https://christianpure.com/"
+  }
+ ],
+ "keywords": [
+  "Bible",
+  "Acts",
+  "Paul",
+  "missionary journeys",
+  "Roman roads",
+  "GeoJSON",
+  "historical geography"
+ ],
+ "sources": [
+  {
+   "title": "OpenBible.info Bible Geocoding Data (CC BY 4.0)",
+   "path": "https://www.openbible.info/geo/"
+  },
+  {
+   "title": "Pleiades (CC BY 3.0)",
+   "path": "https://pleiades.stoa.org/"
+  },
+  {
+   "title": "Itiner-e: the digital atlas of ancient roads, 2024, Brughmans, Pažout, de Soto and Bjerregaard Vahlstrup (CC BY 4.0)",
+   "path": "https://doi.org/10.5281/zenodo.17122148"
+  },
+  {
+   "title": "World English Bible (public domain)",
+   "path": "https://ebible.org/find/details.php?id=eng-web"
+  },
+  {
+   "title": "Terrain Tiles on AWS (SRTM, GMTED2010, ETOPO1, EU-DEM/Copernicus)",
+   "path": "https://registry.opendata.aws/terrain-tiles/"
+  }
+ ],
+ "resources": [
+  {
+   "name": "journeys",
+   "path": "journeys.csv",
+   "profile": "tabular-data-resource",
+   "title": "Journeys",
+   "description": "One row per journey, with total distances.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "journey_id",
+      "type": "string",
+      "description": "Short id of the journey: first, second, third or rome.",
+      "constraints": {
+       "required": true,
+       "unique": true
+      }
+     },
+     {
+      "name": "journey_order",
+      "type": "integer",
+      "description": "Order of the journey, 1 to 4.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "name",
+      "type": "string",
+      "description": "Name of the journey.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "bible_refs",
+      "type": "string",
+      "description": "The chapters of Acts the journey covers.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "bible_refs_osis",
+      "type": "string",
+      "description": "The same range in OSIS notation.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "years",
+      "type": "string",
+      "description": "Approximate years, as scholars reconstruct them.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "stop_count",
+      "type": "integer",
+      "description": "Number of stops (rows in stops.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "leg_count",
+      "type": "integer",
+      "description": "Number of legs (rows in legs.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "road_km",
+      "type": "integer",
+      "description": "Kilometres on Roman roads (Itiner-e network), all legs.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "drawn_km",
+      "type": "integer",
+      "description": "Kilometres of straight line drawn where a place lies off the road network.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "sea_km",
+      "type": "integer",
+      "description": "Kilometres by sea, all legs.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "total_km",
+      "type": "integer",
+      "description": "road_km + drawn_km + sea_km.",
+      "constraints": {
+       "required": true
+      }
+     }
+    ],
+    "primaryKey": [
+     "journey_id"
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "stops",
+   "path": "stops.csv",
+   "profile": "tabular-data-resource",
+   "title": "Stops",
+   "description": "One row per stop, in order, with coordinates and verse.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "journey_id",
+      "type": "string",
+      "description": "Journey (journeys.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "stop_order",
+      "type": "integer",
+      "description": "Order of the stop within its journey, from 1.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "stop_id",
+      "type": "string",
+      "description": "Id of the stop, unique within its journey. A place visited twice has a suffix such as -2.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "place_id",
+      "type": "string",
+      "description": "Place (places.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "label",
+      "type": "string",
+      "description": "Name shown on the map. Where Acts names a region, the region.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "kind",
+      "type": "string",
+      "description": "stop: Acts has Paul stop or work here. pass: passed or touched on the way. reading: Acts names a region or leaves the place open, and the place is our reading.",
+      "constraints": {
+       "required": true,
+       "enum": [
+        "stop",
+        "pass",
+        "reading"
+       ]
+      }
+     },
+     {
+      "name": "latitude",
+      "type": "number",
+      "description": "WGS 84 latitude of the place.",
+      "constraints": {
+       "required": true,
+       "minimum": -90,
+       "maximum": 90
+      }
+     },
+     {
+      "name": "longitude",
+      "type": "number",
+      "description": "WGS 84 longitude of the place.",
+      "constraints": {
+       "required": true,
+       "minimum": -180,
+       "maximum": 180
+      }
+     },
+     {
+      "name": "bible_ref",
+      "type": "string",
+      "description": "The verse in Acts (or a letter) that puts Paul here.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "bible_ref_osis",
+      "type": "string",
+      "description": "The same verse in OSIS notation.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "verse_text",
+      "type": "string",
+      "description": "Text of bible_ref in the World English Bible (public domain).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "note",
+      "type": "string",
+      "description": "Our one-line note on what happens here. Empty for some passing stops."
+     },
+     {
+      "name": "also_refs",
+      "type": "string",
+      "description": "Other verses for this stop, separated by \"; \". Their texts are in stop-verses.csv."
+     },
+     {
+      "name": "letter_ref",
+      "type": "string",
+      "description": "A verse from one of Paul’s letters that recalls this visit, if any."
+     },
+     {
+      "name": "letter_ref_osis",
+      "type": "string",
+      "description": "The same verse in OSIS notation."
+     },
+     {
+      "name": "letter_text",
+      "type": "string",
+      "description": "Text of letter_ref in the World English Bible."
+     },
+     {
+      "name": "letter_why",
+      "type": "string",
+      "description": "Our note on how the letter connects to the visit."
+     },
+     {
+      "name": "letter_is_reading",
+      "type": "boolean",
+      "description": "true where the link between letter and visit rests on a disputed reading."
+     }
+    ],
+    "primaryKey": [
+     "journey_id",
+     "stop_order"
+    ],
+    "missingValues": [
+     ""
+    ],
+    "foreignKeys": [
+     {
+      "fields": "journey_id",
+      "reference": {
+       "resource": "journeys",
+       "fields": "journey_id"
+      }
+     },
+     {
+      "fields": "place_id",
+      "reference": {
+       "resource": "places",
+       "fields": "place_id"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "stop-verses",
+   "path": "stop-verses.csv",
+   "profile": "tabular-data-resource",
+   "title": "Stop verses",
+   "description": "Every verse quoted for a stop, one per row.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "journey_id",
+      "type": "string",
+      "description": "Journey (journeys.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "stop_order",
+      "type": "integer",
+      "description": "Stop (stops.csv), by its order in the journey.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "stop_id",
+      "type": "string",
+      "description": "Id of the stop.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "role",
+      "type": "string",
+      "description": "main: the stop’s own verse. also: another verse for the stop. letter: a verse from a letter.",
+      "constraints": {
+       "required": true,
+       "enum": [
+        "main",
+        "also",
+        "letter"
+       ]
+      }
+     },
+     {
+      "name": "bible_ref",
+      "type": "string",
+      "description": "Bible reference.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "bible_ref_osis",
+      "type": "string",
+      "description": "The same reference in OSIS notation.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "text",
+      "type": "string",
+      "description": "Text in the World English Bible (public domain). Some are part of a verse.",
+      "constraints": {
+       "required": true
+      }
+     }
+    ],
+    "primaryKey": [
+     "journey_id",
+     "stop_order",
+     "role",
+     "bible_ref"
+    ],
+    "missingValues": [
+     ""
+    ],
+    "foreignKeys": [
+     {
+      "fields": "journey_id",
+      "reference": {
+       "resource": "journeys",
+       "fields": "journey_id"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "legs",
+   "path": "legs.csv",
+   "profile": "tabular-data-resource",
+   "title": "Legs",
+   "description": "One row per leg between two stops, with distances and heights.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "journey_id",
+      "type": "string",
+      "description": "Journey (journeys.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "leg_order",
+      "type": "integer",
+      "description": "Order of the leg within its journey, from 1. Leg n runs from stop n to stop n+1.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "from_stop_id",
+      "type": "string",
+      "description": "Stop the leg starts from.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "to_stop_id",
+      "type": "string",
+      "description": "Stop the leg ends at.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "from_place_id",
+      "type": "string",
+      "description": "Place the leg starts from.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "to_place_id",
+      "type": "string",
+      "description": "Place the leg ends at.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "from_label",
+      "type": "string",
+      "description": "Name of the start.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "to_label",
+      "type": "string",
+      "description": "Name of the end.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "mode",
+      "type": "string",
+      "description": "How the leg is travelled: road, sea, or foot (Acts 20:13, where Paul walks while the ship sails round). A sea leg may begin or end with a short road part.",
+      "constraints": {
+       "required": true,
+       "enum": [
+        "road",
+        "sea",
+        "foot"
+       ]
+      }
+     },
+     {
+      "name": "road_km",
+      "type": "integer",
+      "description": "Kilometres on the Itiner-e Roman road network.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "drawn_km",
+      "type": "integer",
+      "description": "Kilometres of straight line joining a place to the network.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "sea_km",
+      "type": "integer",
+      "description": "Kilometres of our drawn sea line.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "total_km",
+      "type": "integer",
+      "description": "road_km + drawn_km + sea_km.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "days_on_foot",
+      "type": "number",
+      "description": "Land kilometres divided by 29.6 km a day (20 Roman miles, Vegetius 1.9). Empty for legs wholly at sea. An assumption, not a record."
+     },
+     {
+      "name": "climb_m",
+      "type": "integer",
+      "description": "Metres climbed on the land part."
+     },
+     {
+      "name": "descent_m",
+      "type": "integer",
+      "description": "Metres descended on the land part."
+     },
+     {
+      "name": "highest_m",
+      "type": "integer",
+      "description": "Highest point of the land part, in metres."
+     },
+     {
+      "name": "road_certain_km",
+      "type": "integer",
+      "description": "Road kilometres that Itiner-e grades certain. Empty where the leg has no road."
+     },
+     {
+      "name": "road_conjectured_km",
+      "type": "integer",
+      "description": "Road kilometres that Itiner-e grades conjectured."
+     },
+     {
+      "name": "road_hypothetical_km",
+      "type": "integer",
+      "description": "Road kilometres that Itiner-e grades hypothetical."
+     },
+     {
+      "name": "itinere_roads",
+      "type": "string",
+      "description": "Names of the Itiner-e road segments used, in order, separated by \"; \"."
+     },
+     {
+      "name": "acts_days",
+      "type": "integer",
+      "description": "Days Acts itself gives for this stretch, if any."
+     },
+     {
+      "name": "acts_days_approximate",
+      "type": "boolean",
+      "description": "true where the days are not a stated journey time (the storm before Malta)."
+     },
+     {
+      "name": "acts_days_from_stop_id",
+      "type": "string",
+      "description": "Where the days in Acts are counted from, which can be an earlier stop."
+     },
+     {
+      "name": "acts_ref",
+      "type": "string",
+      "description": "The verse that gives the days."
+     },
+     {
+      "name": "acts_ref_osis",
+      "type": "string",
+      "description": "The same verse in OSIS notation."
+     },
+     {
+      "name": "acts_quote",
+      "type": "string",
+      "description": "That verse in the World English Bible."
+     }
+    ],
+    "primaryKey": [
+     "journey_id",
+     "leg_order"
+    ],
+    "missingValues": [
+     ""
+    ],
+    "foreignKeys": [
+     {
+      "fields": "journey_id",
+      "reference": {
+       "resource": "journeys",
+       "fields": "journey_id"
+      }
+     },
+     {
+      "fields": "from_place_id",
+      "reference": {
+       "resource": "places",
+       "fields": "place_id"
+      }
+     },
+     {
+      "fields": "to_place_id",
+      "reference": {
+       "resource": "places",
+       "fields": "place_id"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "places",
+   "path": "places.csv",
+   "profile": "tabular-data-resource",
+   "title": "Places",
+   "description": "One row per place, with the records it is matched to.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "place_id",
+      "type": "string",
+      "description": "Id of the place.",
+      "constraints": {
+       "required": true,
+       "unique": true
+      }
+     },
+     {
+      "name": "name",
+      "type": "string",
+      "description": "Name of the place as first labelled on the map.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "on_route",
+      "type": "boolean",
+      "description": "false for Tarsus, Paul’s home city, which the map marks but no journey stops at.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "latitude",
+      "type": "number",
+      "description": "WGS 84 latitude, from OpenBible.info.",
+      "constraints": {
+       "required": true,
+       "minimum": -90,
+       "maximum": 90
+      }
+     },
+     {
+      "name": "longitude",
+      "type": "number",
+      "description": "WGS 84 longitude, from OpenBible.info.",
+      "constraints": {
+       "required": true,
+       "minimum": -180,
+       "maximum": 180
+      }
+     },
+     {
+      "name": "openbible_id",
+      "type": "string",
+      "description": "Id of the OpenBible.info ancient place record the point comes from.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "openbible_name",
+      "type": "string",
+      "description": "Name of that OpenBible.info record.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "openbible_identification",
+      "type": "string",
+      "description": "The modern site OpenBible.info identifies the place with.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "openbible_other_candidate_sites",
+      "type": "integer",
+      "description": "How many other candidate sites OpenBible.info lists.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "wikidata_id",
+      "type": "string",
+      "description": "Wikidata item, from OpenBible.info."
+     },
+     {
+      "name": "pleiades_id",
+      "type": "string",
+      "description": "Pleiades place matched to the point, if one lies near. Empty where none matched."
+     },
+     {
+      "name": "pleiades_title",
+      "type": "string",
+      "description": "Title of the Pleiades place."
+     },
+     {
+      "name": "pleiades_offset_km",
+      "type": "number",
+      "description": "Kilometres between the OpenBible.info point and the Pleiades point."
+     },
+     {
+      "name": "pleiades_url",
+      "type": "string",
+      "description": "Address of the Pleiades place.",
+      "format": "uri"
+     }
+    ],
+    "primaryKey": [
+     "place_id"
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "stops-geojson",
+   "path": "stops.geojson",
+   "profile": "data-resource",
+   "title": "Stops as GeoJSON",
+   "description": "The stops as points, with the fields of stops.csv and their other verses.",
+   "format": "geojson",
+   "mediatype": "application/geo+json",
+   "encoding": "utf-8"
+  },
+  {
+   "name": "legs-geojson",
+   "path": "legs.geojson",
+   "profile": "data-resource",
+   "title": "Legs as GeoJSON",
+   "description": "The legs as lines (one MultiLineString per leg, one line per road or sea part), with the fields of legs.csv.",
+   "format": "geojson",
+   "mediatype": "application/geo+json",
+   "encoding": "utf-8"
+  }
+ ]
+}

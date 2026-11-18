@@ -1,0 +1,49 @@
+place_id,name,on_route,latitude,longitude,openbible_id,openbible_name,openbible_identification,openbible_other_candidate_sites,wikidata_id,pleiades_id,pleiades_title,pleiades_offset_km,pleiades_url
+tarsus,Tarsus,false,36.913,34.8921,a666ea0,Tarsus,Tarsus,0,Q134287,648789,Tarsus/Antiochia ad Cydnum,0.4,https://pleiades.stoa.org/places/648789
+antioch,Antioch,true,36.2267,36.1717,ae41ab4,Antioch 1,Antioch on the Orontes,0,Q200441,658381,Antiochia/Theoupolis,1.3,https://pleiades.stoa.org/places/658381
+seleucia,Seleucia,true,36.124,35.922,a6d306d,Seleucia,Seleucia Pieria,0,Q1605894,,,,
+salamis,Salamis,true,35.1849,33.9019,afa863b,Salamis,Salamis,0,Q767089,192519947,Roman theater at Salamis/Konstantia,0.1,https://pleiades.stoa.org/places/192519947
+paphos,Paphos,true,34.7557,32.4042,a314765,Paphos,New Paphos,0,Q180918,707586,(Nea) Paphos,0.3,https://pleiades.stoa.org/places/707586
+perga,Perga,true,36.9604,30.8537,aff04b8,Perga,Perga,0,Q719815,670644868,Stadium of Perge,0.3,https://pleiades.stoa.org/places/670644868
+antioch-p,Antioch in Pisidia,true,38.3061,31.1892,a6c704a,Antioch 2,Antioch in Pisidia,0,Q579468,609307,Antiochia/Col. Caesarea,0.1,https://pleiades.stoa.org/places/609307
+iconium,Iconium,true,37.8722,32.4923,ae425aa,Iconium,Konya,0,Q79857,648647,Iconium/Claudiconium,0,https://pleiades.stoa.org/places/648647
+lystra,Lystra,true,37.6017,32.3384,af0719d,Lystra,Tel Lystra,0,Q535982,648699,Lystra/Col. Iulia Felix Gemina,1.6,https://pleiades.stoa.org/places/648699
+derbe,Derbe,true,37.3486,33.3615,aa401a9,Derbe,Kerti Hüyük,2,Q20717624,648620,Derbe/Claudioderbe,0.1,https://pleiades.stoa.org/places/648620
+attalia,Attalia,true,36.8813,30.7036,ac744c1,Attalia,Antalya,0,Q6487,638778,Attalea,1.1,https://pleiades.stoa.org/places/638778
+troas,Troas,true,39.7519,26.1586,a91c509,Troas,Alexandria Troas,0,Q1393407,550434,Antigoneia/(Col. Augusta) Alexandria Troas,0.1,https://pleiades.stoa.org/places/550434
+samothrace,Samothrace,true,40.45,25.5833,a68750d,Samothrace,Samothraki,0,Q203175,501596,Samothrace (settlement),7.2,https://pleiades.stoa.org/places/501596
+neapolis,Neapolis,true,40.935,24.415,a6a7150,Neapolis,Kavala,0,Q6984309,501523,Neapolis (Kavalla),0.1,https://pleiades.stoa.org/places/501523
+philippi,Philippi,true,41.0121,24.2846,a49e1d0,Philippi,Philippi,0,Q379652,501482,Krenides/Philippi/Col. Augusta Iulia Philippensis,0.1,https://pleiades.stoa.org/places/501482
+amphipolis,Amphipolis,true,40.8202,23.8472,a4bdea7,Amphipolis,Amphipolis,0,Q217414,501347,Amphipolis,0.8,https://pleiades.stoa.org/places/501347
+apollonia,Apollonia,true,40.6237,23.4697,ab20df9,Apollonia,Apollonia,0,Q2751389,491526,Apollonia,0,https://pleiades.stoa.org/places/491526
+thessalonica,Thessalonica,true,40.6378,22.9458,afa9d8e,Thessalonica,Thessaloniki,0,Q17151,688857980,Roman forum at Thessalonica,0,https://pleiades.stoa.org/places/688857980
+berea,Berea,true,40.5183,22.2,a62fe31,Berea,Veria,0,Q15712213,,,,
+athens,Athens,true,37.9719,23.7267,a1fe6e7,Athens,Athens,0,Q1524,521295193,Great altar of Athena,0,https://pleiades.stoa.org/places/521295193
+corinth,Corinth,true,37.9058,22.8787,a6f437a,Corinth,Corinth,0,Q1363688,570182,Corinthus/Korinthos,0,https://pleiades.stoa.org/places/570182
+cenchreae,Cenchreae,true,37.8843,22.9968,aa31dd3,Cenchreae,Kechries,0,Q1738703,570347,Kenchreai,0.4,https://pleiades.stoa.org/places/570347
+ephesus,Ephesus,true,37.9391,27.3407,a5feb15,Ephesus,Ephesus,0,Q47611,956927192,Insula M1 (Ephesus),0.1,https://pleiades.stoa.org/places/956927192
+caesarea,Caesarea,true,32.5,34.8917,a58735e,Caesarea,Caesarea Maritima,0,Q319242,678401,Stratonos Pyrgos/Caesarea,0.2,https://pleiades.stoa.org/places/678401
+jerusalem,Jerusalem,true,31.7767,35.2342,a15257a,Jerusalem,Jerusalem,0,Q1218,687928,Ierusalem/Hierosolyma/Col. Aelia Capitolina,0.1,https://pleiades.stoa.org/places/687928
+assos,Assos,true,39.4906,26.3367,a0a2ca7,Assos,Assos,0,Q744631,989985817,Temple of Athena at Assos,0,https://pleiades.stoa.org/places/989985817
+mitylene,Mitylene,true,39.1105,26.547,a33910d,Mitylene,ancient theater at Mitylene,0,Q189059,550763,Mytilene,0,https://pleiades.stoa.org/places/550763
+chios,Chios,true,38.3725,26.1375,a4c2c75,Chios,Chios,0,Q160483,550496,Chios (settlement),0.4,https://pleiades.stoa.org/places/550496
+samos,Samos,true,37.75,26.8333,acf6ec0,Samos,Samos,0,Q156882,599926,Samos (island),2,https://pleiades.stoa.org/places/599926
+miletus,Miletus,true,37.5311,27.2756,a55027d,Miletus,Miletus,0,Q169460,65156147,Delphinion (Miletos),0.5,https://pleiades.stoa.org/places/65156147
+cos,Cos,true,36.8153,27.1103,a398e5d,Cos,Kos,0,Q187027,599581,Kos/Cos (island),2.6,https://pleiades.stoa.org/places/599581
+rhodes,Rhodes,true,36.4402,28.2109,a4218ee,Rhodes 1,Rhodes,1,Q188731,590030,Rhodos (settlement),1.5,https://pleiades.stoa.org/places/590030
+patara,Patara,true,36.2603,29.3142,ade301b,Patara,Patara,0,Q233121,425943365,Theater at Patara/Arsinoe,0,https://pleiades.stoa.org/places/425943365
+tyre,Tyre,true,33.2708,35.1961,a160272,Tyre,Tyre,0,Q82070,678437,Tyrus/Col. Septimia Severa,0.6,https://pleiades.stoa.org/places/678437
+ptolemais,Ptolemais,true,32.9214,35.0692,abc2af0,Ptolemais,Acre,0,Q92277123,678010,Ake/Ptolemais,1,https://pleiades.stoa.org/places/678010
+sidon,Sidon,true,33.561,35.3719,a98e4d7,Sidon,Sandikli archaeological site in Sidon,0,Q163490,678393,Sidon/Col. Aurelia Pia,0.1,https://pleiades.stoa.org/places/678393
+myra,Myra,true,36.2592,29.9853,aa4b3e2,Myra,Myra,0,Q652024,639005,Myra,0.1,https://pleiades.stoa.org/places/639005
+cnidus,Cnidus,true,36.6858,27.375,ab793ce,Cnidus,Cnidus,0,Q690575,,,,
+salmone,Salmone,true,35.316,26.3116,a1c44ea,Salmone,Cape Sideros,0,Q2937111,,,,
+fair-havens,Fair Havens,true,34.9297,24.8003,aae626a,Fair Havens,Kaloi Limenes,0,Q11818846,589834,Kaloi Limenes,1.1,https://pleiades.stoa.org/places/589834
+cauda,Cauda,true,34.8333,24.0833,aca2b0a,Cauda,Gavdos,0,Q213895,,,,
+malta,Malta,true,35.9335,14.4117,a57835d,Malta,Malta,0,Q193896,,,,
+syracuse,Syracuse,true,37.0639,15.2931,a1e3697,Syracuse,Syracuse,0,Q13670,,,,
+rhegium,Rhegium,true,38.1088,15.6441,a63bb26,Rhegium,Reggio Calabria,0,Q3429952,,,,
+puteoli,Puteoli,true,40.8261,14.1206,a4488e9,Puteoli,Pozzuoli,0,Q72425,149888636,Macellum of Puteoli,0,https://pleiades.stoa.org/places/149888636
+forum-appius,Forum of Appius,true,41.4664,12.9975,a121d5e,Forum of Appius,Forum Appii,0,Q3748871,422927,Forum Appii,0,https://pleiades.stoa.org/places/422927
+three-taverns,Three Taverns,true,41.5619,12.8739,afef438,Three Taverns,Three Taverns,0,Q622536,423106,Tres Tabernae,0,https://pleiades.stoa.org/places/423106
+rome,Rome,true,41.8922,12.4852,afc8e7a,Rome,Rome,0,Q220,225909940,Umbilicus urbis Romae,0.1,https://pleiades.stoa.org/places/225909940

@@ -1,0 +1,2219 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "first-01",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.1717,
+     36.2267
+    ]
+   },
+   "properties": {
+    "journey_id": "first",
+    "stop_order": 1,
+    "stop_id": "antioch",
+    "place_id": "antioch",
+    "label": "Antioch",
+    "kind": "stop",
+    "bible_ref": "Acts 13:2",
+    "bible_ref_osis": "Acts.13.2",
+    "verse_text": "As they served the Lord and fasted, the Holy Spirit said, “Separate Barnabas and Saul for me, for the work to which I have called them.”",
+    "note": "The church at Antioch sends Barnabas and Saul.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "first-02",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.922,
+     36.124
+    ]
+   },
+   "properties": {
+    "journey_id": "first",
+    "stop_order": 2,
+    "stop_id": "seleucia",
+    "place_id": "seleucia",
+    "label": "Seleucia",
+    "kind": "stop",
+    "bible_ref": "Acts 13:4",
+    "bible_ref_osis": "Acts.13.4",
+    "verse_text": "So, being sent out by the Holy Spirit, they went down to Seleucia. From there they sailed to Cyprus.",
+    "note": "Antioch’s port at the mouth of the Orontes.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "first-03",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.9019,
+     35.1849
+    ]
+   },
+   "properties": {
+    "journey_id": "first",
+    "stop_order": 3,
+    "stop_id": "salamis",
+    "place_id": "salamis",
+    "label": "Salamis",
+    "kind": "stop",
+    "bible_ref": "Acts 13:5",
+    "bible_ref_osis": "Acts.13.5",
+    "verse_text": "When they were at Salamis, they proclaimed God’s word in the Jewish synagogues. They also had John as their attendant.",
+    "note": "They preach in the synagogues of Cyprus’s east coast.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "first-04",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.4042,
+     34.7557
+    ]
+   },
+   "properties": {
+    "journey_id": "first",
+    "stop_order": 4,
+    "stop_id": "paphos",
+    "place_id": "paphos",
+    "label": "Paphos",
+    "kind": "stop",
+    "bible_ref": "Acts 13:9",
+    "bible_ref_osis": "Acts.13.9",
+    "verse_text": "But Saul, who is also called Paul, filled with the Holy Spirit, fastened his eyes on him",
+    "note": "The proconsul Sergius Paulus believes. Here Acts first calls Saul “Paul”.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": [
+     {
+      "bible_ref": "Acts 13:6",
+      "bible_ref_osis": "Acts.13.6",
+      "text": "When they had gone through the island to Paphos, they found a certain sorcerer, a false prophet, a Jew whose name was Bar Jesus,"
+     },
+     {
+      "bible_ref": "Acts 13:12",
+      "bible_ref_osis": "Acts.13.12",
+      "text": "Then the proconsul, when he saw what was done, believed, being astonished at the teaching of the Lord."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "first-05",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.8537,
+     36.9604
+    ]
+   },
+   "properties": {
+    "journey_id": "first",
+    "stop_order": 5,
+    "stop_id": "perga",
+    "place_id": "perga",
+    "label": "Perga",
+    "kind": "stop",
+    "bible_ref": "Acts 13:13",
+    "bible_ref_osis": "Acts.13.13",
+    "verse_text": "Now Paul and his company set sail from Paphos and came to Perga in Pamphylia. John departed from them and returned to Jerusalem.",
+    "note": "John Mark leaves them and goes back to Jerusalem.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "first-06",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.1892,
+     38.3061
+    ]
+   },
+   "properties": {
+    "journey_id": "first",
+    "stop_order": 6,
+    "stop_id": "antioch-p",
+    "place_id": "antioch-p",
+    "label": "Antioch in Pisidia",
+    "kind": "stop",
+    "bible_ref": "Acts 13:14",
+    "bible_ref_osis": "Acts.13.14",
+    "verse_text": "But they, passing on from Perga, came to Antioch of Pisidia. They went into the synagogue on the Sabbath day and sat down.",
+    "note": "Over the Taurus mountains to the plateau. Paul’s first recorded sermon.",
+    "letter_ref": "Galatians 4:13",
+    "letter_ref_osis": "Gal.4.13",
+    "letter_text": "but you know that because of weakness in the flesh I preached the Good News to you the first time.",
+    "letter_why": "If “Galatians” means these southern towns, as many read it, this is the first visit Paul remembers.",
+    "letter_is_reading": true,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "first-07",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.4923,
+     37.8722
+    ]
+   },
+   "properties": {
+    "journey_id": "first",
+    "stop_order": 7,
+    "stop_id": "iconium",
+    "place_id": "iconium",
+    "label": "Iconium",
+    "kind": "stop",
+    "bible_ref": "Acts 14:1",
+    "bible_ref_osis": "Acts.14.1",
+    "verse_text": "In Iconium, they entered together into the synagogue of the Jews, and so spoke that a great multitude both of Jews and of Greeks believed.",
+    "note": "Many believe; the city divides, and they flee.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "first-08",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.3384,
+     37.6017
+    ]
+   },
+   "properties": {
+    "journey_id": "first",
+    "stop_order": 8,
+    "stop_id": "lystra",
+    "place_id": "lystra",
+    "label": "Lystra",
+    "kind": "stop",
+    "bible_ref": "Acts 14:19",
+    "bible_ref_osis": "Acts.14.19",
+    "verse_text": "But some Jews from Antioch and Iconium came there, and having persuaded the multitudes, they stoned Paul and dragged him out of the city, supposing that he was dead.",
+    "note": "A lame man walks; the crowd calls them gods, then stones Paul.",
+    "letter_ref": "2 Timothy 3:11",
+    "letter_ref_osis": "2Tim.3.11",
+    "letter_text": "persecutions, and sufferings—those things that happened to me at Antioch, Iconium, and Lystra. I endured those persecutions. The Lord delivered me out of them all.",
+    "letter_why": "Paul names Antioch, Iconium and Lystra among his sufferings.",
+    "letter_is_reading": false,
+    "also": [
+     {
+      "bible_ref": "Acts 14:8",
+      "bible_ref_osis": "Acts.14.8",
+      "text": "At Lystra a certain man sat, impotent in his feet, a cripple from his mother’s womb, who never had walked."
+     },
+     {
+      "bible_ref": "Acts 14:11",
+      "bible_ref_osis": "Acts.14.11",
+      "text": "When the multitude saw what Paul had done, they lifted up their voice, saying in the language of Lycaonia, “The gods have come down to us in the likeness of men!”"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "first-09",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.3615,
+     37.3486
+    ]
+   },
+   "properties": {
+    "journey_id": "first",
+    "stop_order": 9,
+    "stop_id": "derbe",
+    "place_id": "derbe",
+    "label": "Derbe",
+    "kind": "stop",
+    "bible_ref": "Acts 14:21",
+    "bible_ref_osis": "Acts.14.21",
+    "verse_text": "When they had preached the Good News to that city and had made many disciples, they returned to Lystra, Iconium, and Antioch,",
+    "note": "The farthest town. Its site is not certain; this pin is the mound most often named.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "first-10",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.3384,
+     37.6017
+    ]
+   },
+   "properties": {
+    "journey_id": "first",
+    "stop_order": 10,
+    "stop_id": "lystra-2",
+    "place_id": "lystra",
+    "label": "Lystra",
+    "kind": "pass",
+    "bible_ref": "Acts 14:21",
+    "bible_ref_osis": "Acts.14.21",
+    "verse_text": "When they had preached the Good News to that city and had made many disciples, they returned to Lystra, Iconium, and Antioch,",
+    "note": "Back the way they came, strengthening the new disciples.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "first-11",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.4923,
+     37.8722
+    ]
+   },
+   "properties": {
+    "journey_id": "first",
+    "stop_order": 11,
+    "stop_id": "iconium-2",
+    "place_id": "iconium",
+    "label": "Iconium",
+    "kind": "pass",
+    "bible_ref": "Acts 14:21",
+    "bible_ref_osis": "Acts.14.21",
+    "verse_text": "When they had preached the Good News to that city and had made many disciples, they returned to Lystra, Iconium, and Antioch,",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "first-12",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.1892,
+     38.3061
+    ]
+   },
+   "properties": {
+    "journey_id": "first",
+    "stop_order": 12,
+    "stop_id": "antioch-p-2",
+    "place_id": "antioch-p",
+    "label": "Antioch in Pisidia",
+    "kind": "pass",
+    "bible_ref": "Acts 14:23",
+    "bible_ref_osis": "Acts.14.23",
+    "verse_text": "When they had appointed elders for them in every assembly, and had prayed with fasting, they commended them to the Lord on whom they had believed.",
+    "note": "They appoint elders in every church.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "first-13",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.8537,
+     36.9604
+    ]
+   },
+   "properties": {
+    "journey_id": "first",
+    "stop_order": 13,
+    "stop_id": "perga-2",
+    "place_id": "perga",
+    "label": "Perga",
+    "kind": "stop",
+    "bible_ref": "Acts 14:25",
+    "bible_ref_osis": "Acts.14.25",
+    "verse_text": "When they had spoken the word in Perga, they went down to Attalia.",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "first-14",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.7036,
+     36.8813
+    ]
+   },
+   "properties": {
+    "journey_id": "first",
+    "stop_order": 14,
+    "stop_id": "attalia",
+    "place_id": "attalia",
+    "label": "Attalia",
+    "kind": "stop",
+    "bible_ref": "Acts 14:25",
+    "bible_ref_osis": "Acts.14.25",
+    "verse_text": "When they had spoken the word in Perga, they went down to Attalia.",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "first-15",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.1717,
+     36.2267
+    ]
+   },
+   "properties": {
+    "journey_id": "first",
+    "stop_order": 15,
+    "stop_id": "antioch-end",
+    "place_id": "antioch",
+    "label": "Antioch",
+    "kind": "stop",
+    "bible_ref": "Acts 14:27",
+    "bible_ref_osis": "Acts.14.27",
+    "verse_text": "When they had arrived and had gathered the assembly together, they reported all the things that God had done with them, and that he had opened a door of faith to the nations.",
+    "note": "They tell the church how God “opened a door of faith to the nations”.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-01",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.1717,
+     36.2267
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 1,
+    "stop_id": "antioch",
+    "place_id": "antioch",
+    "label": "Antioch",
+    "kind": "stop",
+    "bible_ref": "Acts 15:40",
+    "bible_ref_osis": "Acts.15.40",
+    "verse_text": "but Paul chose Silas and went out, being commended by the brothers to the grace of God.",
+    "note": "Paul and Barnabas part; Paul chooses Silas.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-02",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.3615,
+     37.3486
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 2,
+    "stop_id": "derbe",
+    "place_id": "derbe",
+    "label": "Derbe",
+    "kind": "stop",
+    "bible_ref": "Acts 16:1",
+    "bible_ref_osis": "Acts.16.1",
+    "verse_text": "He came to Derbe and Lystra; and behold, a certain disciple was there, named Timothy, the son of a Jewess who believed, but his father was a Greek.",
+    "note": "Acts says only “through Syria and Cilicia” (15:41). Our line takes the Roman road through Tarsus, Paul’s home city, and over the Taurus.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-03",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.3384,
+     37.6017
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 3,
+    "stop_id": "lystra",
+    "place_id": "lystra",
+    "label": "Lystra",
+    "kind": "stop",
+    "bible_ref": "Acts 16:1",
+    "bible_ref_osis": "Acts.16.1",
+    "verse_text": "He came to Derbe and Lystra; and behold, a certain disciple was there, named Timothy, the son of a Jewess who believed, but his father was a Greek.",
+    "note": "Timothy joins them.",
+    "letter_ref": "1 Corinthians 4:17",
+    "letter_ref_osis": "1Cor.4.17",
+    "letter_text": "Because of this I have sent Timothy to you, who is my beloved and faithful child in the Lord, who will remind you of my ways which are in Christ, even as I teach everywhere in every assembly.",
+    "letter_why": "Paul calls Timothy “my beloved and faithful child in the Lord”.",
+    "letter_is_reading": false,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-04",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.4923,
+     37.8722
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 4,
+    "stop_id": "iconium",
+    "place_id": "iconium",
+    "label": "Iconium",
+    "kind": "pass",
+    "bible_ref": "Acts 16:4",
+    "bible_ref_osis": "Acts.16.4",
+    "verse_text": "As they went on their way through the cities, they delivered the decrees to them to keep which had been ordained by the apostles and elders who were at Jerusalem.",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-05",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.1892,
+     38.3061
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 5,
+    "stop_id": "antioch-p",
+    "place_id": "antioch-p",
+    "label": "Phrygia and Galatia",
+    "kind": "reading",
+    "bible_ref": "Acts 16:6",
+    "bible_ref_osis": "Acts.16.6",
+    "verse_text": "When they had gone through the region of Phrygia and Galatia, they were forbidden by the Holy Spirit to speak the word in Asia.",
+    "note": "Acts names regions here, not towns, and says the Spirit kept them from Asia. Our line passes Antioch in Pisidia.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-06",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.1586,
+     39.7519
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 6,
+    "stop_id": "troas",
+    "place_id": "troas",
+    "label": "Troas",
+    "kind": "stop",
+    "bible_ref": "Acts 16:9",
+    "bible_ref_osis": "Acts.16.9",
+    "verse_text": "A vision appeared to Paul in the night. There was a man of Macedonia standing, begging him and saying, “Come over into Macedonia and help us.”",
+    "note": "Kept out of Bithynia too, they come down to the coast. A night vision: “Come over into Macedonia and help us.”",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": [
+     {
+      "bible_ref": "Acts 16:7",
+      "bible_ref_osis": "Acts.16.7",
+      "text": "When they had come opposite Mysia, they tried to go into Bithynia, but the Spirit didn’t allow them."
+     },
+     {
+      "bible_ref": "Acts 16:8",
+      "bible_ref_osis": "Acts.16.8",
+      "text": "Passing by Mysia, they came down to Troas."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-07",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.5833,
+     40.45
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 7,
+    "stop_id": "samothrace",
+    "place_id": "samothrace",
+    "label": "Samothrace",
+    "kind": "pass",
+    "bible_ref": "Acts 16:11",
+    "bible_ref_osis": "Acts.16.11",
+    "verse_text": "Setting sail therefore from Troas, we made a straight course to Samothrace, and the day following to Neapolis;",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-08",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.415,
+     40.935
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 8,
+    "stop_id": "neapolis",
+    "place_id": "neapolis",
+    "label": "Neapolis",
+    "kind": "stop",
+    "bible_ref": "Acts 16:11",
+    "bible_ref_osis": "Acts.16.11",
+    "verse_text": "Setting sail therefore from Troas, we made a straight course to Samothrace, and the day following to Neapolis;",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-09",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.2846,
+     41.0121
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 9,
+    "stop_id": "philippi",
+    "place_id": "philippi",
+    "label": "Philippi",
+    "kind": "stop",
+    "bible_ref": "Acts 16:14",
+    "bible_ref_osis": "Acts.16.14",
+    "verse_text": "A certain woman named Lydia, a seller of purple, of the city of Thyatira, one who worshiped God, heard us. The Lord opened her heart to listen to the things which were spoken by Paul.",
+    "note": "Lydia believes. Paul and Silas are beaten and jailed, and sing at midnight.",
+    "letter_ref": "1 Thessalonians 2:2",
+    "letter_ref_osis": "1Thess.2.2",
+    "letter_text": "but having suffered before and been shamefully treated, as you know, at Philippi, we grew bold in our God to tell you the Good News of God in much conflict.",
+    "letter_why": "Paul recalls being “shamefully treated, as you know, at Philippi”.",
+    "letter_is_reading": false,
+    "also": [
+     {
+      "bible_ref": "Acts 16:12",
+      "bible_ref_osis": "Acts.16.12",
+      "text": "and from there to Philippi, which is a city of Macedonia, the foremost of the district, a Roman colony. We were staying some days in this city."
+     },
+     {
+      "bible_ref": "Acts 16:25",
+      "bible_ref_osis": "Acts.16.25",
+      "text": "But about midnight Paul and Silas were praying and singing hymns to God, and the prisoners were listening to them."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-10",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.8472,
+     40.8202
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 10,
+    "stop_id": "amphipolis",
+    "place_id": "amphipolis",
+    "label": "Amphipolis",
+    "kind": "pass",
+    "bible_ref": "Acts 17:1",
+    "bible_ref_osis": "Acts.17.1",
+    "verse_text": "Now when they had passed through Amphipolis and Apollonia, they came to Thessalonica, where there was a Jewish synagogue.",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-11",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.4697,
+     40.6237
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 11,
+    "stop_id": "apollonia",
+    "place_id": "apollonia",
+    "label": "Apollonia",
+    "kind": "pass",
+    "bible_ref": "Acts 17:1",
+    "bible_ref_osis": "Acts.17.1",
+    "verse_text": "Now when they had passed through Amphipolis and Apollonia, they came to Thessalonica, where there was a Jewish synagogue.",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-12",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.9458,
+     40.6378
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 12,
+    "stop_id": "thessalonica",
+    "place_id": "thessalonica",
+    "label": "Thessalonica",
+    "kind": "stop",
+    "bible_ref": "Acts 17:2",
+    "bible_ref_osis": "Acts.17.2",
+    "verse_text": "Paul, as was his custom, went in to them; and for three Sabbath days reasoned with them from the Scriptures,",
+    "note": "Three Sabbaths in the synagogue, then a riot.",
+    "letter_ref": "Philippians 4:16",
+    "letter_ref_osis": "Phil.4.16",
+    "letter_text": "For even in Thessalonica you sent once and again to my need.",
+    "letter_why": "The Philippians sent help to him in Thessalonica, “once and again”.",
+    "letter_is_reading": false,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-13",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.2,
+     40.5183
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 13,
+    "stop_id": "berea",
+    "place_id": "berea",
+    "label": "Berea",
+    "kind": "stop",
+    "bible_ref": "Acts 17:11",
+    "bible_ref_osis": "Acts.17.11",
+    "verse_text": "Now these were more noble than those in Thessalonica, in that they received the word with all readiness of mind, examining the Scriptures daily to see whether these things were so.",
+    "note": "The Bereans examine the Scriptures daily.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-14",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.7267,
+     37.9719
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 14,
+    "stop_id": "athens",
+    "place_id": "athens",
+    "label": "Athens",
+    "kind": "stop",
+    "bible_ref": "Acts 17:22",
+    "bible_ref_osis": "Acts.17.22",
+    "verse_text": "Paul stood in the middle of the Areopagus and said, “You men of Athens, I perceive that you are very religious in all things.",
+    "note": "Paul speaks on the Areopagus. Acts says he was sent “to the sea” (17:14), so the map takes him to Athens by ship.",
+    "letter_ref": "1 Thessalonians 3:1",
+    "letter_ref_osis": "1Thess.3.1",
+    "letter_text": "Therefore when we couldn’t stand it any longer, we thought it good to be left behind at Athens alone,",
+    "letter_why": "“We thought it good to be left behind at Athens alone.”",
+    "letter_is_reading": false,
+    "also": [
+     {
+      "bible_ref": "Acts 17:14",
+      "bible_ref_osis": "Acts.17.14",
+      "text": "Then the brothers immediately sent out Paul to go as far as to the sea, and Silas and Timothy still stayed there."
+     },
+     {
+      "bible_ref": "Acts 17:15",
+      "bible_ref_osis": "Acts.17.15",
+      "text": "But those who escorted Paul brought him as far as Athens. Receiving a commandment to Silas and Timothy that they should come to him very quickly, they departed."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-15",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.8787,
+     37.9058
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 15,
+    "stop_id": "corinth",
+    "place_id": "corinth",
+    "label": "Corinth",
+    "kind": "stop",
+    "bible_ref": "Acts 18:11",
+    "bible_ref_osis": "Acts.18.11",
+    "verse_text": "He lived there a year and six months, teaching the word of God among them.",
+    "note": "A year and six months. Gallio, proconsul of Achaia, hears the case against him.",
+    "letter_ref": "1 Corinthians 2:3",
+    "letter_ref_osis": "1Cor.2.3",
+    "letter_text": "I was with you in weakness, in fear, and in much trembling.",
+    "letter_why": "“I was with you in weakness, in fear, and in much trembling.”",
+    "letter_is_reading": false,
+    "also": [
+     {
+      "bible_ref": "Acts 18:1",
+      "bible_ref_osis": "Acts.18.1",
+      "text": "After these things Paul departed from Athens and came to Corinth."
+     },
+     {
+      "bible_ref": "Acts 18:12",
+      "bible_ref_osis": "Acts.18.12",
+      "text": "But when Gallio was proconsul of Achaia, the Jews with one accord rose up against Paul and brought him before the judgment seat,"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-16",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.9968,
+     37.8843
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 16,
+    "stop_id": "cenchreae",
+    "place_id": "cenchreae",
+    "label": "Cenchreae",
+    "kind": "stop",
+    "bible_ref": "Acts 18:18",
+    "bible_ref_osis": "Acts.18.18",
+    "verse_text": "Paul, having stayed after this many more days, took his leave of the brothers, and sailed from there for Syria, together with Priscilla and Aquila. He shaved his head in Cenchreae, for he had a vow.",
+    "note": "Corinth’s eastern port. Paul cuts his hair for a vow.",
+    "letter_ref": "Romans 16:1",
+    "letter_ref_osis": "Rom.16.1",
+    "letter_text": "I commend to you Phoebe, our sister, who is a servant of the assembly that is at Cenchreae,",
+    "letter_why": "Paul commends Phoebe, “a servant of the assembly that is at Cenchreae”.",
+    "letter_is_reading": false,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-17",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.3407,
+     37.9391
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 17,
+    "stop_id": "ephesus",
+    "place_id": "ephesus",
+    "label": "Ephesus",
+    "kind": "stop",
+    "bible_ref": "Acts 18:19",
+    "bible_ref_osis": "Acts.18.19",
+    "verse_text": "He came to Ephesus, and he left them there; but he himself entered into the synagogue and reasoned with the Jews.",
+    "note": "A short stay; he promises to return “if God wills”.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": [
+     {
+      "bible_ref": "Acts 18:21",
+      "bible_ref_osis": "Acts.18.21",
+      "text": "but taking his leave of them, he said, “I must by all means keep this coming feast in Jerusalem, but I will return again to you if God wills.” Then he set sail from Ephesus."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-18",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.8917,
+     32.5
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 18,
+    "stop_id": "caesarea",
+    "place_id": "caesarea",
+    "label": "Caesarea",
+    "kind": "stop",
+    "bible_ref": "Acts 18:22",
+    "bible_ref_osis": "Acts.18.22",
+    "verse_text": "When he had landed at Caesarea, he went up and greeted the assembly, and went down to Antioch.",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-19",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2342,
+     31.7767
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 19,
+    "stop_id": "jerusalem",
+    "place_id": "jerusalem",
+    "label": "Jerusalem",
+    "kind": "reading",
+    "bible_ref": "Acts 18:22",
+    "bible_ref_osis": "Acts.18.22",
+    "verse_text": "When he had landed at Caesarea, he went up and greeted the assembly, and went down to Antioch.",
+    "note": "Acts says he “went up and greeted the assembly”. Most read this as Jerusalem.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "second-20",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.1717,
+     36.2267
+    ]
+   },
+   "properties": {
+    "journey_id": "second",
+    "stop_order": 20,
+    "stop_id": "antioch-end",
+    "place_id": "antioch",
+    "label": "Antioch",
+    "kind": "stop",
+    "bible_ref": "Acts 18:22",
+    "bible_ref_osis": "Acts.18.22",
+    "verse_text": "When he had landed at Caesarea, he went up and greeted the assembly, and went down to Antioch.",
+    "note": "Acts does not say how he went down to Antioch. Our line takes the coast road.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-01",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.1717,
+     36.2267
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 1,
+    "stop_id": "antioch",
+    "place_id": "antioch",
+    "label": "Antioch",
+    "kind": "stop",
+    "bible_ref": "Acts 18:23",
+    "bible_ref_osis": "Acts.18.23",
+    "verse_text": "Having spent some time there, he departed and went through the region of Galatia and Phrygia, in order, establishing all the disciples.",
+    "note": "After “some time” in Antioch, he sets out again.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-02",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.1892,
+     38.3061
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 2,
+    "stop_id": "antioch-p",
+    "place_id": "antioch-p",
+    "label": "Galatia and Phrygia",
+    "kind": "reading",
+    "bible_ref": "Acts 18:23",
+    "bible_ref_osis": "Acts.18.23",
+    "verse_text": "Having spent some time there, he departed and went through the region of Galatia and Phrygia, in order, establishing all the disciples.",
+    "note": "Acts says he went “through the region of Galatia and Phrygia, in order, establishing all the disciples”. Our line visits the churches of the first journey.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-03",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.3407,
+     37.9391
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 3,
+    "stop_id": "ephesus",
+    "place_id": "ephesus",
+    "label": "Ephesus",
+    "kind": "stop",
+    "bible_ref": "Acts 19:10",
+    "bible_ref_osis": "Acts.19.10",
+    "verse_text": "This continued for two years, so that all those who lived in Asia heard the word of the Lord Jesus, both Jews and Greeks.",
+    "note": "Two years and three months: the synagogue, then the school of Tyrannus, then the riot in the theatre.",
+    "letter_ref": "1 Corinthians 16:8",
+    "letter_ref_osis": "1Cor.16.8",
+    "letter_text": "But I will stay at Ephesus until Pentecost,",
+    "letter_why": "“I will stay at Ephesus until Pentecost.”",
+    "letter_is_reading": false,
+    "also": [
+     {
+      "bible_ref": "Acts 19:1",
+      "bible_ref_osis": "Acts.19.1",
+      "text": "While Apollos was at Corinth, Paul, having passed through the upper country, came to Ephesus and found certain disciples."
+     },
+     {
+      "bible_ref": "Acts 19:8",
+      "bible_ref_osis": "Acts.19.8",
+      "text": "He entered into the synagogue and spoke boldly for a period of three months, reasoning and persuading about the things concerning God’s Kingdom."
+     },
+     {
+      "bible_ref": "Acts 19:29",
+      "bible_ref_osis": "Acts.19.29",
+      "text": "The whole city was filled with confusion, and they rushed with one accord into the theater, having seized Gaius and Aristarchus, men of Macedonia, Paul’s companions in travel."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-04",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.1586,
+     39.7519
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 4,
+    "stop_id": "troas",
+    "place_id": "troas",
+    "label": "Troas",
+    "kind": "reading",
+    "bible_ref": "2 Corinthians 2:12",
+    "bible_ref_osis": "2Cor.2.12",
+    "verse_text": "Now when I came to Troas for the Good News of Christ, and when a door was opened to me in the Lord,",
+    "note": "Acts says only that he left for Macedonia (20:1). Paul’s own letter puts Troas on the way. How he got there is not said.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": [
+     {
+      "bible_ref": "Acts 20:1",
+      "bible_ref_osis": "Acts.20.1",
+      "text": "After the uproar had ceased, Paul sent for the disciples, took leave of them, and departed to go into Macedonia."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-05",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.2846,
+     41.0121
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 5,
+    "stop_id": "philippi",
+    "place_id": "philippi",
+    "label": "Macedonia",
+    "kind": "reading",
+    "bible_ref": "Acts 20:1",
+    "bible_ref_osis": "Acts.20.1",
+    "verse_text": "After the uproar had ceased, Paul sent for the disciples, took leave of them, and departed to go into Macedonia.",
+    "note": "Acts names the region. Our line lands at Neapolis and goes up to Philippi.",
+    "letter_ref": "2 Corinthians 7:5",
+    "letter_ref_osis": "2Cor.7.5",
+    "letter_text": "For even when we had come into Macedonia, our flesh had no relief, but we were afflicted on every side. Fightings were outside. Fear was inside.",
+    "letter_why": "“When we had come into Macedonia, our flesh had no relief.”",
+    "letter_is_reading": false,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-06",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.8787,
+     37.9058
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 6,
+    "stop_id": "corinth",
+    "place_id": "corinth",
+    "label": "Greece",
+    "kind": "reading",
+    "bible_ref": "Acts 20:3",
+    "bible_ref_osis": "Acts.20.3",
+    "verse_text": "When he had spent three months there, and a plot was made against him by Jews as he was about to set sail for Syria, he determined to return through Macedonia.",
+    "note": "Three months in “Greece”. Most read this as Corinth, where Paul wrote Romans.",
+    "letter_ref": "Romans 16:23",
+    "letter_ref_osis": "Rom.16.23",
+    "letter_text": "Gaius, my host and host of the whole assembly, greets you. Erastus, the treasurer of the city, greets you, as does Quartus, the brother.",
+    "letter_why": "Paul sends greetings from Gaius, his host, and Erastus, “the treasurer of the city”.",
+    "letter_is_reading": true,
+    "also": [
+     {
+      "bible_ref": "Acts 20:2",
+      "bible_ref_osis": "Acts.20.2",
+      "text": "When he had gone through those parts and had encouraged them with many words, he came into Greece."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-07",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.2846,
+     41.0121
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 7,
+    "stop_id": "philippi-2",
+    "place_id": "philippi",
+    "label": "Philippi",
+    "kind": "stop",
+    "bible_ref": "Acts 20:6",
+    "bible_ref_osis": "Acts.20.6",
+    "verse_text": "We sailed away from Philippi after the days of Unleavened Bread, and came to them at Troas in five days, where we stayed seven days.",
+    "note": "A plot against him turns him back through Macedonia. He sails after the days of Unleavened Bread.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": [
+     {
+      "bible_ref": "Acts 20:3",
+      "bible_ref_osis": "Acts.20.3",
+      "text": "When he had spent three months there, and a plot was made against him by Jews as he was about to set sail for Syria, he determined to return through Macedonia."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-08",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.1586,
+     39.7519
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 8,
+    "stop_id": "troas-2",
+    "place_id": "troas",
+    "label": "Troas",
+    "kind": "stop",
+    "bible_ref": "Acts 20:6",
+    "bible_ref_osis": "Acts.20.6",
+    "verse_text": "We sailed away from Philippi after the days of Unleavened Bread, and came to them at Troas in five days, where we stayed seven days.",
+    "note": "Seven days. Eutychus falls from a window during Paul’s long talk.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": [
+     {
+      "bible_ref": "Acts 20:9",
+      "bible_ref_osis": "Acts.20.9",
+      "text": "A certain young man named Eutychus sat in the window, weighed down with deep sleep. As Paul spoke still longer, being weighed down by his sleep, he fell down from the third floor and was taken up dead."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-09",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.3367,
+     39.4906
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 9,
+    "stop_id": "assos",
+    "place_id": "assos",
+    "label": "Assos",
+    "kind": "stop",
+    "bible_ref": "Acts 20:13",
+    "bible_ref_osis": "Acts.20.13",
+    "verse_text": "But we, going ahead to the ship, set sail for Assos, intending to take Paul aboard there; for he had so arranged, intending himself to go by land.",
+    "note": "Paul goes by land, on foot, while the others sail round.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-10",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.547,
+     39.1105
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 10,
+    "stop_id": "mitylene",
+    "place_id": "mitylene",
+    "label": "Mitylene",
+    "kind": "stop",
+    "bible_ref": "Acts 20:14",
+    "bible_ref_osis": "Acts.20.14",
+    "verse_text": "When he met us at Assos, we took him aboard and came to Mitylene.",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-11",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.1375,
+     38.3725
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 11,
+    "stop_id": "chios",
+    "place_id": "chios",
+    "label": "Chios",
+    "kind": "pass",
+    "bible_ref": "Acts 20:15",
+    "bible_ref_osis": "Acts.20.15",
+    "verse_text": "Sailing from there, we came the following day opposite Chios. The next day we touched at Samos and stayed at Trogyllium, and the day after we came to Miletus.",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-12",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.8333,
+     37.75
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 12,
+    "stop_id": "samos",
+    "place_id": "samos",
+    "label": "Samos",
+    "kind": "pass",
+    "bible_ref": "Acts 20:15",
+    "bible_ref_osis": "Acts.20.15",
+    "verse_text": "Sailing from there, we came the following day opposite Chios. The next day we touched at Samos and stayed at Trogyllium, and the day after we came to Miletus.",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-13",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.2756,
+     37.5311
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 13,
+    "stop_id": "miletus",
+    "place_id": "miletus",
+    "label": "Miletus",
+    "kind": "stop",
+    "bible_ref": "Acts 20:17",
+    "bible_ref_osis": "Acts.20.17",
+    "verse_text": "From Miletus he sent to Ephesus and called to himself the elders of the assembly.",
+    "note": "He calls the elders of Ephesus and says goodbye: “you all … will see my face no more.”",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": [
+     {
+      "bible_ref": "Acts 20:15",
+      "bible_ref_osis": "Acts.20.15",
+      "text": "Sailing from there, we came the following day opposite Chios. The next day we touched at Samos and stayed at Trogyllium, and the day after we came to Miletus."
+     },
+     {
+      "bible_ref": "Acts 20:25",
+      "bible_ref_osis": "Acts.20.25",
+      "text": "“Now, behold, I know that you all, among whom I went about preaching God’s Kingdom, will see my face no more."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-14",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.1103,
+     36.8153
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 14,
+    "stop_id": "cos",
+    "place_id": "cos",
+    "label": "Cos",
+    "kind": "pass",
+    "bible_ref": "Acts 21:1",
+    "bible_ref_osis": "Acts.21.1",
+    "verse_text": "When we had departed from them and had set sail, we came with a straight course to Cos, and the next day to Rhodes, and from there to Patara.",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-15",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.2109,
+     36.4402
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 15,
+    "stop_id": "rhodes",
+    "place_id": "rhodes",
+    "label": "Rhodes",
+    "kind": "pass",
+    "bible_ref": "Acts 21:1",
+    "bible_ref_osis": "Acts.21.1",
+    "verse_text": "When we had departed from them and had set sail, we came with a straight course to Cos, and the next day to Rhodes, and from there to Patara.",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-16",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.3142,
+     36.2603
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 16,
+    "stop_id": "patara",
+    "place_id": "patara",
+    "label": "Patara",
+    "kind": "stop",
+    "bible_ref": "Acts 21:2",
+    "bible_ref_osis": "Acts.21.2",
+    "verse_text": "Having found a ship crossing over to Phoenicia, we went aboard and set sail.",
+    "note": "They change to a ship crossing to Phoenicia.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-17",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.1961,
+     33.2708
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 17,
+    "stop_id": "tyre",
+    "place_id": "tyre",
+    "label": "Tyre",
+    "kind": "stop",
+    "bible_ref": "Acts 21:4",
+    "bible_ref_osis": "Acts.21.4",
+    "verse_text": "Having found disciples, we stayed there seven days. These said to Paul through the Spirit that he should not go up to Jerusalem.",
+    "note": "Seven days. They pass Cyprus on the left. The disciples tell Paul not to go up to Jerusalem.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": [
+     {
+      "bible_ref": "Acts 21:3",
+      "bible_ref_osis": "Acts.21.3",
+      "text": "When we had come in sight of Cyprus, leaving it on the left hand, we sailed to Syria and landed at Tyre, for the ship was there to unload her cargo."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-18",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.0692,
+     32.9214
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 18,
+    "stop_id": "ptolemais",
+    "place_id": "ptolemais",
+    "label": "Ptolemais",
+    "kind": "stop",
+    "bible_ref": "Acts 21:7",
+    "bible_ref_osis": "Acts.21.7",
+    "verse_text": "When we had finished the voyage from Tyre, we arrived at Ptolemais. We greeted the brothers and stayed with them one day.",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-19",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.8917,
+     32.5
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 19,
+    "stop_id": "caesarea",
+    "place_id": "caesarea",
+    "label": "Caesarea",
+    "kind": "stop",
+    "bible_ref": "Acts 21:11",
+    "bible_ref_osis": "Acts.21.11",
+    "verse_text": "Coming to us and taking Paul’s belt, he bound his own feet and hands, and said, “The Holy Spirit says: ‘So the Jews at Jerusalem will bind the man who owns this belt, and will deliver him into the hands of the Gentiles.’”",
+    "note": "At Philip’s house. Agabus binds his own hands and feet with Paul’s belt.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": [
+     {
+      "bible_ref": "Acts 21:8",
+      "bible_ref_osis": "Acts.21.8",
+      "text": "On the next day, we who were Paul’s companions departed and came to Caesarea. We entered into the house of Philip the evangelist, who was one of the seven, and stayed with him."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "third-20",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2342,
+     31.7767
+    ]
+   },
+   "properties": {
+    "journey_id": "third",
+    "stop_order": 20,
+    "stop_id": "jerusalem",
+    "place_id": "jerusalem",
+    "label": "Jerusalem",
+    "kind": "stop",
+    "bible_ref": "Acts 21:17",
+    "bible_ref_osis": "Acts.21.17",
+    "verse_text": "When we had come to Jerusalem, the brothers received us gladly.",
+    "note": "The brothers receive them gladly. Days later Paul is seized in the temple.",
+    "letter_ref": "Romans 15:25",
+    "letter_ref_osis": "Rom.15.25",
+    "letter_text": "But now, I say, I am going to Jerusalem, serving the saints.",
+    "letter_why": "“Now I say, I am going to Jerusalem, serving the saints.”",
+    "letter_is_reading": false,
+    "also": [
+     {
+      "bible_ref": "Acts 21:30",
+      "bible_ref_osis": "Acts.21.30",
+      "text": "All the city was moved and the people ran together. They seized Paul and dragged him out of the temple. Immediately the doors were shut."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rome-01",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.8917,
+     32.5
+    ]
+   },
+   "properties": {
+    "journey_id": "rome",
+    "stop_order": 1,
+    "stop_id": "caesarea",
+    "place_id": "caesarea",
+    "label": "Caesarea",
+    "kind": "stop",
+    "bible_ref": "Acts 27:1",
+    "bible_ref_osis": "Acts.27.1",
+    "verse_text": "When it was determined that we should sail for Italy, they delivered Paul and certain other prisoners to a centurion named Julius, of the Augustan band.",
+    "note": "Two years a prisoner here. He appeals to Caesar and sails as a prisoner.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": [
+     {
+      "bible_ref": "Acts 24:27",
+      "bible_ref_osis": "Acts.24.27",
+      "text": "But when two years were fulfilled, Felix was succeeded by Porcius Festus, and desiring to gain favor with the Jews, Felix left Paul in bonds."
+     },
+     {
+      "bible_ref": "Acts 25:11",
+      "bible_ref_osis": "Acts.25.11",
+      "text": "For if I have done wrong and have committed anything worthy of death, I don’t refuse to die; but if none of those things is true that they accuse me of, no one can give me up to them. I appeal to Caesar!”"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rome-02",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.3719,
+     33.561
+    ]
+   },
+   "properties": {
+    "journey_id": "rome",
+    "stop_order": 2,
+    "stop_id": "sidon",
+    "place_id": "sidon",
+    "label": "Sidon",
+    "kind": "stop",
+    "bible_ref": "Acts 27:3",
+    "bible_ref_osis": "Acts.27.3",
+    "verse_text": "The next day, we touched at Sidon. Julius treated Paul kindly and gave him permission to go to his friends and refresh himself.",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rome-03",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.9853,
+     36.2592
+    ]
+   },
+   "properties": {
+    "journey_id": "rome",
+    "stop_order": 3,
+    "stop_id": "myra",
+    "place_id": "myra",
+    "label": "Myra",
+    "kind": "stop",
+    "bible_ref": "Acts 27:5",
+    "bible_ref_osis": "Acts.27.5",
+    "verse_text": "When we had sailed across the sea which is off Cilicia and Pamphylia, we came to Myra, a city of Lycia.",
+    "note": "They sail under the lee of Cyprus, against the wind, then change to a grain ship of Alexandria.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": [
+     {
+      "bible_ref": "Acts 27:4",
+      "bible_ref_osis": "Acts.27.4",
+      "text": "Putting to sea from there, we sailed under the lee of Cyprus, because the winds were contrary."
+     },
+     {
+      "bible_ref": "Acts 27:6",
+      "bible_ref_osis": "Acts.27.6",
+      "text": "There the centurion found a ship of Alexandria sailing for Italy, and he put us on board."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rome-04",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.375,
+     36.6858
+    ]
+   },
+   "properties": {
+    "journey_id": "rome",
+    "stop_order": 4,
+    "stop_id": "cnidus",
+    "place_id": "cnidus",
+    "label": "Cnidus",
+    "kind": "pass",
+    "bible_ref": "Acts 27:7",
+    "bible_ref_osis": "Acts.27.7",
+    "verse_text": "When we had sailed slowly many days, and had come with difficulty opposite Cnidus, the wind not allowing us further, we sailed under the lee of Crete, opposite Salmone.",
+    "note": "“Sailed slowly many days, and had come with difficulty.”",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rome-05",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.3116,
+     35.316
+    ]
+   },
+   "properties": {
+    "journey_id": "rome",
+    "stop_order": 5,
+    "stop_id": "salmone",
+    "place_id": "salmone",
+    "label": "Salmone",
+    "kind": "pass",
+    "bible_ref": "Acts 27:7",
+    "bible_ref_osis": "Acts.27.7",
+    "verse_text": "When we had sailed slowly many days, and had come with difficulty opposite Cnidus, the wind not allowing us further, we sailed under the lee of Crete, opposite Salmone.",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rome-06",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.8003,
+     34.9297
+    ]
+   },
+   "properties": {
+    "journey_id": "rome",
+    "stop_order": 6,
+    "stop_id": "fair-havens",
+    "place_id": "fair-havens",
+    "label": "Fair Havens",
+    "kind": "stop",
+    "bible_ref": "Acts 27:8",
+    "bible_ref_osis": "Acts.27.8",
+    "verse_text": "With difficulty sailing along it we came to a certain place called Fair Havens, near the city of Lasea.",
+    "note": "Paul warns them not to sail on. “The Fast had now already gone by”: autumn.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": [
+     {
+      "bible_ref": "Acts 27:9",
+      "bible_ref_osis": "Acts.27.9",
+      "text": "When much time had passed and the voyage was now dangerous because the Fast had now already gone by, Paul admonished them"
+     },
+     {
+      "bible_ref": "Acts 27:10",
+      "bible_ref_osis": "Acts.27.10",
+      "text": "and said to them, “Sirs, I perceive that the voyage will be with injury and much loss, not only of the cargo and the ship, but also of our lives.”"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rome-07",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.0833,
+     34.8333
+    ]
+   },
+   "properties": {
+    "journey_id": "rome",
+    "stop_order": 7,
+    "stop_id": "cauda",
+    "place_id": "cauda",
+    "label": "Cauda",
+    "kind": "pass",
+    "bible_ref": "Acts 27:16",
+    "bible_ref_osis": "Acts.27.16",
+    "verse_text": "Running under the lee of a small island called Clauda, we were able, with difficulty, to secure the boat.",
+    "note": "The storm wind Euraquilo seizes the ship.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": [
+     {
+      "bible_ref": "Acts 27:14",
+      "bible_ref_osis": "Acts.27.14",
+      "text": "But before long, a stormy wind beat down from shore, which is called Euroclydon."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rome-08",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.4117,
+     35.9335
+    ]
+   },
+   "properties": {
+    "journey_id": "rome",
+    "stop_order": 8,
+    "stop_id": "malta",
+    "place_id": "malta",
+    "label": "Malta",
+    "kind": "stop",
+    "bible_ref": "Acts 28:1",
+    "bible_ref_osis": "Acts.28.1",
+    "verse_text": "When we had escaped, then they learned that the island was called Malta.",
+    "note": "Shipwrecked; all 276 reach land. Three months on the island.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": [
+     {
+      "bible_ref": "Acts 27:37",
+      "bible_ref_osis": "Acts.27.37",
+      "text": "In all, we were two hundred seventy-six souls on the ship."
+     },
+     {
+      "bible_ref": "Acts 27:44",
+      "bible_ref_osis": "Acts.27.44",
+      "text": "and the rest should follow, some on planks and some on other things from the ship. So they all escaped safely to the land."
+     },
+     {
+      "bible_ref": "Acts 28:11",
+      "bible_ref_osis": "Acts.28.11",
+      "text": "After three months, we set sail in a ship of Alexandria which had wintered in the island, whose figurehead was “The Twin Brothers.”"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rome-09",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.2931,
+     37.0639
+    ]
+   },
+   "properties": {
+    "journey_id": "rome",
+    "stop_order": 9,
+    "stop_id": "syracuse",
+    "place_id": "syracuse",
+    "label": "Syracuse",
+    "kind": "stop",
+    "bible_ref": "Acts 28:12",
+    "bible_ref_osis": "Acts.28.12",
+    "verse_text": "Touching at Syracuse, we stayed there three days.",
+    "note": "Three days in port.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rome-10",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.6441,
+     38.1088
+    ]
+   },
+   "properties": {
+    "journey_id": "rome",
+    "stop_order": 10,
+    "stop_id": "rhegium",
+    "place_id": "rhegium",
+    "label": "Rhegium",
+    "kind": "stop",
+    "bible_ref": "Acts 28:13",
+    "bible_ref_osis": "Acts.28.13",
+    "verse_text": "From there we circled around and arrived at Rhegium. After one day, a south wind sprang up, and on the second day we came to Puteoli,",
+    "note": null,
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rome-11",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.1206,
+     40.8261
+    ]
+   },
+   "properties": {
+    "journey_id": "rome",
+    "stop_order": 11,
+    "stop_id": "puteoli",
+    "place_id": "puteoli",
+    "label": "Puteoli",
+    "kind": "stop",
+    "bible_ref": "Acts 28:13",
+    "bible_ref_osis": "Acts.28.13",
+    "verse_text": "From there we circled around and arrived at Rhegium. After one day, a south wind sprang up, and on the second day we came to Puteoli,",
+    "note": "Brothers ask them to stay seven days.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": [
+     {
+      "bible_ref": "Acts 28:14",
+      "bible_ref_osis": "Acts.28.14",
+      "text": "where we found brothers, and were entreated to stay with them for seven days. So we came to Rome."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rome-12",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.9975,
+     41.4664
+    ]
+   },
+   "properties": {
+    "journey_id": "rome",
+    "stop_order": 12,
+    "stop_id": "forum-appius",
+    "place_id": "forum-appius",
+    "label": "Forum of Appius",
+    "kind": "stop",
+    "bible_ref": "Acts 28:15",
+    "bible_ref_osis": "Acts.28.15",
+    "verse_text": "From there the brothers, when they heard of us, came to meet us as far as The Market of Appius and The Three Taverns. When Paul saw them, he thanked God and took courage.",
+    "note": "Believers from Rome walk out to meet him on the Appian Way.",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rome-13",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.8739,
+     41.5619
+    ]
+   },
+   "properties": {
+    "journey_id": "rome",
+    "stop_order": 13,
+    "stop_id": "three-taverns",
+    "place_id": "three-taverns",
+    "label": "Three Taverns",
+    "kind": "stop",
+    "bible_ref": "Acts 28:15",
+    "bible_ref_osis": "Acts.28.15",
+    "verse_text": "From there the brothers, when they heard of us, came to meet us as far as The Market of Appius and The Three Taverns. When Paul saw them, he thanked God and took courage.",
+    "note": "“When Paul saw them, he thanked God, and took courage.”",
+    "letter_ref": null,
+    "letter_ref_osis": "",
+    "letter_text": null,
+    "letter_why": null,
+    "letter_is_reading": null,
+    "also": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rome-14",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.4852,
+     41.8922
+    ]
+   },
+   "properties": {
+    "journey_id": "rome",
+    "stop_order": 14,
+    "stop_id": "rome",
+    "place_id": "rome",
+    "label": "Rome",
+    "kind": "stop",
+    "bible_ref": "Acts 28:16",
+    "bible_ref_osis": "Acts.28.16",
+    "verse_text": "When we entered into Rome, the centurion delivered the prisoners to the captain of the guard, but Paul was allowed to stay by himself with the soldier who guarded him.",
+    "note": "Two whole years in his own rented house, preaching “with all boldness, without hindrance”.",
+    "letter_ref": "Romans 1:15",
+    "letter_ref_osis": "Rom.1.15",
+    "letter_text": "So as much as is in me, I am eager to preach the Good News to you also who are in Rome.",
+    "letter_why": "Written years before: “I am eager to preach the Good News to you also who are in Rome.”",
+    "letter_is_reading": false,
+    "also": [
+     {
+      "bible_ref": "Acts 28:30",
+      "bible_ref_osis": "Acts.28.30",
+      "text": "Paul stayed two whole years in his own rented house and received all who were coming to him,"
+     },
+     {
+      "bible_ref": "Acts 28:31",
+      "bible_ref_osis": "Acts.28.31",
+      "text": "preaching God’s Kingdom and teaching the things concerning the Lord Jesus Christ with all boldness, without hindrance."
+     }
+    ]
+   }
+  }
+ ]
+}

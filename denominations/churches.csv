@@ -1,0 +1,24 @@
+church_id,church_order,name,short_name,members,main_document,main_document_url
+catholic,1,Catholic,Catholic,Catholics,Catechism of the Catholic Church,https://www.vatican.va/archive/ENG0015/_INDEX.HTM
+orthodox,2,Eastern Orthodox,Eastern Orthodox,Orthodox Christians,The Orthodox Faith (Fr. Thomas Hopko),https://www.oca.org/orthodoxy/the-orthodox-faith
+coptic,3,Coptic Orthodox (Oriental Orthodox),Coptic Orthodox,Coptic Orthodox Christians,Comparative Theology and Life of Faith (H.H. Pope Shenouda III),https://st-takla.org/books/en/pope-shenouda-iii/comparative-theology/index.html
+protestant,4,Protestant (in general),Protestant (in general),Protestants,,
+lutheran,5,Lutheran,Lutheran,Lutherans,The Augsburg Confession (with the Formula of Concord where it is silent),https://bookofconcord.org/augsburg-confession/
+anglican,6,Anglican and Episcopal,Anglican and Episcopal,Anglicans and Episcopalians,"The Thirty-nine Articles of Religion (Book of Common Prayer, 1662)",https://www.churchofengland.org/liturgy/book-of-common-prayer/articles-religion
+presbyterian,7,Presbyterian and Reformed,Presbyterian and Reformed,Presbyterian and Reformed churches,Westminster Confession of Faith,https://www.opc.org/wcf.html
+ucc,8,United Church of Christ,United Church of Christ,members of the United Church of Christ,Preamble to the Constitution and the Statement of Faith of the United Church of Christ,https://www.ucc.org/what-we-believe/
+methodist,9,Methodist,Methodist,Methodists,The Articles of Religion of the Methodist Church,https://www.umc.org/en/content/articles-of-religion
+nazarene,10,Church of the Nazarene,Church of the Nazarene,Nazarenes,Manual of the Church of the Nazarene: Articles of Faith,https://nazarene.org/what-we-believe/#AOF
+salvation,11,The Salvation Army,The Salvation Army,Salvationists,The eleven Doctrines and The Salvation Army Handbook of Doctrine (2010),https://www.salvationarmy.org/what-we-believe
+baptist,12,Baptist,Baptist,Baptists,The Baptist Faith and Message 2000,https://bfm.sbc.net/bfm2000/
+nondenom,13,Nondenominational and Evangelical,Nondenominational,nondenominational and evangelical churches,Statement of Faith (National Association of Evangelicals),https://www.nae.org/statement-of-faith/
+coc,14,Church of Christ,Church of Christ,members of the Churches of Christ,'Who are the churches of Christ and what do they believe?' (Batsell Barrett Baxter),https://church-of-christ.org/who-are-the-churches-of-christ/
+disciples,15,Disciples of Christ,Disciples of Christ,Disciples of Christ congregations,"The Design of the Christian Church (Disciples of Christ) and its Preamble, with the Our Identity pages",https://disciples.org/our-identity/
+pentecostal,16,Pentecostal,Pentecostal,Pentecostals,Statement of Fundamental Truths,https://ag.org/beliefs/statement-of-fundamental-truths
+oneness,17,Oneness Pentecostal (Apostolic),Oneness Pentecostal,Oneness Pentecostals,"Articles of Faith (2023), United Pentecostal Church International",https://dmc.upci.org/wp-content/uploads/2023/03/2023-UPCI-ARTICLES-OF-FAITH.pdf
+amish,18,Amish,Amish,the Amish,Dordrecht Confession of Faith (1632),https://www.nobts.edu/baptist-center-theology/confessions/Dordrecht_Confession_of_Faith.pdf
+anabaptist,19,Mennonite,Mennonite,Mennonites,Confession of Faith in a Mennonite Perspective (1995),https://www.mennoniteusa.org/who-are-mennonites/what-we-believe/confession-of-faith/
+quaker,20,Quaker (Friends),Quaker (Friends),Quakers,"Quaker faith & practice, fifth edition (Britain Yearly Meeting)",https://qfp.quaker.org.uk/
+adventist,21,Seventh-day Adventist,Seventh-day Adventist,Seventh-day Adventists,28 Fundamental Beliefs,https://www.adventist.org/beliefs/
+lds,22,Latter-day Saints,Latter-day Saints,Latter-day Saints,"The Articles of Faith, scripture and Gospel Topics",https://www.churchofjesuschrist.org/study/scriptures/pgp/a-of-f/1?lang=eng
+jw,23,Jehovah’s Witnesses,Jehovah’s Witnesses,Jehovah’s Witnesses,Official teaching pages on jw.org,https://www.jw.org/en/jehovahs-witnesses/faq/jehovah-witness-beliefs/

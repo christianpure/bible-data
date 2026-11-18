@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this data, we'd be grateful if you cited it as below. A credit link is welcome but never required."
+type: dataset
+title: "Bible Data from Christian Pure"
+abstract: >-
+  Four open datasets behind Christian Pure's free Bible and church tools: Paul's missionary
+  journeys (stops, legs and places, as CSV and GeoJSON); 378 saints with their feast days in
+  the Western and Orthodox calendars, patronages and sources; 22 Christian churches and
+  traditions, and Protestants in general, on 55 questions, each answered from the church's
+  own documents; and Western and Orthodox Easter dates from 1900 to 2099.
+authors:
+  - name: "Christian Pure"
+    website: "https://christianpure.com/"
+version: "1.0.0"
+date-released: "2026-11-18"
+license:
+  - CC-BY-4.0
+  - CC0-1.0
+url: "https://christianpure.com/"
+repository-code: "https://github.com/christianpure/bible-data"
+keywords:
+  - Bible
+  - Acts of the Apostles
+  - Paul's missionary journeys
+  - historical geography
+  - saints
+  - feast days
+  - Christian denominations
+  - Easter
+  - computus
+  - open data

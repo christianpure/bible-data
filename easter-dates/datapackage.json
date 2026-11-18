@@ -1,0 +1,212 @@
+{
+ "profile": "data-package",
+ "name": "christianpure-easter-dates",
+ "title": "Western and Orthodox Easter dates, 1900 to 2099",
+ "description": "Western and Orthodox Easter for every year from 1900 to 2099, with Lent, Palm Sunday, Good Friday, Ascension and Pentecost in both traditions and the first Sunday of Advent, as https://christianpure.com/when-is-easter/ works them out. Dedicated to the public domain under CC0: no conditions.",
+ "version": "1.0.0",
+ "created": "2026-11-18T00:00:00Z",
+ "homepage": "https://christianpure.com/when-is-easter/",
+ "licenses": [
+  {
+   "name": "CC0-1.0",
+   "path": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "title": "CC0 1.0 Universal"
+  }
+ ],
+ "contributors": [
+  {
+   "title": "Christian Pure",
+   "role": "author",
+   "path": "https://christianpure.com/"
+  }
+ ],
+ "keywords": [
+  "Easter",
+  "Pascha",
+  "computus",
+  "Lent",
+  "Pentecost",
+  "liturgical calendar",
+  "Orthodox"
+ ],
+ "sources": [
+  {
+   "title": "Jean Meeus, Astronomical Algorithms (2nd ed., 1998), chapter 8, Date of Easter"
+  }
+ ],
+ "resources": [
+  {
+   "name": "easter-dates",
+   "path": "easter-dates.csv",
+   "profile": "tabular-data-resource",
+   "title": "Easter dates",
+   "description": "One row per year.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer",
+      "description": "Year.",
+      "constraints": {
+       "required": true,
+       "unique": true,
+       "minimum": 1900,
+       "maximum": 2099
+      }
+     },
+     {
+      "name": "western_easter",
+      "type": "date",
+      "description": "Easter Sunday in Catholic and Protestant churches (Gregorian computus).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "orthodox_easter",
+      "type": "date",
+      "description": "Easter (Pascha) in Eastern Orthodox churches (Julian computus), as a civil (Gregorian) date.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "same_day",
+      "type": "boolean",
+      "description": "true when both fall on the same day.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "days_apart",
+      "type": "integer",
+      "description": "Days from Western to Orthodox Easter: 0, 7, 28 or 35.",
+      "constraints": {
+       "required": true,
+       "enum": [
+        0,
+        7,
+        28,
+        35
+       ]
+      }
+     },
+     {
+      "name": "western_ash_wednesday",
+      "type": "date",
+      "description": "Ash Wednesday, the first day of Lent: Easter minus 46 days.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "western_palm_sunday",
+      "type": "date",
+      "description": "Palm Sunday: Easter minus 7 days.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "western_good_friday",
+      "type": "date",
+      "description": "Good Friday: Easter minus 2 days.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "western_ascension",
+      "type": "date",
+      "description": "Ascension Day: Easter plus 39 days (a Thursday). Some places move it to the next Sunday.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "western_pentecost",
+      "type": "date",
+      "description": "Pentecost: Easter plus 49 days.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "western_advent_sunday",
+      "type": "date",
+      "description": "First Sunday of Advent: the fourth Sunday before Christmas.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "orthodox_clean_monday",
+      "type": "date",
+      "description": "Clean Monday, the first day of Great Lent: Pascha minus 48 days.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "orthodox_palm_sunday",
+      "type": "date",
+      "description": "Palm Sunday: Pascha minus 7 days.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "orthodox_holy_friday",
+      "type": "date",
+      "description": "Holy Friday: Pascha minus 2 days.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "orthodox_ascension",
+      "type": "date",
+      "description": "Ascension: Pascha plus 39 days.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "orthodox_pentecost",
+      "type": "date",
+      "description": "Pentecost (Trinity Sunday): Pascha plus 49 days.",
+      "constraints": {
+       "required": true
+      }
+     }
+    ],
+    "primaryKey": [
+     "year"
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "easter-dates-json",
+   "path": "easter-dates.json",
+   "profile": "data-resource",
+   "title": "Easter dates as JSON",
+   "description": "The same rows as JSON.",
+   "format": "json",
+   "mediatype": "application/json",
+   "encoding": "utf-8"
+  }
+ ]
+}

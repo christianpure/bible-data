@@ -1,0 +1,5 @@
+journey_id,journey_order,name,bible_refs,bible_refs_osis,years,stop_count,leg_count,road_km,drawn_km,sea_km,total_km
+first,1,First journey,Acts 13:1–14:28,Acts.13.1-Acts.14.28,about AD 46–48,15,14,1337,6,990,2333
+second,2,Second journey,Acts 15:36–18:22,Acts.15.36-Acts.18.22,about AD 49–52,20,19,2556,13,2072,4641
+third,3,Third journey,Acts 18:23–21:17,Acts.18.23-Acts.21.17,about AD 53–57,20,19,3048,5,1793,4846
+rome,4,Voyage to Rome,Acts 27:1–28:16,Acts.27.1-Acts.28.16,about AD 59–60,14,13,208,8,3036,3252

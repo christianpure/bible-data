@@ -1,0 +1,254 @@
+{
+ "profile": "data-package",
+ "name": "christianpure-saints",
+ "title": "Saints with feast days in the Western and Orthodox calendars",
+ "description": "378 saints with their feast days in the Western and Orthodox calendars, patronages, a line on what each is known for, and the sources for each. The data behind the Christian Pure saint finder at https://christianpure.com/saint-finder/.",
+ "version": "1.0.0",
+ "created": "2026-11-18T00:00:00Z",
+ "homepage": "https://christianpure.com/saint-finder/",
+ "licenses": [
+  {
+   "name": "CC-BY-4.0",
+   "path": "https://creativecommons.org/licenses/by/4.0/",
+   "title": "Creative Commons Attribution 4.0 International"
+  }
+ ],
+ "contributors": [
+  {
+   "title": "Christian Pure",
+   "role": "author",
+   "path": "https://christianpure.com/"
+  }
+ ],
+ "keywords": [
+  "saints",
+  "feast days",
+  "liturgical calendar",
+  "Orthodox",
+  "Catholic",
+  "patron saints"
+ ],
+ "sources": [
+  {
+   "title": "Catholic Encyclopedia (1911), New Advent",
+   "path": "https://www.newadvent.org/cathen/"
+  },
+  {
+   "title": "Vatican News, Saint of the day",
+   "path": "https://www.vaticannews.va/en/saints.html"
+  },
+  {
+   "title": "Orthodox Church in America, Lives of the Saints",
+   "path": "https://www.oca.org/saints/lives"
+  },
+  {
+   "title": "Martyrologium Romanum (2004) and the Roman Martyrology (1916), via the Internet Archive",
+   "path": "https://archive.org/"
+  }
+ ],
+ "resources": [
+  {
+   "name": "saints",
+   "path": "saints.csv",
+   "profile": "tabular-data-resource",
+   "title": "Saints",
+   "description": "One row per saint.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "saint_id",
+      "type": "string",
+      "description": "Id of the saint, as in the finder’s addresses (?saint=<id>).",
+      "constraints": {
+       "required": true,
+       "unique": true
+      }
+     },
+     {
+      "name": "name",
+      "type": "string",
+      "description": "Name of the saint.",
+      "constraints": {
+       "required": true,
+       "unique": true
+      }
+     },
+     {
+      "name": "western_feast",
+      "type": "string",
+      "description": "Feast day in the Western (Roman Catholic) calendar, as MM-DD. Empty where the West keeps no feast.",
+      "constraints": {
+       "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$"
+      }
+     },
+     {
+      "name": "western_feast_note",
+      "type": "string",
+      "description": "Note on the Western date, such as the calendar that keeps it."
+     },
+     {
+      "name": "orthodox_feast",
+      "type": "string",
+      "description": "Feast day in the Orthodox calendar, as MM-DD on the civil (Gregorian) calendar, as new-calendar churches keep it. Empty where no Orthodox feast was found.",
+      "constraints": {
+       "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$"
+      }
+     },
+     {
+      "name": "orthodox_feast_note",
+      "type": "string",
+      "description": "Note on the Orthodox date, or why there is none."
+     },
+     {
+      "name": "orthodox_old_calendar_also",
+      "type": "boolean",
+      "description": "true where the old-calendar churches (Russian, Serbian, Jerusalem, Mount Athos) also keep the feast, 13 days later on the civil calendar. false where only new-calendar churches keep it, or it could not be told."
+     },
+     {
+      "name": "orthodox_old_calendar_date",
+      "type": "string",
+      "description": "The civil date (MM-DD) on which old-calendar churches keep the feast: orthodox_feast plus 13 days, counted in a common year.",
+      "constraints": {
+       "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$"
+      }
+     },
+     {
+      "name": "patron_of",
+      "type": "string",
+      "description": "Patronages, separated by \"; \". Empty where none was sourced."
+     },
+     {
+      "name": "titles",
+      "type": "string",
+      "description": "Titles and traditional descriptions, separated by \"; \"."
+     },
+     {
+      "name": "name_forms",
+      "type": "string",
+      "description": "First names the finder matches to this saint, lower case, separated by \"; \"."
+     },
+     {
+      "name": "known_for",
+      "type": "string",
+      "description": "One line on what the saint is known for. Our words.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "source_count",
+      "type": "integer",
+      "description": "Number of sources (saint-sources.csv).",
+      "constraints": {
+       "required": true,
+       "minimum": 1
+      }
+     },
+     {
+      "name": "finder_url",
+      "type": "string",
+      "description": "The saint’s page in the Christian Pure saint finder.",
+      "constraints": {
+       "required": true
+      },
+      "format": "uri"
+     }
+    ],
+    "primaryKey": [
+     "saint_id"
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "saint-sources",
+   "path": "saint-sources.csv",
+   "profile": "tabular-data-resource",
+   "title": "Sources",
+   "description": "One row per source of each saint.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "saint_id",
+      "type": "string",
+      "description": "Saint (saints.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "source_order",
+      "type": "integer",
+      "description": "Order of the source for the saint, from 1.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "title",
+      "type": "string",
+      "description": "Title of the source.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "url",
+      "type": "string",
+      "description": "Address of the source.",
+      "constraints": {
+       "required": true
+      },
+      "format": "uri"
+     }
+    ],
+    "primaryKey": [
+     "saint_id",
+     "source_order"
+    ],
+    "missingValues": [
+     ""
+    ],
+    "foreignKeys": [
+     {
+      "fields": "saint_id",
+      "reference": {
+       "resource": "saints",
+       "fields": "saint_id"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "saints-json",
+   "path": "saints.json",
+   "profile": "data-resource",
+   "title": "Saints as JSON",
+   "description": "The same saints, one object each, with their sources inside.",
+   "format": "json",
+   "mediatype": "application/json",
+   "encoding": "utf-8"
+  }
+ ]
+}
