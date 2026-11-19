@@ -1,3 +1,12 @@
+<p align="center">
+  <a href="https://christianpure.com/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christianpure/.github/main/assets/christianpure-logo-on-navy.png">
+      <img src="https://raw.githubusercontent.com/christianpure/.github/main/assets/christianpure-logo-light.png" alt="Christian Pure" width="240">
+    </picture>
+  </a>
+</p>
+
 # Bible data from Christian Pure
 
 This repository holds six sets of data that [Christian Pure](https://christianpure.com/) built for its free Bible and church tools, released so that anyone can use them: app builders, teachers, researchers and anyone who simply likes a good table. Each set is a folder of plain files (spreadsheets you can open in Excel or Google Sheets, JSON and, for the map, GeoJSON) with a README that says what is in it, how it was made, where it falls short and how to cite it.
