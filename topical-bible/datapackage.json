@@ -1,0 +1,126 @@
+{
+ "profile": "data-package",
+ "name": "christianpure-topical-bible",
+ "title": "Bible subjects and their verses",
+ "description": "6,699 Bible subjects and the verses on each, one row per subject, verse and source: the OpenBible.info Topical Bible rankings (CC BY 4.0) joined with the verses Christian Pure's own pages quote, and a link to our page where there is one. References only, no Bible text. It powers https://christianpure.com/what-does-the-bible-say-about/. CC BY 4.0: credit OpenBible.info and Christian Pure.",
+ "version": "1.1.0",
+ "created": "2026-11-19T00:00:00Z",
+ "homepage": "https://christianpure.com/what-does-the-bible-say-about/",
+ "licenses": [
+  {
+   "name": "CC-BY-4.0",
+   "path": "https://creativecommons.org/licenses/by/4.0/",
+   "title": "Creative Commons Attribution 4.0 International"
+  }
+ ],
+ "contributors": [
+  {
+   "title": "Christian Pure",
+   "role": "author",
+   "path": "https://christianpure.com/"
+  }
+ ],
+ "keywords": [
+  "Bible",
+  "topical Bible",
+  "Bible verses",
+  "subjects",
+  "OSIS"
+ ],
+ "sources": [
+  {
+   "title": "OpenBible.info, Topical Bible (CC BY 4.0), downloaded 18 November 2026",
+   "path": "https://www.openbible.info/topics/"
+  }
+ ],
+ "resources": [
+  {
+   "name": "topical-bible",
+   "path": "topical-bible.csv",
+   "profile": "tabular-data-resource",
+   "title": "Subjects and verses",
+   "description": "One row per subject, verse and source.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "topic",
+      "type": "string",
+      "description": "The subject, as OpenBible.info names it (names that differ only in spaces or hyphens are joined).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "topic_key",
+      "type": "string",
+      "description": "A web-safe key for the subject.",
+      "constraints": {
+       "required": true,
+       "pattern": "[a-z0-9-]+"
+      }
+     },
+     {
+      "name": "reference",
+      "type": "string",
+      "description": "The verse or passage in English numbering, for example \"Philippians 4:6–7\".",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "osis",
+      "type": "string",
+      "description": "The same reference in OSIS form, for example \"Phil.4.6-Phil.4.7\".",
+      "constraints": {
+       "required": true,
+       "pattern": "[1-3]?[A-Z][A-Za-z]+[.][0-9]+[.][0-9]+(-[1-3]?[A-Z][A-Za-z]+[.][0-9]+[.][0-9]+)?"
+      }
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "\"OpenBible.info\" for a verse in its Topical Bible; \"Christian Pure\" for a verse our page on the subject quotes.",
+      "constraints": {
+       "required": true,
+       "enum": [
+        "OpenBible.info",
+        "Christian Pure"
+       ]
+      }
+     },
+     {
+      "name": "openbible_score",
+      "type": "integer",
+      "description": "OpenBible.info's helpfulness score for the verse on that subject (higher is more helpful). Empty for our picks.",
+      "constraints": {
+       "minimum": 0
+      }
+     },
+     {
+      "name": "christianpure_page",
+      "type": "string",
+      "description": "Our page of verses on the subject, where we have one.",
+      "format": "uri"
+     }
+    ],
+    "primaryKey": [
+     "topic_key",
+     "osis",
+     "source"
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  }
+ ]
+}

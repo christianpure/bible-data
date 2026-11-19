@@ -1,0 +1,5310 @@
+{
+ "type": "FeatureCollection",
+ "license": "CC BY 4.0. Credit: Christian Pure (christianpure.com), from OpenBible.info Bible Geocoding Data (CC BY 4.0).",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     44.42222,
+     32.54333
+    ]
+   },
+   "properties": {
+    "id": "a217d18",
+    "name_en": "Babylon",
+    "name_ar": "بَابِلَ",
+    "name_de": "Babylon",
+    "name_es": "Babilonia",
+    "name_fr": "Babylone",
+    "name_it": "Babilonia",
+    "name_nl": "Babylon",
+    "name_pt": "Babilônia",
+    "name_ru": "Вавилон",
+    "name_zh": "巴比伦",
+    "name_ja": "バビロン",
+    "name_kjv": "Babylon",
+    "site_today": "Babylon",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Babylon.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.1.11 Matt.1.12 Matt.1.17 Acts.7.43",
+    "books": "Matt Acts",
+    "pleiades": "https://pleiades.stoa.org/places/893951",
+    "wikidata": "https://www.wikidata.org/wiki/Q5684",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a217d18"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.20764,
+     31.70431
+    ]
+   },
+   "properties": {
+    "id": "a112427",
+    "name_en": "Bethlehem",
+    "name_ar": "بَيْتِ لَحْمِ",
+    "name_de": "Bethlehem",
+    "name_es": "Bethlehem",
+    "name_fr": "Bethléhem",
+    "name_it": "Betleem",
+    "name_nl": "Bethlehem",
+    "name_pt": "Belém",
+    "name_ru": "Вифлеем",
+    "name_zh": "伯利恒",
+    "name_ja": "ベツレヘム",
+    "name_kjv": "Bethlehem",
+    "site_today": "Bethlehem",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Bethlehem.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.2.1 Matt.2.5 Matt.2.6 Matt.2.8 Matt.2.9 Matt.2.16 Luke.2.4 Luke.2.11 Luke.2.15 John.7.42",
+    "books": "Matt Luke John",
+    "pleiades": "https://pleiades.stoa.org/places/687856",
+    "wikidata": "https://www.wikidata.org/wiki/Q5776",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a112427"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "a15257a",
+    "name_en": "Jerusalem",
+    "name_ar": "أُورُشَلِيمَ",
+    "name_de": "Jerusalem",
+    "name_es": "Jerusalem",
+    "name_fr": "Jérusalem",
+    "name_it": "Gerusalemme",
+    "name_nl": "Jeruzalem",
+    "name_pt": "Jerusalém",
+    "name_ru": "Иерусалим",
+    "name_zh": "耶路撒冷",
+    "name_ja": "エルサレム",
+    "name_kjv": "Jerusalem",
+    "site_today": "Jerusalem",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Jerusalem.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.2.1 Matt.2.3 Matt.3.5 Matt.4.5 Matt.4.25 Matt.5.35 Matt.15.1 Matt.16.21 Matt.20.17 Matt.20.18 Matt.21.1 Matt.21.10 Matt.21.18 Matt.23.37 Matt.27.53 Mark.1.5 Mark.3.8 Mark.3.22 Mark.7.1 Mark.10.17 Mark.10.32 Mark.10.33 Mark.11.1 Mark.11.11 Mark.11.15 Mark.11.27 Mark.14.13 Mark.15.41 Mark.16.12 Luke.2.22 Luke.2.25 Luke.2.38 Luke.2.41 Luke.2.42 Luke.2.43 Luke.2.45 Luke.4.9 Luke.5.17 Luke.6.17 Luke.9.31 Luke.9.51 Luke.9.53 Luke.10.30 Luke.10.38 Luke.13.4 Luke.13.22 Luke.13.33 Luke.13.34 Luke.17.11 Luke.18.31 Luke.19.11 Luke.19.28 Luke.19.41 Luke.21.20 Luke.21.21 Luke.21.24 Luke.22.10 Luke.23.5 Luke.23.7 Luke.23.19 Luke.23.28 Luke.24.13 Luke.24.18 Luke.24.33 Luke.24.47 Luke.24.49 Luke.24.52 John.1.19 John.2.13 John.2.23 John.3.22 John.4.20 John.4.21 John.4.45 John.5.1 John.5.2 John.7.25 John.10.22 John.11.18 John.11.54 John.11.55 John.12.11 John.12.12 John.12.20 John.19.20 Acts.1.4 Acts.1.8 Acts.1.12 Acts.1.13 Acts.1.19 Acts.2.5 Acts.2.14 Acts.4.5 Acts.4.16 Acts.5.16 Acts.5.28 Acts.6.7 Acts.8.1 Acts.8.14 Acts.8.25 Acts.8.26 Acts.8.27 Acts.9.2 Acts.9.13 Acts.9.21 Acts.9.26 Acts.9.28 Acts.10.39 Acts.11.2 Acts.11.22 Acts.11.27 Acts.11.30 Acts.12.25 Acts.13.13 Acts.13.27 Acts.13.31 Acts.15.2 Acts.15.3 Acts.15.4 Acts.15.22 Acts.15.23 Acts.15.33 Acts.16.4 Acts.18.21 Acts.18.22 Acts.19.21 Acts.20.16 Acts.20.22 Acts.21.4 Acts.21.11 Acts.21.12 Acts.21.13 Acts.21.15 Acts.21.17 Acts.21.18 Acts.21.21 Acts.21.31 Acts.22.3 Acts.22.5 Acts.22.17 Acts.22.18 Acts.23.11 Acts.24.11 Acts.24.17 Acts.25.1 Acts.25.3 Acts.25.7 Acts.25.9 Acts.25.15 Acts.25.20 Acts.25.24 Acts.26.4 Acts.26.10 Acts.26.20 Acts.28.17",
+    "books": "Matt Mark Luke John Acts",
+    "pleiades": "https://pleiades.stoa.org/places/973646718",
+    "wikidata": "https://www.wikidata.org/wiki/Q1218",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a15257a",
+    "pauls_journeys": "second:19 third:20"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "a149f13",
+    "name_en": "Judea",
+    "name_ar": "ٱلْيَهُودِيَّةَ",
+    "name_de": "Judäa",
+    "name_es": "Judea",
+    "name_fr": "Judée",
+    "name_it": "Giudea",
+    "name_nl": "Judea",
+    "name_pt": "Judeia",
+    "name_ru": "Иудея",
+    "name_zh": "犹太",
+    "name_ja": "ユダヤ",
+    "name_kjv": "Judæa",
+    "label_lat": 31.65,
+    "label_lon": 35.1,
+    "site_today": "Jerusalem",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.2.1 Matt.2.5 Matt.2.22 Matt.3.1 Matt.3.5 Matt.4.12 Matt.4.25 Matt.19.1 Matt.24.16 Mark.1.5 Mark.3.7 Mark.10.1 Mark.13.14 Luke.1.5 Luke.1.39 Luke.1.65 Luke.2.4 Luke.3.1 Luke.4.44 Luke.5.17 Luke.6.17 Luke.7.17 Luke.21.21 Luke.23.5 Luke.23.51 John.3.22 John.4.3 John.4.47 John.4.54 John.7.1 John.7.3 John.11.7 John.11.8 John.11.54 Acts.1.8 Acts.2.9 Acts.2.14 Acts.8.1 Acts.9.31 Acts.10.37 Acts.10.39 Acts.11.1 Acts.11.29 Acts.12.19 Acts.15.1 Acts.21.10 Acts.26.20 Acts.28.21",
+    "books": "Matt Mark Luke John Acts",
+    "pleiades": "https://pleiades.stoa.org/places/981527",
+    "wikidata": "https://www.wikidata.org/wiki/Q1003997",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a149f13"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3075,
+     30.12944
+    ]
+   },
+   "properties": {
+    "id": "af301ca",
+    "name_en": "Egypt",
+    "name_ar": "مِصْرَ",
+    "name_de": "Ägypten",
+    "name_es": "Egipto",
+    "name_fr": "Égypte",
+    "name_it": "Egitto",
+    "name_nl": "Egypte",
+    "name_pt": "Egito",
+    "name_ru": "Египет",
+    "name_zh": "埃及",
+    "name_ja": "エジプト",
+    "name_kjv": "Egypt",
+    "label_lat": 28.5,
+    "label_lon": 30.8,
+    "site_today": "Heliopolis",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 16,
+    "gospels_acts_verses": "Matt.2.13 Matt.2.14 Matt.2.15 Matt.2.19 Acts.2.10 Acts.7.9 Acts.7.10 Acts.7.11 Acts.7.12 Acts.7.14 Acts.7.15 Acts.7.17 Acts.7.18 Acts.7.34 Acts.7.36 Acts.7.39 Acts.7.40 Acts.13.17 Acts.18.24",
+    "books": "Matt Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q11768",
+    "openbible_url": "https://www.openbible.info/geo/ancient/af301ca"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23161,
+     31.85434
+    ]
+   },
+   "properties": {
+    "id": "a6d57ed",
+    "name_en": "Ramah",
+    "name_ar": "ٱلرَّامَةِ",
+    "name_de": "Rama",
+    "name_es": "Ramá",
+    "name_fr": "Rama",
+    "name_it": "Rama",
+    "name_nl": "Rama",
+    "name_pt": "Ramá",
+    "name_ru": "Рама",
+    "name_zh": "拉玛",
+    "name_ja": "ラマ",
+    "name_kjv": "Rama",
+    "site_today": "Al Ram",
+    "openbible_score": 723,
+    "certainty": "likely",
+    "certainty_note": "Probably the village of Al Ram: most of 37 reference works place it there, and a few suggest Ramallah.",
+    "other_proposed_sites": "Ramallah; Ramat Rahel",
+    "sources_surveyed": 37,
+    "gospels_acts_verses": "Matt.2.18",
+    "books": "Matt",
+    "wikidata": "https://www.wikidata.org/wiki/Q926868",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a6d57ed"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.527,
+     32.76
+    ]
+   },
+   "properties": {
+    "id": "a9cf1e8",
+    "name_en": "Galilee",
+    "name_ar": "ٱلْجَلِيلِ",
+    "name_de": "Galiläa",
+    "name_es": "Galilea",
+    "name_fr": "Galilée",
+    "name_it": "Galilea",
+    "name_nl": "Galilea",
+    "name_pt": "Galileia",
+    "name_ru": "Галилея",
+    "name_zh": "加利利",
+    "name_ja": "ガリラヤ",
+    "name_kjv": "Galilee",
+    "site_today": "Galilee",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 28,
+    "gospels_acts_verses": "Matt.2.22 Matt.3.13 Matt.4.12 Matt.4.13 Matt.4.15 Matt.4.23 Matt.4.25 Matt.11.1 Matt.14.1 Matt.15.21 Matt.17.22 Matt.19.1 Matt.21.11 Matt.26.32 Matt.26.69 Matt.27.55 Matt.28.7 Matt.28.10 Matt.28.16 Mark.1.9 Mark.1.14 Mark.1.28 Mark.1.39 Mark.3.7 Mark.6.21 Mark.7.24 Mark.8.27 Mark.9.30 Mark.14.28 Mark.15.41 Mark.16.7 Luke.1.26 Luke.2.4 Luke.2.39 Luke.3.1 Luke.3.19 Luke.4.14 Luke.4.31 Luke.5.17 Luke.8.26 Luke.9.7 Luke.13.1 Luke.13.2 Luke.17.11 Luke.23.5 Luke.23.6 Luke.23.7 Luke.23.49 Luke.23.55 Luke.24.6 John.1.43 John.2.1 John.2.11 John.4.3 John.4.43 John.4.45 John.4.46 John.4.47 John.4.54 John.7.1 John.7.3 John.7.9 John.7.41 John.7.52 John.12.21 John.21.2 Acts.1.11 Acts.2.7 Acts.5.37 Acts.9.31 Acts.10.37 Acts.13.31",
+    "books": "Matt Mark Luke John Acts",
+    "pleiades": "https://pleiades.stoa.org/places/678145",
+    "wikidata": "https://www.wikidata.org/wiki/Q83241",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a9cf1e8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.29769,
+     32.70214
+    ]
+   },
+   "properties": {
+    "id": "af5884f",
+    "name_en": "Nazareth",
+    "name_ar": "نَاصِرَةُ",
+    "name_de": "Nazareth",
+    "name_es": "Nazaret",
+    "name_fr": "Nazareth",
+    "name_it": "Nazaret",
+    "name_nl": "Nazareth",
+    "name_pt": "Nazaré",
+    "name_ru": "Назарет",
+    "name_zh": "拿撒勒",
+    "name_ja": "ナザレ",
+    "name_kjv": "Nazareth",
+    "site_today": "Nazareth",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Nazareth.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.2.23 Matt.4.13 Matt.13.54 Matt.21.11 Matt.26.71 Mark.1.9 Mark.1.24 Mark.6.1 Mark.10.47 Mark.14.67 Mark.16.6 Luke.1.26 Luke.2.4 Luke.2.39 Luke.2.43 Luke.2.51 Luke.4.16 Luke.4.34 Luke.18.37 Luke.24.19 John.1.45 John.1.46 John.18.5 John.18.7 John.19.19 Acts.2.22 Acts.3.6 Acts.4.10 Acts.6.14 Acts.10.38 Acts.22.8 Acts.26.9",
+    "books": "Matt Mark Luke John Acts",
+    "pleiades": "https://pleiades.stoa.org/places/678299",
+    "wikidata": "https://www.wikidata.org/wiki/Q430776",
+    "openbible_url": "https://www.openbible.info/geo/ancient/af5884f"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.55833,
+     31.76139
+    ]
+   },
+   "properties": {
+    "id": "ae686c9",
+    "name_en": "Jordan",
+    "name_ar": "ٱلْأُرْدُنِّ",
+    "name_de": "Jordan",
+    "name_es": "Jordán",
+    "name_fr": "Jourdain",
+    "name_it": "Giordano",
+    "name_nl": "Jordaan",
+    "name_pt": "Jordão",
+    "name_ru": "Иордан",
+    "name_zh": "约旦河",
+    "name_ja": "ヨルダン川",
+    "name_kjv": "Jordan",
+    "site_today": "Jordan River",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Jordan River.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.3.5 Matt.3.6 Matt.3.13 Matt.4.15 Matt.4.25 Matt.19.1 Mark.1.5 Mark.1.9 Mark.3.8 Mark.10.1 Luke.3.3 Luke.4.1 John.1.28 John.3.26 John.10.40",
+    "books": "Matt Mark Luke John",
+    "pleiades": "https://pleiades.stoa.org/places/687932",
+    "wikidata": "https://www.wikidata.org/wiki/Q40059",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ae686c9"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.575,
+     32.88111
+    ]
+   },
+   "properties": {
+    "id": "af2161c",
+    "name_en": "Capernaum",
+    "name_ar": "كَفْرِنَاحُومَ",
+    "name_de": "Kapernaum",
+    "name_es": "Capernaum",
+    "name_fr": "Capernaüm",
+    "name_it": "Capernaum",
+    "name_nl": "Kapernaum",
+    "name_pt": "Cafarnaum",
+    "name_ru": "Капернаум",
+    "name_zh": "迦百农",
+    "name_ja": "カペナウム",
+    "name_kjv": "Capernaum",
+    "site_today": "Tell Hum",
+    "openbible_score": 842,
+    "certainty": "likely",
+    "certainty_note": "Almost certainly the ruins at Tell Hum, where most of 34 reference works place it.",
+    "other_proposed_sites": "Khirbet Minyeh",
+    "sources_surveyed": 34,
+    "gospels_acts_verses": "Matt.4.13 Matt.8.5 Matt.11.23 Matt.17.24 Mark.1.21 Mark.2.1 Mark.9.33 Mark.10.1 Luke.4.23 Luke.4.31 Luke.7.1 Luke.10.15 John.2.12 John.4.46 John.4.47 John.6.17 John.6.24 John.6.59",
+    "books": "Matt Mark Luke John",
+    "pleiades": "https://pleiades.stoa.org/places/678231",
+    "wikidata": "https://www.wikidata.org/wiki/Q59174",
+    "openbible_url": "https://www.openbible.info/geo/ancient/af2161c"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.59003,
+     32.81891
+    ]
+   },
+   "properties": {
+    "id": "a562fcc",
+    "name_en": "Sea of Galilee",
+    "name_ar": "بَحْرُ ٱلْجَلِيلِ",
+    "name_de": "Galiläisches Meer",
+    "name_es": "Mar de Galilea",
+    "name_fr": "Mer de Galilée",
+    "name_it": "Mar di Galilea",
+    "name_nl": "Zee van Galilea",
+    "name_pt": "Mar da Galileia",
+    "name_ru": "Галилейское море",
+    "name_zh": "加利利海",
+    "name_ja": "ガリラヤの海",
+    "name_kjv": "Sea of Galilee",
+    "site_today": "Sea of Galilee",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Sea of Galilee.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.4.18 Matt.9.1 Matt.15.29 Mark.1.16 Mark.7.31 John.6.1 John.21.1",
+    "books": "Matt Mark John",
+    "pleiades": "https://pleiades.stoa.org/places/678430",
+    "wikidata": "https://www.wikidata.org/wiki/Q126982",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a562fcc"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.30639,
+     33.51111
+    ]
+   },
+   "properties": {
+    "id": "a890adf",
+    "name_en": "Syria",
+    "name_ar": "سُورِيَّةَ",
+    "name_de": "Syrien",
+    "name_es": "Siria",
+    "name_fr": "Syrie",
+    "name_it": "Siria",
+    "name_nl": "Syrie",
+    "name_pt": "Síria",
+    "name_ru": "Сирия",
+    "name_zh": "叙利亚",
+    "name_ja": "シリヤ",
+    "name_kjv": "Syria",
+    "label_lat": 34.8,
+    "label_lon": 37.5,
+    "site_today": "Damascus",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.4.24 Luke.2.2 Acts.15.23 Acts.15.41 Acts.18.18 Acts.20.3 Acts.21.3",
+    "books": "Matt Luke Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q207118",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a890adf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.8,
+     32.71667
+    ]
+   },
+   "properties": {
+    "id": "ae733a2",
+    "name_en": "Decapolis",
+    "name_ar": "ٱلْعَشْرُ ٱلْمُدُنِ",
+    "name_de": "Zehn Städte",
+    "name_es": "Decápolis",
+    "name_fr": "Décapole",
+    "name_it": "Decapoli",
+    "name_nl": "Dekapolis",
+    "name_pt": "Decápolis",
+    "name_ru": "Десятиградие",
+    "name_zh": "低加坡里",
+    "name_ja": "デカポリス",
+    "name_kjv": "Decapolis",
+    "site_today": "Decapolis",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 16,
+    "gospels_acts_verses": "Matt.4.25 Mark.5.20 Mark.7.31",
+    "books": "Matt Mark",
+    "pleiades": "https://pleiades.stoa.org/places/678116",
+    "wikidata": "https://www.wikidata.org/wiki/Q823244",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ae733a2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.67935,
+     32.656
+    ]
+   },
+   "properties": {
+    "id": "afed46a",
+    "name_en": "Region of the Gadarenes",
+    "name_ar": "كُورَةُ ٱلْجِرْجَسِيِّينَ",
+    "name_de": "Gegend der Gergesener",
+    "name_es": "País de los Gergesenos",
+    "name_fr": "Pays des Gadaréniens",
+    "name_it": "Paese de' Gadareni",
+    "name_nl": "Land der Gergesenen",
+    "name_pt": "Terra dos gergesenos",
+    "name_ru": "Гергесинская страна",
+    "name_zh": "加大拉人的地方",
+    "name_ja": "ガダラ人の地",
+    "name_kjv": "Country of the Gergesenes",
+    "site_today": "Umm Qais",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Umm Qais.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.8.28",
+    "books": "Matt",
+    "pleiades": "https://pleiades.stoa.org/places/678142",
+    "wikidata": "https://www.wikidata.org/wiki/Q96379011",
+    "openbible_url": "https://www.openbible.info/geo/ancient/afed46a"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.44922,
+     31.20849
+    ]
+   },
+   "properties": {
+    "id": "aa572e2",
+    "name_en": "Gomorrah",
+    "name_ar": "عَمُورَةَ",
+    "name_de": "Gomorrha",
+    "name_es": "Gomorra",
+    "name_fr": "Gomorrhe",
+    "name_it": "Gomorra",
+    "name_nl": "Gomorra",
+    "name_pt": "Gomorra",
+    "name_ru": "Гоморра",
+    "name_zh": "蛾摩拉",
+    "name_ja": "ゴモラ",
+    "name_kjv": "Gomorrha",
+    "site_today": "Valley of Siddim",
+    "openbible_score": 364,
+    "certainty": "unsure",
+    "certainty_note": "Nobody knows. Of 31 reference works, most put it somewhere in the Valley of Siddim; others suggest the ruins at Numeira or land north of the Dead Sea.",
+    "other_proposed_sites": "Numeira; north of the Dead Sea; Tall Iktanu; Tall Kafrayn; Bab edh Dhra",
+    "sources_surveyed": 31,
+    "gospels_acts_verses": "Matt.10.15 Mark.6.11",
+    "books": "Matt Mark",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aa572e2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.44922,
+     31.20849
+    ]
+   },
+   "properties": {
+    "id": "a0aa664",
+    "name_en": "Sodom",
+    "name_ar": "سَدُومَ",
+    "name_de": "Sodom",
+    "name_es": "Sodoma",
+    "name_fr": "Sodome",
+    "name_it": "Sodoma",
+    "name_nl": "Sodom",
+    "name_pt": "Sodoma",
+    "name_ru": "Содом",
+    "name_zh": "所多玛",
+    "name_ja": "ソドム",
+    "name_kjv": "Sodom",
+    "site_today": "Valley of Siddim",
+    "openbible_score": 386,
+    "certainty": "unsure",
+    "certainty_note": "Nobody knows. Of 32 reference works, most put it somewhere in the Valley of Siddim; others suggest Bab edh-Dhra, land north of the Dead Sea, or Tall el-Hammam.",
+    "other_proposed_sites": "Bab edh Dhra; north of the Dead Sea; Tall el Hammam; Numeira",
+    "sources_surveyed": 32,
+    "gospels_acts_verses": "Matt.10.15 Matt.11.23 Matt.11.24 Mark.6.11 Luke.10.12 Luke.17.29",
+    "books": "Matt Mark Luke",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a0aa664"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.63096,
+     32.91038
+    ]
+   },
+   "properties": {
+    "id": "a91b732",
+    "name_en": "Bethsaida",
+    "name_ar": "بَيْتِ صَيْدَا",
+    "name_de": "Bethsaida",
+    "name_es": "Bethsaida",
+    "name_fr": "Bethsaïda",
+    "name_it": "Betsaida",
+    "name_nl": "Bethsaida",
+    "name_pt": "Betsaida",
+    "name_ru": "Вифсаида",
+    "name_zh": "伯赛大",
+    "name_ja": "ベツサイダ",
+    "name_kjv": "Bethsaida",
+    "site_today": "At Tell",
+    "openbible_score": 466,
+    "certainty": "unsure",
+    "certainty_note": "Not settled. Of 28 reference works, the most favour At-Tell; others suggest El-Araj.",
+    "other_proposed_sites": "Al Araj; El Mess’adiyye; Tabgha",
+    "sources_surveyed": 28,
+    "gospels_acts_verses": "Matt.11.21 Luke.10.13 John.1.44 John.12.21",
+    "books": "Matt Luke John",
+    "pleiades": "https://pleiades.stoa.org/places/678065",
+    "wikidata": "https://www.wikidata.org/wiki/Q501773",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a91b732"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.56389,
+     32.91139
+    ]
+   },
+   "properties": {
+    "id": "a593a48",
+    "name_en": "Chorazin",
+    "name_ar": "كُورَزِينُ",
+    "name_de": "Chorazin",
+    "name_es": "Corazín",
+    "name_fr": "Chorazin",
+    "name_it": "Corazin",
+    "name_nl": "Chorazin",
+    "name_pt": "Corazim",
+    "name_ru": "Хоразин",
+    "name_zh": "哥拉汛",
+    "name_ja": "コラジン",
+    "name_kjv": "Chorazin",
+    "site_today": "Khirbet Karraza",
+    "openbible_score": 786,
+    "certainty": "likely",
+    "certainty_note": "Probably the ruins at Khirbet Karraza, where most of 30 reference works place it.",
+    "sources_surveyed": 30,
+    "gospels_acts_verses": "Matt.11.21 Luke.10.13",
+    "books": "Matt Luke",
+    "pleiades": "https://pleiades.stoa.org/places/678091",
+    "wikidata": "https://www.wikidata.org/wiki/Q2456076",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a593a48"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.37194,
+     33.56099
+    ]
+   },
+   "properties": {
+    "id": "a98e4d7",
+    "name_en": "Sidon",
+    "name_ar": "صَيْدَاءَ",
+    "name_de": "Sidon",
+    "name_es": "Sidón",
+    "name_fr": "Sidon",
+    "name_it": "Sidone",
+    "name_nl": "Sidon",
+    "name_pt": "Sidom",
+    "name_ru": "Сидон",
+    "name_zh": "西顿",
+    "name_ja": "シドン",
+    "name_kjv": "Sidon",
+    "site_today": "Sandikli archaeological site in Sidon",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Sandikli archaeological site in Sidon.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.11.21 Matt.11.22 Matt.15.21 Mark.3.8 Mark.7.24 Mark.7.31 Luke.4.26 Luke.6.17 Luke.10.13 Luke.10.14 Acts.12.20 Acts.27.3",
+    "books": "Matt Mark Luke Acts",
+    "pleiades": "https://pleiades.stoa.org/places/678393",
+    "wikidata": "https://www.wikidata.org/wiki/Q163490",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a98e4d7",
+    "pauls_journeys": "rome:2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.19611,
+     33.27083
+    ]
+   },
+   "properties": {
+    "id": "a160272",
+    "name_en": "Tyre",
+    "name_ar": "صُورَ",
+    "name_de": "Tyrus",
+    "name_es": "Tiro",
+    "name_fr": "Tyr",
+    "name_it": "Tiro",
+    "name_nl": "Tyrus",
+    "name_pt": "Tiro",
+    "name_ru": "Тир",
+    "name_zh": "泰尔",
+    "name_ja": "ツロ",
+    "name_kjv": "Tyre",
+    "site_today": "Tyre",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Tyre.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.11.21 Matt.11.22 Matt.15.21 Mark.3.8 Mark.7.24 Mark.7.31 Luke.6.17 Luke.10.13 Luke.10.14 Acts.12.20 Acts.21.3 Acts.21.7",
+    "books": "Matt Mark Luke Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q82070",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a160272",
+    "pauls_journeys": "third:17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     43.1528,
+     36.3594
+    ]
+   },
+   "properties": {
+    "id": "a70fd5d",
+    "name_en": "Nineveh",
+    "name_ar": "نِينَوَى",
+    "name_de": "Ninive",
+    "name_es": "Nínive",
+    "name_fr": "Ninive",
+    "name_it": "Ninive",
+    "name_nl": "Nineve",
+    "name_pt": "Nínive",
+    "name_ru": "Ниневия",
+    "name_zh": "尼尼微",
+    "name_ja": "ニネベ",
+    "name_kjv": "Nineveh",
+    "site_today": "Nineveh",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Nineveh.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.12.41 Luke.11.30 Luke.11.32",
+    "books": "Matt Luke",
+    "pleiades": "https://pleiades.stoa.org/places/874621",
+    "wikidata": "https://www.wikidata.org/wiki/Q5680",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a70fd5d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.50722,
+     32.86056
+    ]
+   },
+   "properties": {
+    "id": "a7de69e",
+    "name_en": "Gennesaret",
+    "name_ar": "جَنِّيسَارَتَ",
+    "name_de": "Genezareth",
+    "name_es": "Genezaret",
+    "name_fr": "Génésareth",
+    "name_it": "Gennesaret",
+    "name_nl": "Gennesareth",
+    "name_pt": "Genesaré",
+    "name_ru": "Геннисаретская земля",
+    "name_zh": "革尼撒勒",
+    "name_ja": "ゲネサレ",
+    "name_kjv": "Gennesaret",
+    "site_today": "El Ghuweir",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.14.34 Mark.6.53 Luke.5.1",
+    "books": "Matt Mark Luke",
+    "pleiades": "https://pleiades.stoa.org/places/678155",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a7de69e"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.33333,
+     32.76667
+    ]
+   },
+   "properties": {
+    "id": "a581f0c",
+    "name_en": "Canaan",
+    "name_ar": "كَنْعَانَ",
+    "name_de": "Kanaan",
+    "name_es": "Canaán",
+    "name_fr": "Canaan",
+    "name_it": "Canaan",
+    "name_nl": "Kanaan",
+    "name_pt": "Canaã",
+    "name_ru": "Ханаан",
+    "name_zh": "迦南",
+    "name_ja": "カナン",
+    "name_kjv": "Canaan",
+    "site_today": "Canaan",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 11,
+    "gospels_acts_verses": "Matt.15.22 Acts.7.11 Acts.13.19",
+    "books": "Matt Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q163329",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a581f0c"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.51355,
+     32.82707
+    ]
+   },
+   "properties": {
+    "id": "ad14067",
+    "name_en": "Magadan",
+    "name_ar": "مَجْدَلَ",
+    "name_de": "Magdala",
+    "name_es": "Magdalá",
+    "name_fr": "Magadan",
+    "name_it": "Magadan",
+    "name_nl": "Magdala",
+    "name_pt": "Magdala",
+    "name_ru": "Магдалинские пределы",
+    "name_zh": "马加丹",
+    "name_ja": "マガダン",
+    "name_kjv": "Magdala",
+    "site_today": "another name for Magdala",
+    "openbible_score": 616,
+    "certainty": "likely",
+    "certainty_note": "Probably another name for Magdala on the Sea of Galilee: most of 22 reference works take it so, and a few look to the lake’s eastern shore.",
+    "other_proposed_sites": "eastern side of the Sea of Galilee",
+    "sources_surveyed": 22,
+    "gospels_acts_verses": "Matt.15.39",
+    "books": "Matt",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ad14067"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.69333,
+     33.24611
+    ]
+   },
+   "properties": {
+    "id": "ab7bf48",
+    "name_en": "Caesarea Philippi",
+    "name_ar": "قَيْصَرِيَّةِ فِيلُبُّسَ",
+    "name_de": "Cäsarea Philippi",
+    "name_es": "Cesarea de Filipo",
+    "name_fr": "Césarée de Philippe",
+    "name_it": "Cesarea di Filippo",
+    "name_nl": "Cesarea Filippi",
+    "name_pt": "Cesareia de Filipe",
+    "name_ru": "Кесария Филиппова",
+    "name_zh": "凯撒利亚·腓立比",
+    "name_ja": "ピリポ・カイザリヤ",
+    "name_kjv": "Caesarea Philippi",
+    "site_today": "Banias",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Banias.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.16.13 Mark.8.27",
+    "books": "Matt Mark",
+    "pleiades": "https://pleiades.stoa.org/places/678324",
+    "wikidata": "https://www.wikidata.org/wiki/Q2484244",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ab7bf48"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.43624,
+     31.85187
+    ]
+   },
+   "properties": {
+    "id": "aaf03fa",
+    "name_en": "Jericho",
+    "name_ar": "أَرِيحَا",
+    "name_de": "Jericho",
+    "name_es": "Jericó",
+    "name_fr": "Jéricho",
+    "name_it": "Gerico",
+    "name_nl": "Jericho",
+    "name_pt": "Jericó",
+    "name_ru": "Иерихон",
+    "name_zh": "耶利哥",
+    "name_ja": "エリコ",
+    "name_kjv": "Jericho",
+    "site_today": "Tell el Alayiq",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Tell el Alayiq.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.20.29 Mark.10.46 Luke.10.30 Luke.18.35 Luke.19.1",
+    "books": "Matt Mark Luke",
+    "pleiades": "https://pleiades.stoa.org/places/687917",
+    "wikidata": "https://www.wikidata.org/wiki/Q5687",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aaf03fa"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.25084,
+     31.77762
+    ]
+   },
+   "properties": {
+    "id": "abff59d",
+    "name_en": "Bethphage",
+    "name_ar": "بَيْتِ فَاجِي",
+    "name_de": "Bethphage",
+    "name_es": "Bethfagé",
+    "name_fr": "Bethphagé",
+    "name_it": "Betfage",
+    "name_nl": "Beth-fage",
+    "name_pt": "Betfagé",
+    "name_ru": "Виффагия",
+    "name_zh": "伯法其",
+    "name_ja": "ベテパゲ",
+    "name_kjv": "Bethphage",
+    "site_today": "Et Tur",
+    "openbible_score": 698,
+    "certainty": "likely",
+    "certainty_note": "Probably Et-Tur: most of 20 reference works place it there, and a few suggest Abu Dis.",
+    "other_proposed_sites": "Abu Dis; Al Eizariya",
+    "sources_surveyed": 20,
+    "gospels_acts_verses": "Matt.21.1 Mark.11.1 Luke.19.29",
+    "books": "Matt Mark Luke",
+    "wikidata": "https://www.wikidata.org/wiki/Q2193088",
+    "openbible_url": "https://www.openbible.info/geo/ancient/abff59d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.24569,
+     31.77795
+    ]
+   },
+   "properties": {
+    "id": "ac2c4c5",
+    "name_en": "Mount of Olives",
+    "name_ar": "جَبَلِ ٱلزَّيْتُونِ",
+    "name_de": "Ölberg",
+    "name_es": "Monte de las Olivas",
+    "name_fr": "Montagne des oliviers",
+    "name_it": "Monte degli Ulivi",
+    "name_nl": "Olijfberg",
+    "name_pt": "Monte das Oliveiras",
+    "name_ru": "Елеонская гора",
+    "name_zh": "橄榄山",
+    "name_ja": "オリブ山",
+    "name_kjv": "Mount of Olives",
+    "site_today": "Mount of Olives",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Mount of Olives.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.21.1 Matt.24.3 Matt.26.30 Mark.11.1 Mark.13.3 Mark.14.26 Luke.19.29 Luke.19.37 Luke.21.37 Luke.22.39 John.8.1 Acts.1.12",
+    "books": "Matt Mark Luke John Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q205976",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ac2c4c5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "af20c46",
+    "name_en": "Zion",
+    "name_ar": "صِهْيَوْنَ",
+    "name_de": "Zion",
+    "name_es": "Sión",
+    "name_fr": "Sion",
+    "name_it": "Sion",
+    "name_nl": "Sion",
+    "name_pt": "Sião",
+    "name_ru": "Сион",
+    "name_zh": "锡安",
+    "name_ja": "シオン",
+    "name_kjv": "Sion",
+    "site_today": "Jerusalem",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Jerusalem.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.21.5 John.12.15",
+    "books": "Matt John",
+    "wikidata": "https://www.wikidata.org/wiki/Q205318",
+    "openbible_url": "https://www.openbible.info/geo/ancient/af20c46"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2559,
+     31.77166
+    ]
+   },
+   "properties": {
+    "id": "a4f35bc",
+    "name_en": "Bethany",
+    "name_ar": "بَيْتِ عَنْيَا",
+    "name_de": "Bethanien",
+    "name_es": "Bethania",
+    "name_fr": "Béthanie",
+    "name_it": "Betania",
+    "name_nl": "Bethanie",
+    "name_pt": "Betânia",
+    "name_ru": "Вифания",
+    "name_zh": "伯大尼",
+    "name_ja": "ベタニヤ",
+    "name_kjv": "Bethany",
+    "site_today": "Al Eizariya",
+    "openbible_score": 889,
+    "certainty": "likely",
+    "certainty_note": "Almost certainly Al-Eizariya, where nearly all of 28 reference works place it.",
+    "sources_surveyed": 28,
+    "gospels_acts_verses": "Matt.21.17 Matt.26.6 Mark.11.1 Mark.11.11 Mark.11.12 Mark.14.3 Luke.19.29 Luke.24.50 John.11.1 John.11.17 John.11.18 John.12.1",
+    "books": "Matt Mark Luke John",
+    "pleiades": "https://pleiades.stoa.org/places/156668177",
+    "wikidata": "https://www.wikidata.org/wiki/Q831190",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a4f35bc"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23942,
+     31.77942
+    ]
+   },
+   "properties": {
+    "id": "a42418f",
+    "name_en": "Gethsemane",
+    "name_ar": "جَثْسَيْمَانِي",
+    "name_de": "Gethsemane",
+    "name_es": "Gethsemaní",
+    "name_fr": "Gethsémané",
+    "name_it": "Getsemani",
+    "name_nl": "Gethsemane",
+    "name_pt": "Getsêmani",
+    "name_ru": "Гефсимания",
+    "name_zh": "客西马尼",
+    "name_ja": "ゲツセマネ",
+    "name_kjv": "Gethsemane",
+    "site_today": "Gethsemane",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Gethsemane.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.26.36 Mark.14.32",
+    "books": "Matt Mark",
+    "wikidata": "https://www.wikidata.org/wiki/Q205333",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a42418f"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23288,
+     31.76841
+    ]
+   },
+   "properties": {
+    "id": "a040ba5",
+    "name_en": "Akeldama",
+    "name_ar": "حَقْلَ ٱلدَّمِ",
+    "name_de": "Hakeldama",
+    "name_es": "Acéldama",
+    "name_fr": "Hakeldama",
+    "name_it": "Acheldama",
+    "name_nl": "Akeldama",
+    "name_pt": "Aceldama",
+    "name_ru": "Акелдама",
+    "name_zh": "血田",
+    "name_ja": "血の畑",
+    "name_kjv": "Aceldama",
+    "site_today": "Akeldama",
+    "openbible_score": 456,
+    "certainty": "likely",
+    "certainty_note": "Known by tradition rather than proof: most of 18 reference works say that the field shown today as Akeldama is where tradition puts it.",
+    "sources_surveyed": 18,
+    "gospels_acts_verses": "Matt.27.8 Acts.1.19",
+    "books": "Matt Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q886458",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a040ba5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     21.85123,
+     32.82095
+    ]
+   },
+   "properties": {
+    "id": "a81cdb5",
+    "name_en": "Cyrene",
+    "name_ar": "ٱلْقَيْرَوَانُ",
+    "name_de": "Kyrene",
+    "name_es": "Cirene",
+    "name_fr": "Cyrène",
+    "name_it": "Cirene",
+    "name_nl": "Cyrene",
+    "name_pt": "Cirene",
+    "name_ru": "Киринея",
+    "name_zh": "古利奈",
+    "name_ja": "クレネ",
+    "name_kjv": "Cyrene",
+    "site_today": "Cyrene",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Cyrene.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Matt.27.32 Mark.15.21 Luke.23.26 Acts.2.10 Acts.6.9 Acts.11.20 Acts.13.1",
+    "books": "Matt Mark Luke Acts",
+    "pleiades": "https://pleiades.stoa.org/places/376001",
+    "wikidata": "https://www.wikidata.org/wiki/Q44112",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a81cdb5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.22975,
+     31.77844
+    ]
+   },
+   "properties": {
+    "id": "a631d35",
+    "name_en": "Golgotha",
+    "name_ar": "جُلْجُثَةُ",
+    "name_de": "Golgatha",
+    "name_es": "Gólgotha",
+    "name_fr": "Golgotha",
+    "name_it": "Golgota",
+    "name_nl": "Golgotha",
+    "name_pt": "Gólgota",
+    "name_ru": "Голгофа",
+    "name_zh": "髑髅地",
+    "name_ja": "ゴルゴタ",
+    "name_kjv": "Golgotha",
+    "site_today": "Church of the Holy Sepulchre",
+    "openbible_score": 426,
+    "certainty": "unsure",
+    "certainty_note": "Not proved. Most of 25 reference works favour the Church of the Holy Sepulchre, the place tradition gives; a few suggest Gordon’s Calvary.",
+    "other_proposed_sites": "Taylor Golgotha; Gordon’s Calvary",
+    "sources_surveyed": 25,
+    "gospels_acts_verses": "Matt.27.33 Mark.15.22 Luke.23.33 John.19.17",
+    "books": "Matt Mark Luke John",
+    "wikidata": "https://www.wikidata.org/wiki/Q170516",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a631d35"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.01944,
+     32.02806
+    ]
+   },
+   "properties": {
+    "id": "af3d9fc",
+    "name_en": "Arimathea",
+    "name_ar": "ٱلرَّامَةُ",
+    "name_de": "Arimathia",
+    "name_es": "Arimatea",
+    "name_fr": "Arimathée",
+    "name_it": "Arimatea",
+    "name_nl": "Arimathea",
+    "name_pt": "Arimateia",
+    "name_ru": "Аримафея",
+    "name_zh": "亚利马太",
+    "name_ja": "アリマタヤ",
+    "name_kjv": "Arimathæa",
+    "site_today": "Rantis",
+    "openbible_score": 228,
+    "certainty": "unsure",
+    "certainty_note": "Nobody knows. Of 27 reference works, the most favour Rantis; others suggest Ramathaim-zophim or Beit Rima.",
+    "other_proposed_sites": "Ramathaim-zophim; Beit Rima; Al Bira",
+    "sources_surveyed": 27,
+    "gospels_acts_verses": "Matt.27.57 Mark.15.43 Luke.23.50 John.19.38",
+    "books": "Matt Mark Luke John",
+    "pleiades": "https://pleiades.stoa.org/places/688014",
+    "wikidata": "https://www.wikidata.org/wiki/Q2558868",
+    "openbible_url": "https://www.openbible.info/geo/ancient/af3d9fc"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.10222,
+     31.52509
+    ]
+   },
+   "properties": {
+    "id": "a2517a0",
+    "name_en": "Idumea",
+    "name_ar": "أَدُومِيَّةَ",
+    "name_de": "Idumäa",
+    "name_es": "Idumea",
+    "name_fr": "Idumée",
+    "name_it": "Idumea",
+    "name_nl": "Idumea",
+    "name_pt": "Idumeia",
+    "name_ru": "Идумея",
+    "name_zh": "以土买",
+    "name_ja": "イドマヤ",
+    "name_kjv": "Idumaea",
+    "site_today": "Hebron",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Mark.3.8",
+    "books": "Mark",
+    "wikidata": "https://www.wikidata.org/wiki/Q497958",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a2517a0"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.8914,
+     32.27228
+    ]
+   },
+   "properties": {
+    "id": "ada6b64",
+    "name_en": "Region of the Gerasenes",
+    "name_ar": "كُورَةُ ٱلْجَدَرِيِّينَ",
+    "name_de": "Gegend der Gadarener",
+    "name_es": "Provincia de los Gadarenos",
+    "name_fr": "Pays des Géraséniens",
+    "name_it": "Paese de' Geraseni",
+    "name_nl": "Land der Gadarenen",
+    "name_pt": "Terra dos Gadarenos",
+    "name_ru": "Гадаринская страна",
+    "name_zh": "格拉森",
+    "name_ja": "ゲラサ",
+    "name_kjv": "Country of the Gadarenes",
+    "site_today": "Jerash",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Jerash.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Mark.5.1 Luke.8.26 Luke.8.37",
+    "books": "Mark Luke",
+    "pleiades": "https://pleiades.stoa.org/places/678158",
+    "wikidata": "https://www.wikidata.org/wiki/Q31565",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ada6b64"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.63096,
+     32.91038
+    ]
+   },
+   "properties": {
+    "id": "a9fc13a",
+    "name_en": "Bethsaida",
+    "name_ar": "بَيْتِ صَيْدَا",
+    "name_de": "Bethsaida",
+    "name_es": "Bethsaida",
+    "name_fr": "Bethsaïda",
+    "name_it": "Betsaida",
+    "name_nl": "Bethsaida",
+    "name_pt": "Betsaida",
+    "name_ru": "Вифсаида",
+    "name_zh": "伯赛大",
+    "name_ja": "ベツサイダ",
+    "name_kjv": "Bethsaida",
+    "site_today": "Bethsaida",
+    "openbible_score": 740,
+    "certainty": "unsure",
+    "certainty_note": "Not settled. This is the Bethsaida of John’s Gospel; of 19 reference works, most treat it as the same town as the other Bethsaida, and some suggest At-Tell.",
+    "other_proposed_sites": "El Mess’adiyye",
+    "sources_surveyed": 19,
+    "gospels_acts_verses": "Mark.6.45 Mark.8.22 Luke.9.10",
+    "books": "Mark Luke",
+    "pleiades": "https://pleiades.stoa.org/places/678065",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a9fc13a"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.19611,
+     33.27083
+    ]
+   },
+   "properties": {
+    "id": "a33d53e",
+    "name_en": "Phoenicia",
+    "name_ar": "فِينِيقِيَةَ",
+    "name_de": "Phönizien",
+    "name_es": "Fenicia",
+    "name_fr": "Phénicie",
+    "name_it": "Fenicia",
+    "name_nl": "Fenicie",
+    "name_pt": "Fenícia",
+    "name_ru": "Финикия",
+    "name_zh": "腓尼基",
+    "name_ja": "ピニケ",
+    "name_kjv": "Phenicia",
+    "label_lat": 33.6,
+    "label_lon": 35.45,
+    "site_today": "Tyre",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 25,
+    "gospels_acts_verses": "Mark.7.26 Acts.11.19 Acts.15.3 Acts.21.2",
+    "books": "Mark Acts",
+    "pleiades": "https://pleiades.stoa.org/places/678334",
+    "wikidata": "https://www.wikidata.org/wiki/Q41642",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a33d53e"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.51355,
+     32.82707
+    ]
+   },
+   "properties": {
+    "id": "ae8d09d",
+    "name_en": "Dalmanutha",
+    "name_ar": "دَلْمَانُوثَةَ",
+    "name_de": "Dalmanutha",
+    "name_es": "Dalmanutha",
+    "name_fr": "Dalmanutha",
+    "name_it": "Dalmanuta",
+    "name_nl": "Dalmanutha",
+    "name_pt": "Dalmanuta",
+    "name_ru": "Далмануфские пределы",
+    "name_zh": "大玛努他",
+    "name_ja": "ダルマヌタ",
+    "name_kjv": "Dalmanutha",
+    "site_today": "Magadan",
+    "openbible_score": 414,
+    "certainty": "unsure",
+    "certainty_note": "Nobody knows. Of 22 reference works, the most take it as another name for Magadan.",
+    "other_proposed_sites": "Tabgha",
+    "sources_surveyed": 22,
+    "gospels_acts_verses": "Mark.8.10",
+    "books": "Mark",
+    "wikidata": "https://www.wikidata.org/wiki/Q1158048",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ae8d09d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.10583,
+     33.62667
+    ]
+   },
+   "properties": {
+    "id": "a498faa",
+    "name_en": "Abilene",
+    "name_ar": "ٱلْأَبِلِيَّةِ",
+    "name_de": "Abilene",
+    "name_es": "Abilinia",
+    "name_fr": "Abilène",
+    "name_it": "Abilene",
+    "name_nl": "Abilene",
+    "name_pt": "Abilene",
+    "name_ru": "Авилинея",
+    "name_zh": "亚比利尼",
+    "name_ja": "アビレネ",
+    "name_kjv": "Abilene",
+    "site_today": "Abilene",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 13,
+    "gospels_acts_verses": "Luke.3.1",
+    "books": "Luke",
+    "pleiades": "https://pleiades.stoa.org/places/677994",
+    "wikidata": "https://www.wikidata.org/wiki/Q1280728",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a498faa"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.85,
+     33.4
+    ]
+   },
+   "properties": {
+    "id": "aa9e265",
+    "name_en": "Ituraea",
+    "name_ar": "إِيطُورِيَّةَ",
+    "name_de": "Ituräa",
+    "name_es": "Iturea",
+    "name_fr": "Iturée",
+    "name_it": "Iturea",
+    "name_nl": "Iturea",
+    "name_pt": "Itureia",
+    "name_ru": "Итурея",
+    "name_zh": "以土利亚",
+    "name_ja": "イツリヤ",
+    "name_kjv": "Ituraea",
+    "site_today": "Mount Hermon",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 13,
+    "gospels_acts_verses": "Luke.3.1",
+    "books": "Luke",
+    "wikidata": "https://www.wikidata.org/wiki/Q1514777",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aa9e265"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.45538,
+     32.9695
+    ]
+   },
+   "properties": {
+    "id": "a85a60a",
+    "name_en": "Trachonitis",
+    "name_ar": "تَرَاخُونِيتِسَ",
+    "name_de": "Trachonitis",
+    "name_es": "Traconite",
+    "name_fr": "Trachonite",
+    "name_it": "Traconitide",
+    "name_nl": "Trachonitis",
+    "name_pt": "Traconites",
+    "name_ru": "Трахонитская область",
+    "name_zh": "特拉可尼",
+    "name_ja": "テラコニテ",
+    "name_kjv": "Trachonitis",
+    "site_today": "Lajat",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Luke.3.1",
+    "books": "Luke",
+    "pleiades": "https://pleiades.stoa.org/places/678434",
+    "wikidata": "https://www.wikidata.org/wiki/Q826132",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a85a60a"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.29514,
+     33.46423
+    ]
+   },
+   "properties": {
+    "id": "a6fa2d3",
+    "name_en": "Zarephath",
+    "name_ar": "صَرْفَةُ",
+    "name_de": "Sarepta",
+    "name_es": "Sarepta",
+    "name_fr": "Sarepta",
+    "name_it": "Sarepta",
+    "name_nl": "Sarepta",
+    "name_pt": "Sarepta",
+    "name_ru": "Сарепта",
+    "name_zh": "撒勒法",
+    "name_ja": "サレプタ",
+    "name_kjv": "Sarepta",
+    "site_today": "Sarepta",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Sarepta.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Luke.4.26",
+    "books": "Luke",
+    "wikidata": "https://www.wikidata.org/wiki/Q616837",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a6fa2d3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.35014,
+     32.63069
+    ]
+   },
+   "properties": {
+    "id": "aee679c",
+    "name_en": "Nain",
+    "name_ar": "نَايِينَ",
+    "name_de": "Nain",
+    "name_es": "Naín",
+    "name_fr": "Naïn",
+    "name_it": "Nain",
+    "name_nl": "Nain",
+    "name_pt": "Naim",
+    "name_ru": "Наин",
+    "name_zh": "拿因",
+    "name_ja": "ナイン",
+    "name_kjv": "Nain",
+    "site_today": "Nein",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Nein.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Luke.7.11",
+    "books": "Luke",
+    "wikidata": "https://www.wikidata.org/wiki/Q934904",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aee679c"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.235,
+     31.77056
+    ]
+   },
+   "properties": {
+    "id": "a294859",
+    "name_en": "Siloam",
+    "name_ar": "سِلْوَامَ",
+    "name_de": "Siloah",
+    "name_es": "Siloé",
+    "name_fr": "Siloé",
+    "name_it": "Siloe",
+    "name_nl": "Siloam",
+    "name_pt": "Siloé",
+    "name_ru": "Силоам",
+    "name_zh": "西罗亚",
+    "name_ja": "シロアム",
+    "name_kjv": "Siloam",
+    "site_today": "Pool of Siloam",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Pool of Siloam.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Luke.13.4 John.9.7 John.9.11",
+    "books": "Luke John",
+    "wikidata": "https://www.wikidata.org/wiki/Q1483483",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a294859"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.195,
+     32.27611
+    ]
+   },
+   "properties": {
+    "id": "a282dce",
+    "name_en": "Samaria",
+    "name_ar": "ٱلسَّامِرَةَ",
+    "name_de": "Samaria",
+    "name_es": "Samaria",
+    "name_fr": "Samarie",
+    "name_it": "Samaria",
+    "name_nl": "Samaria",
+    "name_pt": "Samaria",
+    "name_ru": "Самария",
+    "name_zh": "撒马利亚",
+    "name_ja": "サマリヤ",
+    "name_kjv": "Samaria",
+    "site_today": "Samaria",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 34,
+    "gospels_acts_verses": "Luke.17.11 John.4.4 John.4.5 John.4.7 John.4.9 Acts.1.8 Acts.8.1 Acts.8.5 Acts.8.9 Acts.8.14 Acts.8.25 Acts.9.31 Acts.15.3",
+    "books": "Luke John Acts",
+    "pleiades": "https://pleiades.stoa.org/places/44836840",
+    "wikidata": "https://www.wikidata.org/wiki/Q1294629",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a282dce"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.16419,
+     31.79289
+    ]
+   },
+   "properties": {
+    "id": "ae7274b",
+    "name_en": "Emmaus",
+    "name_ar": "عِمْوَاسُ",
+    "name_de": "Emmaus",
+    "name_es": "Emmaús",
+    "name_fr": "Émmaüs",
+    "name_it": "Emmaus",
+    "name_nl": "Emmaus",
+    "name_pt": "Emaús",
+    "name_ru": "Эммаус",
+    "name_zh": "以马忤斯",
+    "name_ja": "エマオ",
+    "name_kjv": "Emmaus",
+    "site_today": "Qalunya",
+    "openbible_score": 338,
+    "certainty": "unsure",
+    "certainty_note": "Nobody knows. Of 30 reference works, the most favour Qalunya; many others favour Emmaus Nicopolis, and a few El-Qubeibeh.",
+    "other_proposed_sites": "Emmaus Nicopolis; El Qubeibeh; Artas; Khirbet Khamasa; Abu Ghosh",
+    "sources_surveyed": 30,
+    "gospels_acts_verses": "Luke.24.13 Luke.24.28 Luke.24.35",
+    "books": "Luke",
+    "wikidata": "https://www.wikidata.org/wiki/Q165887",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ae7274b"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.5503,
+     31.83711
+    ]
+   },
+   "properties": {
+    "id": "a6e060d",
+    "name_en": "Bethany",
+    "name_ar": "بَيْتُ عَبْرَةَ",
+    "name_de": "Bethabara",
+    "name_es": "Betábara",
+    "name_fr": "Béthanie",
+    "name_it": "Betania",
+    "name_nl": "Bethabara",
+    "name_pt": "Betábara",
+    "name_ru": "Вифавара",
+    "name_zh": "伯大尼",
+    "name_ja": "ベタニヤ",
+    "name_kjv": "Bethabara",
+    "site_today": "Al Maghtas",
+    "openbible_score": 320,
+    "certainty": "unsure",
+    "certainty_note": "Not settled. John calls it “Bethany beyond the Jordan”, and most of 17 reference works favour Al-Maghtas, on the river’s east bank; others take it as another name for the region of Batanea.",
+    "other_proposed_sites": "another name for Batanea; Bethany; Beth-barah; Beth-nimrah; Betonim; Makhadhet Abarah",
+    "sources_surveyed": 17,
+    "gospels_acts_verses": "John.1.28",
+    "books": "John",
+    "pleiades": "https://pleiades.stoa.org/places/697641",
+    "wikidata": "https://www.wikidata.org/wiki/Q2617848",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a6e060d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.30269,
+     32.8222
+    ]
+   },
+   "properties": {
+    "id": "a031bda",
+    "name_en": "Cana",
+    "name_ar": "قَانَا",
+    "name_de": "Kana",
+    "name_es": "Caná",
+    "name_fr": "Cana",
+    "name_it": "Cana",
+    "name_nl": "Kana",
+    "name_pt": "Caná",
+    "name_ru": "Кана",
+    "name_zh": "迦拿",
+    "name_ja": "カナ",
+    "name_kjv": "Cana",
+    "site_today": "Horbat Qana",
+    "openbible_score": 690,
+    "certainty": "likely",
+    "certainty_note": "Probably the ruins at Horbat Qana, where most of 33 reference works place it; a few favour Kafr Kanna.",
+    "other_proposed_sites": "Kefr Kenna; Ain Qana",
+    "sources_surveyed": 33,
+    "gospels_acts_verses": "John.2.1 John.2.11 John.4.46 John.21.2",
+    "books": "John",
+    "wikidata": "https://www.wikidata.org/wiki/Q431382",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a031bda"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.52821,
+     32.38152
+    ]
+   },
+   "properties": {
+    "id": "a112fe3",
+    "name_en": "Aenon",
+    "name_ar": "عَيْنِ نُونٍ",
+    "name_de": "Enon",
+    "name_es": "Enón",
+    "name_fr": "Énon",
+    "name_it": "Enon",
+    "name_nl": "Enon",
+    "name_pt": "Enom",
+    "name_ru": "Енон",
+    "name_zh": "哀嫩",
+    "name_ja": "アイノン",
+    "name_kjv": "Ænon",
+    "site_today": "Umm el Umdan",
+    "openbible_score": 276,
+    "certainty": "unsure",
+    "certainty_note": "Nobody knows. Of 23 reference works, the most favour Umm el-Umdan; others suggest Khirbet Einun.",
+    "other_proposed_sites": "Khirbet Einun; Aenon; Khirbet Khishash ed Deir; Salim",
+    "sources_surveyed": 23,
+    "gospels_acts_verses": "John.3.23",
+    "books": "John",
+    "pleiades": "https://pleiades.stoa.org/places/678003",
+    "wikidata": "https://www.wikidata.org/wiki/Q5977371",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a112fe3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.52639,
+     32.39917
+    ]
+   },
+   "properties": {
+    "id": "a86e0b0",
+    "name_en": "Salim",
+    "name_ar": "سَالِيمَ",
+    "name_de": "Salim",
+    "name_es": "Salim",
+    "name_fr": "Salim",
+    "name_it": "Salim",
+    "name_nl": "Salim",
+    "name_pt": "Salim",
+    "name_ru": "Салим",
+    "name_zh": "撒冷",
+    "name_ja": "サリム",
+    "name_kjv": "Salim",
+    "site_today": "Tel Shalem",
+    "openbible_score": 215,
+    "certainty": "unsure",
+    "certainty_note": "Nobody knows. Of 23 reference works, the most favour Tel Shalem; others suggest the village of Salim.",
+    "other_proposed_sites": "Salim; Tell Abu Sus; Umm el Umdan; Wadi Saleim; Aenon",
+    "sources_surveyed": 23,
+    "gospels_acts_verses": "John.3.23",
+    "books": "John",
+    "wikidata": "https://www.wikidata.org/wiki/Q12058546",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a86e0b0"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.28897,
+     32.21776
+    ]
+   },
+   "properties": {
+    "id": "a27b472",
+    "name_en": "Sychar",
+    "name_ar": "سُوخَارُ",
+    "name_de": "Sichar",
+    "name_es": "Sichâr",
+    "name_fr": "Sychar",
+    "name_it": "Sichar",
+    "name_nl": "Sichar",
+    "name_pt": "Sicar",
+    "name_ru": "Сихарь",
+    "name_zh": "叙加",
+    "name_ja": "スカル",
+    "name_kjv": "Sychar",
+    "site_today": "Askar",
+    "openbible_score": 620,
+    "certainty": "likely",
+    "certainty_note": "Probably the village of Askar: most of 28 reference works place it there, and some take it to be Shechem itself.",
+    "other_proposed_sites": "Shechem",
+    "sources_surveyed": 28,
+    "gospels_acts_verses": "John.4.5",
+    "books": "John",
+    "wikidata": "https://www.wikidata.org/wiki/Q12971071",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a27b472"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.27278,
+     32.19944
+    ]
+   },
+   "properties": {
+    "id": "a30e967",
+    "name_en": "Mount Gerizim",
+    "name_ar": "جَبَلُ جِرِزِّيمَ",
+    "name_de": "Berg Garizim",
+    "name_es": "Gerizim",
+    "name_fr": "Garizim",
+    "name_it": "Gherizim",
+    "name_nl": "Gerizim",
+    "name_pt": "Monte Gerizim",
+    "name_ru": "Гора Гаризим",
+    "name_zh": "基利心山",
+    "name_ja": "ゲリジム山",
+    "name_kjv": "Mount Gerizim",
+    "site_today": "Mount Gerizim",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Mount Gerizim.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "John.4.20",
+    "books": "John",
+    "pleiades": "https://pleiades.stoa.org/places/678147",
+    "wikidata": "https://www.wikidata.org/wiki/Q1288751",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a30e967"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23583,
+     31.78139
+    ]
+   },
+   "properties": {
+    "id": "a0aa8cf",
+    "name_en": "Bethesda",
+    "name_ar": "بَيْتُ حِسْدَا",
+    "name_de": "Bethesda",
+    "name_es": "Bethesda",
+    "name_fr": "Béthesda",
+    "name_it": "Betesda",
+    "name_nl": "Bethesda",
+    "name_pt": "Betesda",
+    "name_ru": "Вифезда",
+    "name_zh": "毕士大",
+    "name_ja": "ベテスダ",
+    "name_kjv": "Bethesda",
+    "site_today": "Pool of Bethesda",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Pool of Bethesda.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "John.5.2",
+    "books": "John",
+    "wikidata": "https://www.wikidata.org/wiki/Q831297",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a0aa8cf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "aa3d425",
+    "name_en": "Sheep Gate",
+    "name_ar": "بَابِ ٱلضَّأْنِ",
+    "name_de": "Schaftor",
+    "name_es": "Puerta del ganado",
+    "name_fr": "Porte des brebis",
+    "name_it": "Porta delle Pecore",
+    "name_nl": "Schaaps poort",
+    "name_pt": "Porta das ovelhas",
+    "name_ru": "Овечьи ворота",
+    "name_zh": "羊门",
+    "name_ja": "羊の門",
+    "name_kjv": "Sheep Gate",
+    "site_today": "Jerusalem",
+    "openbible_score": 1000,
+    "certainty": "likely",
+    "certainty_note": "It stood inside Jerusalem. The exact spot is not known, so the marker shows Jerusalem.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "John.5.2",
+    "books": "John",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aa3d425"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.54417,
+     32.77361
+    ]
+   },
+   "properties": {
+    "id": "ac9adc9",
+    "name_en": "Tiberias",
+    "name_ar": "طَبَرِيَّةَ",
+    "name_de": "Tiberias",
+    "name_es": "Tiberias",
+    "name_fr": "Tibériade",
+    "name_it": "Tiberiade",
+    "name_nl": "Tiberias",
+    "name_pt": "Tibérias",
+    "name_ru": "Тивериада",
+    "name_zh": "提比哩亚",
+    "name_ja": "テベリヤ",
+    "name_kjv": "Tiberias",
+    "site_today": "Tiberias",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Tiberias.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "John.6.23",
+    "books": "John",
+    "pleiades": "https://pleiades.stoa.org/places/678431",
+    "wikidata": "https://www.wikidata.org/wiki/Q151920",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ac9adc9"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "a47c817",
+    "name_en": "Solomon’s Colonnade",
+    "name_ar": "رِوَاقِ سُلَيْمَانَ",
+    "name_de": "Halle Salomos",
+    "name_es": "Pórtico de Salomón",
+    "name_fr": "Portique de Salomon",
+    "name_it": "Portico di Salomone",
+    "name_nl": "Voorhof van Salomo",
+    "name_pt": "Pórtico de Salomão",
+    "name_ru": "Соломонов притвор",
+    "name_zh": "所罗门的廊",
+    "name_ja": "ソロモンの廊",
+    "name_kjv": "Solomon’s Porch",
+    "site_today": "Jerusalem",
+    "openbible_score": 1000,
+    "certainty": "likely",
+    "certainty_note": "It stood inside Jerusalem. The exact spot is not known, so the marker shows Jerusalem.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "John.10.23 Acts.3.11 Acts.5.12",
+    "books": "John Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q7558533",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a47c817"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.30028,
+     31.95444
+    ]
+   },
+   "properties": {
+    "id": "ad14500",
+    "name_en": "Ephraim",
+    "name_ar": "أَفْرَايِمُ",
+    "name_de": "Ephrem",
+    "name_es": "Ephraim",
+    "name_fr": "Éphraïm",
+    "name_it": "Efraim",
+    "name_nl": "Efraim",
+    "name_pt": "Efraim",
+    "name_ru": "Ефраим",
+    "name_zh": "以法莲",
+    "name_ja": "エフライム",
+    "name_kjv": "Ephraim",
+    "site_today": "Ephraim",
+    "openbible_score": 936,
+    "certainty": "likely",
+    "certainty_note": "Probably the Ephraim of the Old Testament: nearly all of 11 reference works take it so, and the most place that town at Taybeh.",
+    "other_proposed_sites": "Ein Samia; Khirbet Marjame",
+    "sources_surveyed": 11,
+    "gospels_acts_verses": "John.11.54",
+    "books": "John",
+    "pleiades": "https://pleiades.stoa.org/places/687896",
+    "wikidata": "https://www.wikidata.org/wiki/Q5382362",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ad14500"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.24,
+     31.78028
+    ]
+   },
+   "properties": {
+    "id": "a553110",
+    "name_en": "Kidron Valley",
+    "name_ar": "وَادِي قَدْرُونَ",
+    "name_de": "Bach Kidron",
+    "name_es": "Arroyo de Cedrón",
+    "name_fr": "Cédron",
+    "name_it": "Chedron",
+    "name_nl": "Beek Kedron",
+    "name_pt": "Cedrom",
+    "name_ru": "поток Кедрон",
+    "name_zh": "汲沦溪",
+    "name_ja": "ケデロンの谷",
+    "name_kjv": "Cedron",
+    "site_today": "Kidron River",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Kidron River.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "John.18.1",
+    "books": "John",
+    "wikidata": "https://www.wikidata.org/wiki/Q860532",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a553110"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.22804,
+     31.77608
+    ]
+   },
+   "properties": {
+    "id": "aec23b1",
+    "name_en": "Gabbatha",
+    "name_ar": "جَبَّاثَا",
+    "name_de": "Gabbatha",
+    "name_es": "Gabbatha",
+    "name_fr": "Gabbatha",
+    "name_it": "Gabbatà",
+    "name_nl": "Gabbatha",
+    "name_pt": "Gabatá",
+    "name_ru": "Гаввафа",
+    "name_zh": "厄巴大",
+    "name_ja": "ガバタ",
+    "name_kjv": "Gabbatha",
+    "site_today": "within 500 m of Herod’s palace",
+    "openbible_score": 605,
+    "certainty": "likely",
+    "certainty_note": "Probably in the courtyard of Herod’s palace in Jerusalem: most of 19 reference works place it within about 500 metres of the palace, and reject the pavement shown under the Convent of the Sisters of Zion.",
+    "other_proposed_sites": "Convent of the Sisters of Zion",
+    "sources_surveyed": 19,
+    "gospels_acts_verses": "John.19.13",
+    "books": "John",
+    "wikidata": "https://www.wikidata.org/wiki/Q1488020",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aec23b1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.3,
+     38.4
+    ]
+   },
+   "properties": {
+    "id": "a197f19",
+    "name_en": "Asia",
+    "name_ar": "أَسِيَّا",
+    "name_de": "Asien",
+    "name_es": "Asia",
+    "name_fr": "Asie",
+    "name_it": "Asia",
+    "name_nl": "Azie",
+    "name_pt": "Ásia",
+    "name_ru": "Асия",
+    "name_zh": "亚细亚",
+    "name_ja": "アジヤ",
+    "name_kjv": "Asia",
+    "site_today": "Asia",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 11,
+    "gospels_acts_verses": "Acts.2.9 Acts.6.9 Acts.16.6 Acts.19.10 Acts.19.22 Acts.19.26 Acts.19.27 Acts.19.31 Acts.20.4 Acts.20.16 Acts.20.18 Acts.21.27 Acts.24.18 Acts.27.2",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/981509",
+    "wikidata": "https://www.wikidata.org/wiki/Q210718",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a197f19"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.83917,
+     38.67056
+    ]
+   },
+   "properties": {
+    "id": "a33fbde",
+    "name_en": "Cappadocia",
+    "name_ar": "كَبَّدُوكِيَّةَ",
+    "name_de": "Kappadozien",
+    "name_es": "Capadocia",
+    "name_fr": "Cappadoce",
+    "name_it": "Cappadocia",
+    "name_nl": "Cappadocie",
+    "name_pt": "Capadócia",
+    "name_ru": "Каппадокия",
+    "name_zh": "加帕多家",
+    "name_ja": "カパドキヤ",
+    "name_kjv": "Cappadocia",
+    "site_today": "Cappadocia",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 15,
+    "gospels_acts_verses": "Acts.2.9",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/628949",
+    "wikidata": "https://www.wikidata.org/wiki/Q33490",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a33fbde"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.03278,
+     36.86444
+    ]
+   },
+   "properties": {
+    "id": "a43f60f",
+    "name_en": "Mesopotamia",
+    "name_ar": "مَا بَيْنَ ٱلنَّهْرَيْنِ",
+    "name_de": "Mesopotamien",
+    "name_es": "Mesopotamia",
+    "name_fr": "Mésopotamie",
+    "name_it": "Mesopotamia",
+    "name_nl": "Mesopotamie",
+    "name_pt": "Mesopotâmia",
+    "name_ru": "Месопотамия",
+    "name_zh": "美索不达米亚",
+    "name_ja": "メソポタミヤ",
+    "name_kjv": "Mesopotamia",
+    "label_lat": 35.5,
+    "label_lon": 41.5,
+    "site_today": "Haran",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 14,
+    "gospels_acts_verses": "Acts.2.9 Acts.7.2",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q11767",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a43f60f"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.83,
+     40.68
+    ]
+   },
+   "properties": {
+    "id": "a83a43e",
+    "name_en": "Pontus",
+    "name_ar": "بُنْتُسَ",
+    "name_de": "Pontus",
+    "name_es": "Ponto",
+    "name_fr": "Pont",
+    "name_it": "Ponto",
+    "name_nl": "Pontus",
+    "name_pt": "Ponto",
+    "name_ru": "Понт",
+    "name_zh": "本都",
+    "name_ja": "ポント",
+    "name_kjv": "Pontus",
+    "site_today": "Pontus",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 12,
+    "gospels_acts_verses": "Acts.2.9 Acts.18.2",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/857287",
+    "wikidata": "https://www.wikidata.org/wiki/Q621672",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a83a43e"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     21.85123,
+     32.82095
+    ]
+   },
+   "properties": {
+    "id": "ac12af9",
+    "name_en": "Libya",
+    "name_ar": "لِيبِيَّةَ",
+    "name_de": "Lybien",
+    "name_es": "Libia",
+    "name_fr": "Libye",
+    "name_it": "Libia",
+    "name_nl": "Libye",
+    "name_pt": "Líbia",
+    "name_ru": "Ливия",
+    "name_zh": "利比亚",
+    "name_ja": "リビヤ",
+    "name_kjv": "Libya",
+    "label_lat": 31.8,
+    "label_lon": 21.0,
+    "site_today": "Cyrene",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.2.10",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/716588",
+    "wikidata": "https://www.wikidata.org/wiki/Q2370577",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ac12af9"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.0,
+     37.0
+    ]
+   },
+   "properties": {
+    "id": "aa95188",
+    "name_en": "Pamphylia",
+    "name_ar": "بَمْفِيلِيَّةَ",
+    "name_de": "Pamphylien",
+    "name_es": "Pamphylia",
+    "name_fr": "Pamphylie",
+    "name_it": "Panfilia",
+    "name_nl": "Pamfylie",
+    "name_pt": "Panfília",
+    "name_ru": "Памфилия",
+    "name_zh": "旁非利亚",
+    "name_ja": "パンフリヤ",
+    "name_kjv": "Pamphylia",
+    "site_today": "Pamphylia",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.2.10 Acts.13.13 Acts.14.24 Acts.15.38 Acts.27.5",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/1001913",
+    "wikidata": "https://www.wikidata.org/wiki/Q585250",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aa95188"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.0,
+     39.0
+    ]
+   },
+   "properties": {
+    "id": "ab8ae56",
+    "name_en": "Phrygia",
+    "name_ar": "فِرِيجِيَّةَ",
+    "name_de": "Phrygien",
+    "name_es": "Phrygia",
+    "name_fr": "Phrygie",
+    "name_it": "Frigia",
+    "name_nl": "Frygie",
+    "name_pt": "Frígia",
+    "name_ru": "Фригия",
+    "name_zh": "弗吕家",
+    "name_ja": "フルギヤ",
+    "name_kjv": "Phrygia",
+    "site_today": "Phrygia",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.2.10 Acts.16.6 Acts.18.23",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/991386",
+    "wikidata": "https://www.wikidata.org/wiki/Q32579",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ab8ae56"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.4852,
+     41.8922
+    ]
+   },
+   "properties": {
+    "id": "afc8e7a",
+    "name_en": "Rome",
+    "name_ar": "رُومِيَةَ",
+    "name_de": "Rom",
+    "name_es": "Roma",
+    "name_fr": "Rome",
+    "name_it": "Roma",
+    "name_nl": "Rome",
+    "name_pt": "Roma",
+    "name_ru": "Рим",
+    "name_zh": "罗马",
+    "name_ja": "ローマ",
+    "name_kjv": "Rome",
+    "site_today": "Rome",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Rome.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.2.10 Acts.18.2 Acts.19.21 Acts.19.40 Acts.23.11 Acts.25.25 Acts.25.27 Acts.28.14 Acts.28.15 Acts.28.16 Acts.28.30",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/423025",
+    "wikidata": "https://www.wikidata.org/wiki/Q220",
+    "openbible_url": "https://www.openbible.info/geo/ancient/afc8e7a",
+    "pauls_journeys": "rome:14"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "a5c37fd",
+    "name_en": "Beautiful Gate",
+    "name_ar": "بَابُ ٱلْهَيْكَلِ ٱلْجَمِيلِ",
+    "name_de": "Schöne Tür",
+    "name_es": "Hermosa",
+    "name_fr": "Belle porte",
+    "name_it": "Porta Bella",
+    "name_nl": "Schone poort",
+    "name_pt": "Porta Formosa",
+    "name_ru": "Красные двери",
+    "name_zh": "美门",
+    "name_ja": "美しの門",
+    "name_kjv": "Beautiful Gate",
+    "site_today": "Jerusalem",
+    "openbible_score": 1000,
+    "certainty": "likely",
+    "certainty_note": "It stood inside Jerusalem. The exact spot is not known, so the marker shows Jerusalem.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.3.2 Acts.3.10",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q4877716",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a5c37fd"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.0,
+     35.0
+    ]
+   },
+   "properties": {
+    "id": "a2e7601",
+    "name_en": "Cyprus",
+    "name_ar": "قُبْرُسَ",
+    "name_de": "Zypern",
+    "name_es": "Cipro",
+    "name_fr": "Chypre",
+    "name_it": "Cipro",
+    "name_nl": "Cyprus",
+    "name_pt": "Chipre",
+    "name_ru": "Кипр",
+    "name_zh": "塞浦路斯",
+    "name_ja": "クプロ",
+    "name_kjv": "Cyprus",
+    "site_today": "Cyprus",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Cyprus.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.4.36 Acts.11.19 Acts.11.20 Acts.13.4 Acts.15.39 Acts.21.3 Acts.21.16 Acts.27.4",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/707498",
+    "wikidata": "https://www.wikidata.org/wiki/Q229",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a2e7601"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.17174,
+     36.22669
+    ]
+   },
+   "properties": {
+    "id": "ae41ab4",
+    "name_en": "Antioch",
+    "name_ar": "أَنْطَاكِيَةَ",
+    "name_de": "Antiochien",
+    "name_es": "Antioquía",
+    "name_fr": "Antioche",
+    "name_it": "Antiochia",
+    "name_nl": "Antiochie",
+    "name_pt": "Antioquia",
+    "name_ru": "Антиохия",
+    "name_zh": "安提阿",
+    "name_ja": "アンテオケ",
+    "name_kjv": "Antioch",
+    "site_today": "Antioch on the Orontes",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Antioch on the Orontes.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.6.5 Acts.11.19 Acts.11.20 Acts.11.22 Acts.11.26 Acts.11.27 Acts.11.29 Acts.13.1 Acts.14.26 Acts.14.27 Acts.15.1 Acts.15.22 Acts.15.23 Acts.15.30 Acts.15.35 Acts.18.22 Acts.18.23",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/658381",
+    "wikidata": "https://www.wikidata.org/wiki/Q200441",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ae41ab4",
+    "pauls_journeys": "first:1 first:15 second:1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.8965,
+     31.1825
+    ]
+   },
+   "properties": {
+    "id": "aee7248",
+    "name_en": "Alexandria",
+    "name_de": "Alexandrien",
+    "name_es": "Alejandría",
+    "name_fr": "Alexandrie",
+    "name_it": "Alessandria",
+    "name_nl": "Alexandrie",
+    "name_pt": "Alexandria",
+    "name_ru": "Александрия",
+    "name_zh": "亚历山大",
+    "name_ja": "アレキサンドリヤ",
+    "name_kjv": "Alexandria",
+    "site_today": "Alexandria",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Alexandria.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.6.9 Acts.18.24 Acts.27.6 Acts.28.11",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/727070",
+    "wikidata": "https://www.wikidata.org/wiki/Q87",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aee7248"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.89206,
+     36.91303
+    ]
+   },
+   "properties": {
+    "id": "ad63819",
+    "name_en": "Cilicia",
+    "name_ar": "كِيلِيكِيَّةَ",
+    "name_de": "Zilizien",
+    "name_es": "Cilicia",
+    "name_fr": "Cilicie",
+    "name_it": "Cilicia",
+    "name_nl": "Cilicie",
+    "name_pt": "Cilícia",
+    "name_ru": "Киликия",
+    "name_zh": "基利家",
+    "name_ja": "キリキヤ",
+    "name_kjv": "Cilicia",
+    "label_lat": 37.1,
+    "label_lon": 35.3,
+    "site_today": "Tarsus",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 16,
+    "gospels_acts_verses": "Acts.6.9 Acts.15.23 Acts.15.41 Acts.21.39 Acts.22.3 Acts.23.34 Acts.27.5",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q4819648",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ad63819"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.03278,
+     36.86444
+    ]
+   },
+   "properties": {
+    "id": "a6d9af3",
+    "name_en": "Haran",
+    "name_ar": "حَارَانَ",
+    "name_de": "Haran",
+    "name_es": "Chârán",
+    "name_fr": "Charran",
+    "name_it": "Carran",
+    "name_nl": "Charran",
+    "name_pt": "Harã",
+    "name_ru": "Харран",
+    "name_zh": "哈兰",
+    "name_ja": "カラン",
+    "name_kjv": "Charran",
+    "site_today": "Harran",
+    "openbible_score": 922,
+    "certainty": "sure",
+    "certainty_note": "Not in doubt: all 30 reference works place it at Harran in south-east Turkey.",
+    "sources_surveyed": 30,
+    "gospels_acts_verses": "Acts.7.2 Acts.7.4",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/658427",
+    "wikidata": "https://www.wikidata.org/wiki/Q199547",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a6d9af3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     46.10444,
+     30.96222
+    ]
+   },
+   "properties": {
+    "id": "a32a4f8",
+    "name_en": "Chaldea",
+    "name_ar": "أَرْضُ ٱلْكَلْدَانِيِّينَ",
+    "name_de": "Chaldäa",
+    "name_es": "Caldea",
+    "name_fr": "Chaldée",
+    "name_it": "Caldea",
+    "name_nl": "Chaldea",
+    "name_pt": "Caldeia",
+    "name_ru": "Халдея",
+    "name_zh": "迦勒底",
+    "name_ja": "カルデヤ",
+    "name_kjv": "Chaldea",
+    "site_today": "Chaldea",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 9,
+    "gospels_acts_verses": "Acts.7.4",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q200969",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a32a4f8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.28194,
+     32.21361
+    ]
+   },
+   "properties": {
+    "id": "adf74d4",
+    "name_en": "Shechem",
+    "name_ar": "شَكِيمَ",
+    "name_de": "Sichem",
+    "name_es": "Sichêm",
+    "name_fr": "Sichem",
+    "name_it": "Sichem",
+    "name_nl": "Sichem",
+    "name_pt": "Siquém",
+    "name_ru": "Сихем",
+    "name_zh": "示剑",
+    "name_ja": "シケム",
+    "name_kjv": "Sychem",
+    "site_today": "Tell Balatah",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Tell Balatah.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.7.16",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/678403",
+    "wikidata": "https://www.wikidata.org/wiki/Q7951237",
+    "openbible_url": "https://www.openbible.info/geo/ancient/adf74d4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.0122,
+     28.4947
+    ]
+   },
+   "properties": {
+    "id": "acc6d8e",
+    "name_en": "Midian",
+    "name_ar": "مَدْيَانَ",
+    "name_de": "Midian",
+    "name_es": "Madián",
+    "name_fr": "Madian",
+    "name_it": "Madian",
+    "name_nl": "Madiam",
+    "name_pt": "Midiã",
+    "name_ru": "Мадиам",
+    "name_zh": "米甸",
+    "name_ja": "ミデアン",
+    "name_kjv": "Madian",
+    "site_today": "Midian",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 25,
+    "gospels_acts_verses": "Acts.7.29",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/746776",
+    "wikidata": "https://www.wikidata.org/wiki/Q851761",
+    "openbible_url": "https://www.openbible.info/geo/ancient/acc6d8e"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.97333,
+     28.53972
+    ]
+   },
+   "properties": {
+    "id": "abfba2a",
+    "name_en": "Mount Sinai",
+    "name_ar": "جَبَلِ سِينَاءَ",
+    "name_de": "Berg Sinai",
+    "name_es": "Monte Sina",
+    "name_fr": "Montagne de Sinaï",
+    "name_it": "Monte Sinai",
+    "name_nl": "Berg Sinai",
+    "name_pt": "Monte Sinai",
+    "name_ru": "Гора Синай",
+    "name_zh": "西奈山",
+    "name_ja": "シナイ山",
+    "name_kjv": "Mount Sina",
+    "site_today": "Jebel Musa",
+    "openbible_score": 465,
+    "certainty": "unsure",
+    "certainty_note": "Nobody knows. Of 36 reference works, the most favour Jebel Musa in southern Sinai, the mountain of long tradition; others suggest Har Karkom or Jebel Sin Bishar. Our Mount Sinai map sets out nine mountains that have been proposed.",
+    "other_proposed_sites": "Har Karkom; Jebel Sin Bishar; Ras es Safsafeh; Jebel Serbal; Jebel Katherina; Jebel Hashem el Tarif",
+    "sources_surveyed": 36,
+    "gospels_acts_verses": "Acts.7.30 Acts.7.38",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q377485",
+    "openbible_url": "https://www.openbible.info/geo/ancient/abfba2a"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.0,
+     28.75
+    ]
+   },
+   "properties": {
+    "id": "a3d18b2",
+    "name_en": "Red Sea",
+    "name_ar": "ٱلْبَحْرِ ٱلْأَحْمَرِ",
+    "name_de": "Rotes Meer",
+    "name_es": "Mar Bermejo",
+    "name_fr": "Mer Rouge",
+    "name_it": "Mar Rosso",
+    "name_nl": "Rode zee",
+    "name_pt": "Mar Vermelho",
+    "name_ru": "Чермное море",
+    "name_zh": "红海",
+    "name_ja": "紅海",
+    "name_kjv": "Red Sea",
+    "site_today": "Gulf of Suez",
+    "openbible_score": 369,
+    "certainty": "unsure",
+    "certainty_note": "Not settled. Twenty-nine reference works divide between the Gulf of Suez, the Bitter Lakes, Lake Timsah and the Ballah Lakes for the crossing of the sea.",
+    "other_proposed_sites": "Bitter Lakes; Lake Timsah; Ballah Lakes; Gulf of Aqaba; Pelusiac branch of the Nile; Lake Manzala",
+    "sources_surveyed": 29,
+    "gospels_acts_verses": "Acts.7.36",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q116702",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a3d18b2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.4644,
+     31.504
+    ]
+   },
+   "properties": {
+    "id": "aa8edd2",
+    "name_en": "Gaza",
+    "name_ar": "غَزَّةَ",
+    "name_de": "Gaza",
+    "name_es": "Gaza",
+    "name_fr": "Gaza",
+    "name_it": "Gaza",
+    "name_nl": "Gaza",
+    "name_pt": "Gaza",
+    "name_ru": "Газа",
+    "name_zh": "迦萨",
+    "name_ja": "ガザ",
+    "name_kjv": "Gaza",
+    "site_today": "Tell Harube",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Tell Harube.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.8.26",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/687902",
+    "wikidata": "https://www.wikidata.org/wiki/Q47492",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aa8edd2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.75075,
+     16.93514
+    ]
+   },
+   "properties": {
+    "id": "ab45bd3",
+    "name_en": "Ethiopians",
+    "name_ar": "ٱلْحَبَشَةُ",
+    "name_de": "Mohrenland",
+    "name_es": "Etiopía",
+    "name_fr": "Éthiopie",
+    "name_it": "Etiopia",
+    "name_nl": "Moren",
+    "name_pt": "Etiópia",
+    "name_ru": "Ефиопия",
+    "name_zh": "衣索匹亚",
+    "name_ja": "エチオピヤ",
+    "name_kjv": "Ethiopia",
+    "site_today": "Meroe",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 7,
+    "gospels_acts_verses": "Acts.8.27",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q410453",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ab45bd3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.6578,
+     31.7572
+    ]
+   },
+   "properties": {
+    "id": "a30c937",
+    "name_en": "Ashdod",
+    "name_ar": "أَشْدُودَ",
+    "name_de": "Asdod",
+    "name_es": "Azoto",
+    "name_fr": "Azot",
+    "name_it": "Azot",
+    "name_nl": "Azote",
+    "name_pt": "Azoto",
+    "name_ru": "Азот",
+    "name_zh": "亚锁都",
+    "name_ja": "アゾト",
+    "name_kjv": "Ashdod",
+    "site_today": "Tel Ashdod",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Tel Ashdod.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.8.40",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/687838",
+    "wikidata": "https://www.wikidata.org/wiki/Q171639",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a30c937"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.89167,
+     32.5
+    ]
+   },
+   "properties": {
+    "id": "a58735e",
+    "name_en": "Caesarea",
+    "name_ar": "قَيْصَرِيَّةَ",
+    "name_de": "Cäsarea",
+    "name_es": "Cesarea",
+    "name_fr": "Césarée",
+    "name_it": "Cesarea",
+    "name_nl": "Cesarea",
+    "name_pt": "Cesareia",
+    "name_ru": "Кесария",
+    "name_zh": "凯撒利亚",
+    "name_ja": "カイザリヤ",
+    "name_kjv": "Cæsarea",
+    "site_today": "Caesarea Maritima",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Caesarea Maritima.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.8.40 Acts.9.30 Acts.10.1 Acts.10.24 Acts.11.11 Acts.12.19 Acts.18.22 Acts.21.8 Acts.21.16 Acts.23.23 Acts.23.32 Acts.23.33 Acts.24.1 Acts.25.1 Acts.25.4 Acts.25.6 Acts.25.13 Acts.25.24",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/678401",
+    "wikidata": "https://www.wikidata.org/wiki/Q319242",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a58735e",
+    "pauls_journeys": "second:18 third:19 rome:1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.30639,
+     33.51111
+    ]
+   },
+   "properties": {
+    "id": "a69c1d4",
+    "name_en": "Damascus",
+    "name_ar": "دِمَشْقَ",
+    "name_de": "Damaskus",
+    "name_es": "Damasco",
+    "name_fr": "Damas",
+    "name_it": "Damasco",
+    "name_nl": "Damaskus",
+    "name_pt": "Damasco",
+    "name_ru": "Дамаск",
+    "name_zh": "大马士革",
+    "name_ja": "ダマスコ",
+    "name_kjv": "Damascus",
+    "site_today": "Damascus",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Damascus.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.9.2 Acts.9.3 Acts.9.8 Acts.9.10 Acts.9.19 Acts.9.22 Acts.9.27 Acts.22.5 Acts.22.6 Acts.22.10 Acts.22.11 Acts.22.12 Acts.26.12 Acts.26.20",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/245122016",
+    "wikidata": "https://www.wikidata.org/wiki/Q3766",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a69c1d4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.31139,
+     33.50917
+    ]
+   },
+   "properties": {
+    "id": "af23dbb",
+    "name_en": "Straight Street",
+    "name_ar": "ٱلزُّقَاقُ ٱلْمُسْتَقِيمُ",
+    "name_de": "Die gerade Gasse",
+    "name_es": "Derecha",
+    "name_fr": "La rue qu’on appelle la droite",
+    "name_it": "Diritta",
+    "name_nl": "De Rechte",
+    "name_pt": "Rua Direita",
+    "name_ru": "Прямая улица",
+    "name_zh": "直街",
+    "name_ja": "真すぐ",
+    "name_kjv": "Straight",
+    "site_today": "Straight Street",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Straight Street.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.9.11",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q3399016",
+    "openbible_url": "https://www.openbible.info/geo/ancient/af23dbb"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.89206,
+     36.91303
+    ]
+   },
+   "properties": {
+    "id": "a666ea0",
+    "name_en": "Tarsus",
+    "name_ar": "طَرْسُوسَ",
+    "name_de": "Tarsus",
+    "name_es": "Tarso",
+    "name_fr": "Tarse",
+    "name_it": "Tarso",
+    "name_nl": "Tarsen",
+    "name_pt": "Tarso",
+    "name_ru": "Тарс",
+    "name_zh": "大数",
+    "name_ja": "タルソ",
+    "name_kjv": "Tarsus",
+    "site_today": "Tarsus",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Tarsus.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.9.11 Acts.9.30 Acts.11.25 Acts.21.39 Acts.22.3",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/648789",
+    "wikidata": "https://www.wikidata.org/wiki/Q134287",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a666ea0"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.9,
+     31.95
+    ]
+   },
+   "properties": {
+    "id": "a2c5cc7",
+    "name_en": "Lod",
+    "name_ar": "لُدَّةَ",
+    "name_de": "Lydda",
+    "name_es": "Lydda",
+    "name_fr": "Lydde",
+    "name_it": "Lidda",
+    "name_nl": "Lydda",
+    "name_pt": "Lida",
+    "name_ru": "Лидда",
+    "name_zh": "吕大",
+    "name_ja": "ルダ",
+    "name_kjv": "Lod",
+    "site_today": "Lod",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Lod.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.9.32 Acts.9.35 Acts.9.38",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q207540",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a2c5cc7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.883,
+     32.4
+    ]
+   },
+   "properties": {
+    "id": "a83fd43",
+    "name_en": "Sharon",
+    "name_ar": "سَارُونَ",
+    "name_de": "Saron",
+    "name_es": "Sarona",
+    "name_fr": "Saron",
+    "name_it": "Saron",
+    "name_nl": "Sarona",
+    "name_pt": "Sarona",
+    "name_ru": "Сарон",
+    "name_ja": "サロン",
+    "name_kjv": "Saron",
+    "site_today": "Sharon Plain",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.9.35",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q218907",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a83fd43"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.75304,
+     32.05448
+    ]
+   },
+   "properties": {
+    "id": "ae023a9",
+    "name_en": "Joppa",
+    "name_ar": "يَافَا",
+    "name_de": "Joppe",
+    "name_es": "Joppe",
+    "name_fr": "Joppé",
+    "name_it": "Ioppe",
+    "name_nl": "Joppe",
+    "name_pt": "Jope",
+    "name_ru": "Иоппия",
+    "name_zh": "约帕",
+    "name_ja": "ヨッパ",
+    "name_kjv": "Joppa",
+    "site_today": "Jaffa",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Jaffa.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.9.36 Acts.9.38 Acts.9.42 Acts.9.43 Acts.10.5 Acts.10.8 Acts.10.23 Acts.10.32 Acts.11.5 Acts.11.13",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q180294",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ae023a9"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.922,
+     36.124
+    ]
+   },
+   "properties": {
+    "id": "a6d306d",
+    "name_en": "Seleucia",
+    "name_ar": "سَلُوكِيَةَ",
+    "name_de": "Seleucia",
+    "name_es": "Seleucia",
+    "name_fr": "Séleucie",
+    "name_it": "Seleucia",
+    "name_nl": "Seleucie",
+    "name_pt": "Selêucia",
+    "name_ru": "Селевкия",
+    "name_zh": "西流基",
+    "name_ja": "セルキヤ",
+    "name_kjv": "Seleucia",
+    "site_today": "Seleucia Pieria",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Seleucia Pieria.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.13.4",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/658483",
+    "wikidata": "https://www.wikidata.org/wiki/Q1605894",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a6d306d",
+    "pauls_journeys": "first:2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.90194,
+     35.18494
+    ]
+   },
+   "properties": {
+    "id": "afa863b",
+    "name_en": "Salamis",
+    "name_ar": "سَلَامِيسَ",
+    "name_de": "Salamis",
+    "name_es": "Salamina",
+    "name_fr": "Salamine",
+    "name_it": "Salamina",
+    "name_nl": "Salamis",
+    "name_pt": "Salamina",
+    "name_ru": "Саламин",
+    "name_zh": "撒拉米",
+    "name_ja": "サラミス",
+    "name_kjv": "Salamis",
+    "site_today": "Salamis",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Salamis.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.13.5",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/707617",
+    "wikidata": "https://www.wikidata.org/wiki/Q767089",
+    "openbible_url": "https://www.openbible.info/geo/ancient/afa863b",
+    "pauls_journeys": "first:3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.40417,
+     34.75567
+    ]
+   },
+   "properties": {
+    "id": "a314765",
+    "name_en": "Paphos",
+    "name_ar": "بَافُوسَ",
+    "name_de": "Paphos",
+    "name_es": "Papho",
+    "name_fr": "Paphos",
+    "name_it": "Pafo",
+    "name_nl": "Pafos",
+    "name_pt": "Pafo",
+    "name_ru": "Паф",
+    "name_zh": "帕弗",
+    "name_ja": "パポス",
+    "name_kjv": "Paphos",
+    "site_today": "New Paphos",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: New Paphos.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.13.6 Acts.13.13",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/707586",
+    "wikidata": "https://www.wikidata.org/wiki/Q180918",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a314765",
+    "pauls_journeys": "first:4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.85369,
+     36.96035
+    ]
+   },
+   "properties": {
+    "id": "aff04b8",
+    "name_en": "Perga",
+    "name_ar": "بَرْجَةَ",
+    "name_de": "Perge",
+    "name_es": "Perge",
+    "name_fr": "Perge",
+    "name_it": "Perga",
+    "name_nl": "Perge",
+    "name_pt": "Perges",
+    "name_ru": "Пергия",
+    "name_zh": "别加",
+    "name_ja": "ペルガ",
+    "name_kjv": "Perga",
+    "site_today": "Perga",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Perga.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.13.13 Acts.13.14 Acts.14.25",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/639048",
+    "wikidata": "https://www.wikidata.org/wiki/Q719815",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aff04b8",
+    "pauls_journeys": "first:5 first:13"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.18917,
+     38.30611
+    ]
+   },
+   "properties": {
+    "id": "a6c704a",
+    "name_en": "Pisidian Antioch",
+    "name_ar": "أَنْطَاكِيَةُ بِيسِيدِيَّةَ",
+    "name_de": "Antiochien im Lande Pisidien",
+    "name_es": "Antioquía de Pisidia",
+    "name_fr": "Antioche de Pisidie",
+    "name_it": "Antiochia di Pisidia",
+    "name_nl": "Antiochie in Pisidie",
+    "name_pt": "Antioquia, cidade da Pisídia",
+    "name_ru": "Антиохия Писидийская",
+    "name_zh": "彼西底的安提阿",
+    "name_ja": "ピシデヤのアンテオケ",
+    "name_kjv": "Antioch in Pisidia",
+    "site_today": "Antioch in Pisidia",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Antioch in Pisidia.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.13.14 Acts.14.19 Acts.14.21",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/609307",
+    "wikidata": "https://www.wikidata.org/wiki/Q579468",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a6c704a",
+    "pauls_journeys": "first:6 first:12 second:5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.18917,
+     38.30611
+    ]
+   },
+   "properties": {
+    "id": "a55aded",
+    "name_en": "Pisidia",
+    "name_ar": "بِيسِيدِيَّةَ",
+    "name_de": "Pisidien",
+    "name_es": "Pisidia",
+    "name_fr": "Pisidie",
+    "name_it": "Pisidia",
+    "name_nl": "Pisidie",
+    "name_pt": "Pisídia",
+    "name_ru": "Писидия",
+    "name_zh": "彼西底",
+    "name_ja": "ピシデヤ",
+    "name_kjv": "Pisidia",
+    "label_lat": 37.9,
+    "label_lon": 30.9,
+    "site_today": "Antioch",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 23,
+    "gospels_acts_verses": "Acts.13.14 Acts.14.24",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/639060",
+    "wikidata": "https://www.wikidata.org/wiki/Q621805",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a55aded"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.49233,
+     37.8722
+    ]
+   },
+   "properties": {
+    "id": "ae425aa",
+    "name_en": "Iconium",
+    "name_ar": "إِيقُونِيَةَ",
+    "name_de": "Ikonion",
+    "name_es": "Iconio",
+    "name_fr": "Icone",
+    "name_it": "Iconio",
+    "name_nl": "Ikonium",
+    "name_pt": "Icônio",
+    "name_ru": "Иконий",
+    "name_zh": "以哥念",
+    "name_ja": "イコニオム",
+    "name_kjv": "Iconium",
+    "site_today": "Konya",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Konya.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.13.51 Acts.14.1 Acts.14.19 Acts.14.21 Acts.16.2",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/648647",
+    "wikidata": "https://www.wikidata.org/wiki/Q79857",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ae425aa",
+    "pauls_journeys": "first:7 first:11 second:4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.36145,
+     37.34857
+    ]
+   },
+   "properties": {
+    "id": "aa401a9",
+    "name_en": "Derbe",
+    "name_ar": "دَرْبَةَ",
+    "name_de": "Derbe",
+    "name_es": "Derbe",
+    "name_fr": "Derbe",
+    "name_it": "Derba",
+    "name_nl": "Derbe",
+    "name_pt": "Derbe",
+    "name_ru": "Дервия",
+    "name_zh": "特庇",
+    "name_ja": "デルベ",
+    "name_kjv": "Derbe",
+    "site_today": "Kerti Hüyük",
+    "openbible_score": 860,
+    "certainty": "likely",
+    "certainty_note": "Probably Kerti Hüyük, where most of 25 reference works place it.",
+    "other_proposed_sites": "Devri Şehri; Güdelisin",
+    "sources_surveyed": 25,
+    "gospels_acts_verses": "Acts.14.6 Acts.14.20 Acts.14.21 Acts.16.1 Acts.20.4",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/648620",
+    "wikidata": "https://www.wikidata.org/wiki/Q20717624",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aa401a9",
+    "pauls_journeys": "first:9 second:2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.0,
+     38.0
+    ]
+   },
+   "properties": {
+    "id": "a3668b6",
+    "name_en": "Lycaonian cities",
+    "name_ar": "لِيكَأُونِيَّةَ",
+    "name_de": "Lykaonien",
+    "name_es": "Licaonia",
+    "name_fr": "Lycaonie",
+    "name_it": "Licaonia",
+    "name_nl": "Lykaonie",
+    "name_pt": "Licaônia",
+    "name_ru": "Города Ликаонские",
+    "name_zh": "吕高尼",
+    "name_ja": "ルカオニヤ",
+    "name_kjv": "Lycaonia",
+    "site_today": "Lycaonia",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 22,
+    "gospels_acts_verses": "Acts.14.6 Acts.14.11",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/1001911",
+    "wikidata": "https://www.wikidata.org/wiki/Q622598",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a3668b6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.3384,
+     37.6017
+    ]
+   },
+   "properties": {
+    "id": "af0719d",
+    "name_en": "Lystra",
+    "name_ar": "لِسْتِرَةَ",
+    "name_de": "Lystra",
+    "name_es": "Listra",
+    "name_fr": "Lystre",
+    "name_it": "Listra",
+    "name_nl": "Lystre",
+    "name_pt": "Listra",
+    "name_ru": "Листра",
+    "name_zh": "路司得",
+    "name_ja": "ルステラ",
+    "name_kjv": "Lystra",
+    "site_today": "Tel Lystra",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Tel Lystra.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.14.6 Acts.14.8 Acts.14.21 Acts.16.1 Acts.16.2",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/648699",
+    "wikidata": "https://www.wikidata.org/wiki/Q535982",
+    "openbible_url": "https://www.openbible.info/geo/ancient/af0719d",
+    "pauls_journeys": "first:8 first:10 second:3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.70361,
+     36.88127
+    ]
+   },
+   "properties": {
+    "id": "ac744c1",
+    "name_en": "Attalia",
+    "name_ar": "أَتَّالِيَةَ",
+    "name_de": "Attalien",
+    "name_es": "Atalia",
+    "name_fr": "Attalie",
+    "name_it": "Attalia",
+    "name_nl": "Attalie",
+    "name_pt": "Atália",
+    "name_ru": "Атталия",
+    "name_zh": "亚大利",
+    "name_ja": "アタリヤ",
+    "name_kjv": "Attalia",
+    "site_today": "Antalya",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Antalya.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.14.25 Acts.14.26",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/638778",
+    "wikidata": "https://www.wikidata.org/wiki/Q6487",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ac744c1",
+    "pauls_journeys": "first:14"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.98333,
+     39.26667
+    ]
+   },
+   "properties": {
+    "id": "a0f440a",
+    "name_en": "Galatia",
+    "name_ar": "غَلَاطِيَّةَ",
+    "name_de": "Galatien",
+    "name_es": "Galacia",
+    "name_fr": "Galatie",
+    "name_it": "Galazia",
+    "name_nl": "Galatie",
+    "name_pt": "Galácia",
+    "name_ru": "Галатия",
+    "name_zh": "加拉太",
+    "name_ja": "ガラテヤ",
+    "name_kjv": "Galatia",
+    "site_today": "Galatia",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 8,
+    "gospels_acts_verses": "Acts.16.6 Acts.18.23",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/991393",
+    "wikidata": "https://www.wikidata.org/wiki/Q1249412",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a0f440a"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.0,
+     40.5
+    ]
+   },
+   "properties": {
+    "id": "a5c0cb0",
+    "name_en": "Bithynia",
+    "name_ar": "بِثِينِيَّةَ",
+    "name_de": "Bithynien",
+    "name_es": "Bithynia",
+    "name_fr": "Bithynie",
+    "name_it": "Bitinia",
+    "name_nl": "Bithynie",
+    "name_pt": "Bitínia",
+    "name_ru": "Вифиния",
+    "name_zh": "庇推尼",
+    "name_ja": "ビテニヤ",
+    "name_kjv": "Bithynia",
+    "site_today": "Bithynia",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 15,
+    "gospels_acts_verses": "Acts.16.7",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/991389",
+    "wikidata": "https://www.wikidata.org/wiki/Q373189",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a5c0cb0"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.5,
+     40.0
+    ]
+   },
+   "properties": {
+    "id": "a2d9bc8",
+    "name_en": "Mysia",
+    "name_ar": "مِيسِيَّا",
+    "name_de": "Mysien",
+    "name_es": "Misia",
+    "name_fr": "Mysie",
+    "name_it": "Misia",
+    "name_nl": "Mysie",
+    "name_pt": "Mísia",
+    "name_ru": "Мисия",
+    "name_zh": "每西亚",
+    "name_ja": "ムシヤ",
+    "name_kjv": "Mysia",
+    "site_today": "Mysia",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.16.7 Acts.16.8",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/511328",
+    "wikidata": "https://www.wikidata.org/wiki/Q622319",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a2d9bc8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.15861,
+     39.75194
+    ]
+   },
+   "properties": {
+    "id": "a91c509",
+    "name_en": "Troas",
+    "name_ar": "تَرُوَاسَ",
+    "name_de": "Troas",
+    "name_es": "Troas",
+    "name_fr": "Troas",
+    "name_it": "Troas",
+    "name_nl": "Troas",
+    "name_pt": "Trôade",
+    "name_ru": "Троада",
+    "name_zh": "特罗亚",
+    "name_ja": "トロアス",
+    "name_kjv": "Troas",
+    "site_today": "Alexandria Troas",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Alexandria Troas.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.16.8 Acts.16.11 Acts.20.5 Acts.20.6",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q1393407",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a91c509",
+    "pauls_journeys": "second:6 third:4 third:8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.72674,
+     37.97185
+    ]
+   },
+   "properties": {
+    "id": "a4492a0",
+    "name_en": "Greece",
+    "name_ar": "هَلَّاسَ",
+    "name_de": "Griechenland",
+    "name_es": "Grecia",
+    "name_fr": "Grèce",
+    "name_it": "Grecia",
+    "name_nl": "Griekenland",
+    "name_pt": "Grécia",
+    "name_ru": "Еллада",
+    "name_zh": "希腊",
+    "name_ja": "ギリシヤ",
+    "name_kjv": "Greece",
+    "label_lat": 39.3,
+    "label_lon": 22.0,
+    "site_today": "Athens",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.16.9 Acts.20.2",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q41",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a4492a0"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.54,
+     41.6
+    ]
+   },
+   "properties": {
+    "id": "a69e1b8",
+    "name_en": "Macedonia",
+    "name_ar": "مَكِدُونِيَّةَ",
+    "name_de": "Mazedonien",
+    "name_es": "Macedonia",
+    "name_fr": "Macédoine",
+    "name_it": "Macedonia",
+    "name_nl": "Macedonie",
+    "name_pt": "Macedônia",
+    "name_ru": "Македония",
+    "name_zh": "马其顿",
+    "name_ja": "マケドニヤ",
+    "name_kjv": "Macedonia",
+    "site_today": "Macedonia",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.16.9 Acts.16.10 Acts.16.12 Acts.18.5 Acts.19.21 Acts.19.22 Acts.19.29 Acts.20.1 Acts.20.3 Acts.20.6",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/981531",
+    "wikidata": "https://www.wikidata.org/wiki/Q207497",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a69e1b8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.415,
+     40.935
+    ]
+   },
+   "properties": {
+    "id": "a6a7150",
+    "name_en": "Neapolis",
+    "name_ar": "نِيَابُولِيسَ",
+    "name_de": "Neapolis",
+    "name_es": "Neápolis",
+    "name_fr": "Néapolis",
+    "name_it": "Neapoli",
+    "name_nl": "Neapolis",
+    "name_pt": "Neápolis",
+    "name_ru": "Неаполь",
+    "name_zh": "尼亚坡里",
+    "name_ja": "ネアポリス",
+    "name_kjv": "Neapolis",
+    "site_today": "Kavala",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Kavala.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.16.11",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/501523",
+    "wikidata": "https://www.wikidata.org/wiki/Q6984309",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a6a7150",
+    "pauls_journeys": "second:8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.58333,
+     40.45
+    ]
+   },
+   "properties": {
+    "id": "a68750d",
+    "name_en": "Samothrace",
+    "name_ar": "سَامُوثْرَاكِي",
+    "name_de": "Samothrazien",
+    "name_es": "Samotracia",
+    "name_fr": "Samothrace",
+    "name_it": "Samotracia",
+    "name_nl": "Samothrace",
+    "name_pt": "Samotrácia",
+    "name_ru": "Самофракия",
+    "name_zh": "撒摩特喇",
+    "name_ja": "サモトラケ",
+    "name_kjv": "Samothracia",
+    "site_today": "Samothraki",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Samothraki.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.16.11",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/501596",
+    "wikidata": "https://www.wikidata.org/wiki/Q203175",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a68750d",
+    "pauls_journeys": "second:7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.28458,
+     41.01207
+    ]
+   },
+   "properties": {
+    "id": "a49e1d0",
+    "name_en": "Philippi",
+    "name_ar": "فِيلِبِّي",
+    "name_de": "Philippi",
+    "name_es": "Filipos",
+    "name_fr": "Philippes",
+    "name_it": "Filippi",
+    "name_nl": "Filippi",
+    "name_pt": "Filipos",
+    "name_ru": "Филиппы",
+    "name_zh": "腓立比",
+    "name_ja": "ピリピ",
+    "name_kjv": "Philippi",
+    "site_today": "Philippi",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Philippi.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.16.12 Acts.20.6",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/501482",
+    "wikidata": "https://www.wikidata.org/wiki/Q379652",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a49e1d0",
+    "pauls_journeys": "second:9 third:5 third:7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.83655,
+     38.92021
+    ]
+   },
+   "properties": {
+    "id": "a94b661",
+    "name_en": "Thyatira",
+    "name_ar": "ثَيَاتِيرَا",
+    "name_de": "Thyatira",
+    "name_es": "Tiatira",
+    "name_fr": "Thyatire",
+    "name_it": "Tiatiri",
+    "name_nl": "Thyatira",
+    "name_pt": "Tiatira",
+    "name_ru": "Фиатир",
+    "name_zh": "推雅推喇",
+    "name_ja": "テアテラ",
+    "name_kjv": "Thyatira",
+    "site_today": "Akhisar",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Akhisar.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.16.14",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/550924",
+    "wikidata": "https://www.wikidata.org/wiki/Q1135603",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a94b661"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.84721,
+     40.82016
+    ]
+   },
+   "properties": {
+    "id": "a4bdea7",
+    "name_en": "Amphipolis",
+    "name_ar": "أَمْفِيبُولِيسَ",
+    "name_de": "Amphipolis",
+    "name_es": "Amphípolis",
+    "name_fr": "Amphipolis",
+    "name_it": "Amfipoli",
+    "name_nl": "Amfipolis",
+    "name_pt": "Anfípolis",
+    "name_ru": "Амфиполь",
+    "name_zh": "暗妃坡里",
+    "name_ja": "アムピポリス",
+    "name_kjv": "Amphipolis",
+    "site_today": "Amphipolis",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Amphipolis.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.17.1",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/501347",
+    "wikidata": "https://www.wikidata.org/wiki/Q217414",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a4bdea7",
+    "pauls_journeys": "second:10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.46968,
+     40.6237
+    ]
+   },
+   "properties": {
+    "id": "ab20df9",
+    "name_en": "Apollonia",
+    "name_ar": "أَبُولُونِيَّةَ",
+    "name_de": "Apollonia",
+    "name_es": "Apolonia",
+    "name_fr": "Apollonie",
+    "name_it": "Apollonia",
+    "name_nl": "Apollonia",
+    "name_pt": "Apolônia",
+    "name_ru": "Аполлония",
+    "name_zh": "亚波罗尼亚",
+    "name_ja": "アポロニヤ",
+    "name_kjv": "Apollonia",
+    "site_today": "Apollonia",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Apollonia.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.17.1",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/491526",
+    "wikidata": "https://www.wikidata.org/wiki/Q2751389",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ab20df9",
+    "pauls_journeys": "second:11"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.94577,
+     40.63777
+    ]
+   },
+   "properties": {
+    "id": "afa9d8e",
+    "name_en": "Thessalonica",
+    "name_ar": "تَسَالُونِيكِي",
+    "name_de": "Thessalonich",
+    "name_es": "Tesalónica",
+    "name_fr": "Thessalonique",
+    "name_it": "Tessalonica",
+    "name_nl": "Thessalonica",
+    "name_pt": "Tessalônica",
+    "name_ru": "Фессалоника",
+    "name_zh": "帖撒罗尼迦",
+    "name_ja": "テサロニケ",
+    "name_kjv": "Thessalonica",
+    "site_today": "Thessaloniki",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Thessaloniki.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.17.1 Acts.17.11 Acts.17.13 Acts.20.4 Acts.27.2",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/115782359",
+    "wikidata": "https://www.wikidata.org/wiki/Q17151",
+    "openbible_url": "https://www.openbible.info/geo/ancient/afa9d8e",
+    "pauls_journeys": "second:12"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.2,
+     40.51833
+    ]
+   },
+   "properties": {
+    "id": "a62fe31",
+    "name_en": "Berea",
+    "name_ar": "بِيرِيَّةَ",
+    "name_de": "Beröa",
+    "name_es": "Berea",
+    "name_fr": "Bérée",
+    "name_it": "Berea",
+    "name_nl": "Berea",
+    "name_pt": "Bereia",
+    "name_ru": "Верия",
+    "name_zh": "庇哩亚",
+    "name_ja": "ベレヤ",
+    "name_kjv": "Berea",
+    "site_today": "Veria",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Veria.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.17.10 Acts.17.11 Acts.17.13 Acts.17.14 Acts.17.15 Acts.20.4",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q15712213",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a62fe31",
+    "pauls_journeys": "second:13"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.72674,
+     37.97185
+    ]
+   },
+   "properties": {
+    "id": "a1fe6e7",
+    "name_en": "Athens",
+    "name_ar": "أَثِينَا",
+    "name_de": "Athen",
+    "name_es": "Atenas",
+    "name_fr": "Athènes",
+    "name_it": "Atene",
+    "name_nl": "Athene",
+    "name_pt": "Atenas",
+    "name_ru": "Афины",
+    "name_zh": "雅典",
+    "name_ja": "アテネ",
+    "name_kjv": "Athens",
+    "site_today": "Athens",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Athens.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.17.15 Acts.17.16 Acts.17.21 Acts.17.22 Acts.18.1",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/579885",
+    "wikidata": "https://www.wikidata.org/wiki/Q1524",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a1fe6e7",
+    "pauls_journeys": "second:14"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.72361,
+     37.97222
+    ]
+   },
+   "properties": {
+    "id": "a815d89",
+    "name_en": "Areopagus",
+    "name_ar": "أَرِيُوسَ بَاغُوسَ",
+    "name_de": "Gerichtsplatz",
+    "name_es": "Areópago",
+    "name_fr": "Aréopage",
+    "name_it": "Areopàgo",
+    "name_nl": "Areopagus",
+    "name_pt": "Areópago",
+    "name_ru": "Ареопаг",
+    "name_zh": "亚略·巴古",
+    "name_ja": "アレオパゴス",
+    "name_kjv": "Areopagus",
+    "site_today": "Areopagus",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Areopagus.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.17.19 Acts.17.22 Acts.17.33",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/969121823",
+    "wikidata": "https://www.wikidata.org/wiki/Q202487",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a815d89"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.87874,
+     37.90579
+    ]
+   },
+   "properties": {
+    "id": "a6f437a",
+    "name_en": "Corinth",
+    "name_ar": "كُورِنْثُوسَ",
+    "name_de": "Korinth",
+    "name_es": "Corinto",
+    "name_fr": "Corinthe",
+    "name_it": "Corinto",
+    "name_nl": "Korinthe",
+    "name_pt": "Corinto",
+    "name_ru": "Коринф",
+    "name_zh": "哥林多",
+    "name_ja": "コリント",
+    "name_kjv": "Corinth",
+    "site_today": "Corinth",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Corinth.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.18.1 Acts.18.8 Acts.18.11 Acts.18.12 Acts.18.18 Acts.19.1",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/570182",
+    "wikidata": "https://www.wikidata.org/wiki/Q1363688",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a6f437a",
+    "pauls_journeys": "second:15 third:6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.4852,
+     41.8922
+    ]
+   },
+   "properties": {
+    "id": "a7184a7",
+    "name_en": "Italy",
+    "name_ar": "إِيطَالِيَا",
+    "name_de": "Italien",
+    "name_es": "Italia",
+    "name_fr": "Italie",
+    "name_it": "Italia",
+    "name_nl": "Italie",
+    "name_pt": "Itália",
+    "name_ru": "Италия",
+    "name_zh": "意大利",
+    "name_ja": "イタリヤ",
+    "name_kjv": "Italy",
+    "label_lat": 41.2,
+    "label_lon": 15.3,
+    "site_today": "Rome",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.18.2 Acts.27.1 Acts.27.6",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/1052",
+    "wikidata": "https://www.wikidata.org/wiki/Q913582",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a7184a7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.54,
+     38.72
+    ]
+   },
+   "properties": {
+    "id": "aef4242",
+    "name_en": "Achaia",
+    "name_ar": "أَخَائِيَةَ",
+    "name_de": "Achaja",
+    "name_es": "Acaya",
+    "name_fr": "Achaïe",
+    "name_it": "Acaia",
+    "name_nl": "Achaje",
+    "name_pt": "Acaia",
+    "name_ru": "Ахаия",
+    "name_zh": "亚该亚",
+    "name_ja": "アカヤ",
+    "name_kjv": "Achaia",
+    "site_today": "Achaia",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.18.12 Acts.18.27 Acts.19.21",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/981502",
+    "wikidata": "https://www.wikidata.org/wiki/Q204772",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aef4242"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.99682,
+     37.88434
+    ]
+   },
+   "properties": {
+    "id": "aa31dd3",
+    "name_en": "Cenchrea",
+    "name_ar": "كَنْخَرِيَا",
+    "name_de": "Kenchreä",
+    "name_es": "Cencreas",
+    "name_fr": "Cenchrées",
+    "name_it": "Cencrea",
+    "name_nl": "Kenchreen",
+    "name_pt": "Cencreia",
+    "name_ru": "Кенхреи",
+    "name_zh": "坚革哩",
+    "name_ja": "ケンクレヤ",
+    "name_kjv": "Cenchrea",
+    "site_today": "Kechries",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Kechries.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.18.18",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q1738703",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aa31dd3",
+    "pauls_journeys": "second:16"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.3407,
+     37.93912
+    ]
+   },
+   "properties": {
+    "id": "a5feb15",
+    "name_en": "Ephesus",
+    "name_ar": "أَفَسُسَ",
+    "name_de": "Ephesus",
+    "name_es": "Efeso",
+    "name_fr": "Éphèse",
+    "name_it": "Efeso",
+    "name_nl": "Efeze",
+    "name_pt": "Éfeso",
+    "name_ru": "Ефес",
+    "name_zh": "以弗所",
+    "name_ja": "エペソ",
+    "name_kjv": "Ephesus",
+    "site_today": "Ephesus",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Ephesus.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.18.19 Acts.18.21 Acts.18.24 Acts.18.27 Acts.19.1 Acts.19.17 Acts.19.23 Acts.19.26 Acts.19.35 Acts.20.16 Acts.20.17 Acts.21.29",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/956927192",
+    "wikidata": "https://www.wikidata.org/wiki/Q47611",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a5feb15",
+    "pauls_journeys": "second:17 third:3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.33667,
+     39.49056
+    ]
+   },
+   "properties": {
+    "id": "a0a2ca7",
+    "name_en": "Assos",
+    "name_ar": "أَسُّوسَ",
+    "name_de": "Assos",
+    "name_es": "Assón",
+    "name_fr": "Assos",
+    "name_it": "Asso",
+    "name_nl": "Assus",
+    "name_pt": "Assôs",
+    "name_ru": "Асс",
+    "name_zh": "亚朔",
+    "name_ja": "アソス",
+    "name_kjv": "Assos",
+    "site_today": "Assos",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Assos.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.20.13 Acts.20.14",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/550463",
+    "wikidata": "https://www.wikidata.org/wiki/Q744631",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a0a2ca7",
+    "pauls_journeys": "third:9"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.54705,
+     39.11048
+    ]
+   },
+   "properties": {
+    "id": "a33910d",
+    "name_en": "Mitylene",
+    "name_ar": "مِيتِيلِينِي",
+    "name_de": "Mitylene",
+    "name_es": "Mitilene",
+    "name_fr": "Mytilène",
+    "name_it": "Mitilene",
+    "name_nl": "Mitylene",
+    "name_pt": "Mitilene",
+    "name_ru": "Митилина",
+    "name_zh": "米推利尼",
+    "name_ja": "ミテレネ",
+    "name_kjv": "Mitylene",
+    "site_today": "ancient theater at Mitylene",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: ancient theater at Mitylene.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.20.14",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q189059",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a33910d",
+    "pauls_journeys": "third:10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.1375,
+     38.3725
+    ]
+   },
+   "properties": {
+    "id": "a4c2c75",
+    "name_en": "Chios",
+    "name_ar": "خِيُوسَ",
+    "name_de": "Chios",
+    "name_es": "Chîo",
+    "name_fr": "Chios",
+    "name_it": "Chio",
+    "name_nl": "Chios",
+    "name_pt": "Quios",
+    "name_ru": "Хиос",
+    "name_zh": "基阿",
+    "name_ja": "キヨス",
+    "name_kjv": "Chios",
+    "site_today": "Chios",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Chios.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.20.15",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/550496",
+    "wikidata": "https://www.wikidata.org/wiki/Q160483",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a4c2c75",
+    "pauls_journeys": "third:11"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.27556,
+     37.53111
+    ]
+   },
+   "properties": {
+    "id": "a55027d",
+    "name_en": "Miletus",
+    "name_ar": "مِيلِيتُسَ",
+    "name_de": "Milet",
+    "name_es": "Mileto",
+    "name_fr": "Milet",
+    "name_it": "Mileto",
+    "name_nl": "Milete",
+    "name_pt": "Mileto",
+    "name_ru": "Милит",
+    "name_zh": "米利都",
+    "name_ja": "ミレト",
+    "name_kjv": "Miletus",
+    "site_today": "Miletus",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Miletus.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.20.15 Acts.20.17",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/599799",
+    "wikidata": "https://www.wikidata.org/wiki/Q169460",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a55027d",
+    "pauls_journeys": "third:13"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.8333,
+     37.75
+    ]
+   },
+   "properties": {
+    "id": "acf6ec0",
+    "name_en": "Samos",
+    "name_ar": "سَامُوسَ",
+    "name_de": "Samos",
+    "name_es": "Samo",
+    "name_fr": "Samos",
+    "name_it": "Samo",
+    "name_nl": "Samos",
+    "name_pt": "Samos",
+    "name_ru": "Самос",
+    "name_zh": "撒摩",
+    "name_ja": "サモス",
+    "name_kjv": "Samos",
+    "site_today": "Samos",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Samos.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.20.15",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/599926",
+    "wikidata": "https://www.wikidata.org/wiki/Q156882",
+    "openbible_url": "https://www.openbible.info/geo/ancient/acf6ec0",
+    "pauls_journeys": "third:12"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.00328,
+     37.65943
+    ]
+   },
+   "properties": {
+    "id": "a6f61d3",
+    "name_en": "Trogyllium",
+    "name_ar": "تُرُوجِيلِيُّونَ",
+    "name_de": "Trogyllion",
+    "name_es": "Trogilio",
+    "name_nl": "Trogyllion",
+    "name_pt": "Trogílio",
+    "name_ru": "Трогиллия",
+    "name_kjv": "Trogyllium",
+    "site_today": "Cape Mycale",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Cape Mycale.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.20.15",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/599991",
+    "wikidata": "https://www.wikidata.org/wiki/Q24934517",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a6f61d3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.11028,
+     36.81528
+    ]
+   },
+   "properties": {
+    "id": "a398e5d",
+    "name_en": "Cos",
+    "name_ar": "كُوسَ",
+    "name_de": "Kos",
+    "name_es": "Coos",
+    "name_fr": "Cos",
+    "name_it": "Cos",
+    "name_nl": "Kos",
+    "name_pt": "Cós",
+    "name_ru": "Кос",
+    "name_zh": "哥士",
+    "name_ja": "コス",
+    "name_kjv": "Coos",
+    "site_today": "Kos",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Kos.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.21.1",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/599581",
+    "wikidata": "https://www.wikidata.org/wiki/Q187027",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a398e5d",
+    "pauls_journeys": "third:14"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.31417,
+     36.26028
+    ]
+   },
+   "properties": {
+    "id": "ade301b",
+    "name_en": "Patara",
+    "name_ar": "بَاتَرَا",
+    "name_de": "Patara",
+    "name_es": "Pátara",
+    "name_fr": "Patara",
+    "name_it": "Patara",
+    "name_nl": "Patara",
+    "name_pt": "Pátara",
+    "name_ru": "Патара",
+    "name_zh": "帕大喇",
+    "name_ja": "パタラ",
+    "name_kjv": "Patara",
+    "site_today": "Patara",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Patara.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.21.1",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/639042",
+    "wikidata": "https://www.wikidata.org/wiki/Q233121",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ade301b",
+    "pauls_journeys": "third:16"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.2109,
+     36.4402
+    ]
+   },
+   "properties": {
+    "id": "a4218ee",
+    "name_en": "Rhodes",
+    "name_ar": "رُودُسَ",
+    "name_de": "Rhodus",
+    "name_es": "Rhodas",
+    "name_fr": "Rhodes",
+    "name_it": "Rodi",
+    "name_nl": "Rhodus",
+    "name_pt": "Rodes",
+    "name_ru": "Родос",
+    "name_zh": "罗底",
+    "name_ja": "ロドス",
+    "name_kjv": "Rhodes",
+    "site_today": "Rhodes",
+    "openbible_score": 471,
+    "certainty": "sure",
+    "certainty_note": "Not in doubt for the island; 22 reference works differ only on whether Acts means the town of Rhodes or its acropolis.",
+    "sources_surveyed": 22,
+    "gospels_acts_verses": "Acts.21.1",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q188731",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a4218ee",
+    "pauls_journeys": "third:15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.0692,
+     32.9214
+    ]
+   },
+   "properties": {
+    "id": "abc2af0",
+    "name_en": "Ptolemais",
+    "name_ar": "بُتُولِمَايِسَ",
+    "name_de": "Ptolemais",
+    "name_es": "Tolemaida",
+    "name_fr": "Ptolémaïs",
+    "name_it": "Tolemaide",
+    "name_nl": "Ptolemais",
+    "name_pt": "Ptolemaida",
+    "name_ru": "Птолемаида",
+    "name_zh": "多利买",
+    "name_ja": "トレマイ",
+    "name_kjv": "Ptolemais",
+    "site_today": "Acre",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Acre.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.21.7",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/678010",
+    "wikidata": "https://www.wikidata.org/wiki/Q92277123",
+    "openbible_url": "https://www.openbible.info/geo/ancient/abc2af0",
+    "pauls_journeys": "third:18"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.93042,
+     32.105
+    ]
+   },
+   "properties": {
+    "id": "a7b2e63",
+    "name_en": "Aphek",
+    "name_ar": "أَنْتِيبَاتْرِيسَ",
+    "name_de": "Antipatris",
+    "name_es": "Antipatris",
+    "name_fr": "Antipatris",
+    "name_it": "Antipatrìda",
+    "name_nl": "Antipatris",
+    "name_pt": "Antipátride",
+    "name_ru": "Антипатрида",
+    "name_zh": "安提帕底",
+    "name_ja": "アンテパトリス",
+    "name_kjv": "Aphek",
+    "site_today": "Tell Ras el Ain",
+    "openbible_score": 901,
+    "certainty": "sure",
+    "certainty_note": "Not in doubt: 40 reference works place Antipatris at Tell Ras el Ain.",
+    "sources_surveyed": 40,
+    "gospels_acts_verses": "Acts.23.31",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/687828",
+    "wikidata": "https://www.wikidata.org/wiki/Q682612",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a7b2e63"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.93272,
+     39.50067
+    ]
+   },
+   "properties": {
+    "id": "a184f3a",
+    "name_en": "Adramyttian",
+    "name_fr": "Adramytte",
+    "name_it": "Adramittina",
+    "name_ru": "Адрамитский",
+    "name_zh": "亚大米田",
+    "name_ja": "アドラミテオ",
+    "name_kjv": "Adramyttium",
+    "site_today": "Oren",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Oren.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.27.2",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/550403",
+    "wikidata": "https://www.wikidata.org/wiki/Q3605584",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a184f3a"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.9,
+     36.73333
+    ]
+   },
+   "properties": {
+    "id": "a19fd03",
+    "name_en": "Lycia",
+    "name_ar": "لِيكِيَّةَ",
+    "name_de": "Lyzien",
+    "name_es": "Licia",
+    "name_fr": "Lycie",
+    "name_it": "Licia",
+    "name_nl": "Lycie",
+    "name_pt": "Lícia",
+    "name_ru": "Ликийские",
+    "name_zh": "吕家",
+    "name_ja": "ルキヤ",
+    "name_kjv": "Lycia",
+    "site_today": "Lycia",
+    "openbible_score": 1000,
+    "certainty": "region",
+    "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.27.5",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/1001914",
+    "wikidata": "https://www.wikidata.org/wiki/Q18927",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a19fd03"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.98528,
+     36.25917
+    ]
+   },
+   "properties": {
+    "id": "aa4b3e2",
+    "name_en": "Myra",
+    "name_ar": "مِيرَا",
+    "name_de": "Myra",
+    "name_es": "Mira",
+    "name_fr": "Myra",
+    "name_it": "Mira",
+    "name_nl": "Myra",
+    "name_pt": "Mira",
+    "name_ru": "Миры",
+    "name_zh": "每拉",
+    "name_ja": "ミラ",
+    "name_kjv": "Myra",
+    "site_today": "Myra",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Myra.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.27.5",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/639005",
+    "wikidata": "https://www.wikidata.org/wiki/Q652024",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aa4b3e2",
+    "pauls_journeys": "rome:3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.375,
+     36.68583
+    ]
+   },
+   "properties": {
+    "id": "ab793ce",
+    "name_en": "Cnidus",
+    "name_ar": "كِنِيدُسَ",
+    "name_de": "Knidus",
+    "name_es": "Gnido",
+    "name_fr": "Cnide",
+    "name_it": "Gnido",
+    "name_nl": "Knidus",
+    "name_pt": "Cnido",
+    "name_ru": "Книд",
+    "name_zh": "革尼土",
+    "name_ja": "クニド",
+    "name_kjv": "Cnidus",
+    "site_today": "Cnidus",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Cnidus.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.27.7",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/707539",
+    "wikidata": "https://www.wikidata.org/wiki/Q690575",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ab793ce",
+    "pauls_journeys": "rome:4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.89333,
+     35.30972
+    ]
+   },
+   "properties": {
+    "id": "a26aa94",
+    "name_en": "Crete",
+    "name_ar": "كِرِيتَ",
+    "name_de": "Kreta",
+    "name_es": "Creta",
+    "name_fr": "Crète",
+    "name_it": "Creta",
+    "name_nl": "Kreta",
+    "name_pt": "Creta",
+    "name_ru": "Крит",
+    "name_zh": "克里特",
+    "name_ja": "クレテ",
+    "name_kjv": "Crete",
+    "site_today": "Crete",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Crete.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.27.7 Acts.27.8 Acts.27.12 Acts.27.13 Acts.27.14 Acts.27.21",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/1001897",
+    "wikidata": "https://www.wikidata.org/wiki/Q34374",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a26aa94"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.31155,
+     35.31603
+    ]
+   },
+   "properties": {
+    "id": "a1c44ea",
+    "name_en": "Salmone",
+    "name_ar": "سَلْمُونِي",
+    "name_de": "Salmone",
+    "name_es": "Salmón",
+    "name_fr": "Salmone",
+    "name_it": "Salmone",
+    "name_nl": "Salmone",
+    "name_pt": "Salmone",
+    "name_ru": "Салмон",
+    "name_zh": "撒摩尼",
+    "name_ja": "サルモネ",
+    "name_kjv": "Salmone",
+    "site_today": "Cape Sideros",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Cape Sideros.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.27.7",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q2937111",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a1c44ea",
+    "pauls_journeys": "rome:5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.80031,
+     34.92969
+    ]
+   },
+   "properties": {
+    "id": "aae626a",
+    "name_en": "Fair Havens",
+    "name_ar": "ٱلْمَوَانِي ٱلْحَسَنَةُ",
+    "name_de": "Gutfurt",
+    "name_es": "Buenos Puertos",
+    "name_fr": "Beaux Ports",
+    "name_it": "Beiporti",
+    "name_nl": "Schonehavens",
+    "name_pt": "Bons Portos",
+    "name_ru": "Хорошие Пристани",
+    "name_zh": "佳澳",
+    "name_ja": "良き港",
+    "name_kjv": "Fair Havens",
+    "site_today": "Kaloi Limenes",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Kaloi Limenes.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.27.8 Acts.27.12",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q11818846",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aae626a",
+    "pauls_journeys": "rome:6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.81111,
+     34.94056
+    ]
+   },
+   "properties": {
+    "id": "a56788c",
+    "name_en": "Lasea",
+    "name_ar": "لَسَائِيَةَ",
+    "name_de": "Lasäa",
+    "name_es": "Lasea",
+    "name_fr": "Lasée",
+    "name_it": "Lasea",
+    "name_nl": "Lasea",
+    "name_pt": "Laseia",
+    "name_ru": "Ласея",
+    "name_zh": "拉西亚",
+    "name_ja": "ラサヤ",
+    "name_kjv": "Lasea",
+    "site_today": "Lasaea",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Lasaea.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.27.8",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/589897",
+    "wikidata": "https://www.wikidata.org/wiki/Q6492763",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a56788c"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.07222,
+     35.2
+    ]
+   },
+   "properties": {
+    "id": "a9ee958",
+    "name_en": "Phoenix",
+    "name_ar": "فِينِكْسَ",
+    "name_de": "Phönix",
+    "name_es": "Fenice",
+    "name_fr": "Phénix",
+    "name_it": "Fenice",
+    "name_nl": "Fenix",
+    "name_pt": "Fênix",
+    "name_ru": "Финик",
+    "name_zh": "菲尼基",
+    "name_ja": "ピニクス港",
+    "name_kjv": "Phenice",
+    "site_today": "Finikas",
+    "openbible_score": 521,
+    "certainty": "likely",
+    "certainty_note": "Probably Finikas on Crete, where most of 22 reference works place it; others suggest Loutro.",
+    "other_proposed_sites": "Loutro",
+    "sources_surveyed": 22,
+    "gospels_acts_verses": "Acts.27.12",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q2088586",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a9ee958"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.08333,
+     34.83333
+    ]
+   },
+   "properties": {
+    "id": "aca2b0a",
+    "name_en": "Cauda",
+    "name_ar": "كَلَوْدِي",
+    "name_de": "Klauda",
+    "name_es": "Clauda",
+    "name_fr": "Clauda",
+    "name_it": "Clauda",
+    "name_nl": "Klauda",
+    "name_pt": "Clauda",
+    "name_ru": "Клавда",
+    "name_zh": "高大",
+    "name_ja": "クラウダ",
+    "name_kjv": "Clauda",
+    "site_today": "Gavdos",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Gavdos.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.27.16",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q213895",
+    "openbible_url": "https://www.openbible.info/geo/ancient/aca2b0a",
+    "pauls_journeys": "rome:7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.0,
+     31.5
+    ]
+   },
+   "properties": {
+    "id": "ad36371",
+    "name_en": "Syrtis",
+    "name_ar": "ٱلسِّيرْتِسِ",
+    "name_de": "Syrte",
+    "name_es": "Sirte",
+    "name_fr": "Syrte",
+    "name_it": "Sirti",
+    "name_nl": "Syrtis",
+    "name_zh": "赛耳底",
+    "name_ja": "スルテス",
+    "site_today": "Sidra",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Sidra.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.27.17",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/344491",
+    "wikidata": "https://www.wikidata.org/wiki/Q187274",
+    "openbible_url": "https://www.openbible.info/geo/ancient/ad36371"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     19.0,
+     38.0
+    ]
+   },
+   "properties": {
+    "id": "adc77fb",
+    "name_en": "Adriatic Sea",
+    "name_ar": "بَحْرِ أَدْرِيَا",
+    "name_de": "Adria-Meer",
+    "name_es": "Mar Adriático",
+    "name_fr": "Adriatique",
+    "name_it": "Adriatico",
+    "name_nl": "Adriatische zee",
+    "name_pt": "Mar Adriático",
+    "name_ru": "Адриатическое море",
+    "name_zh": "亚得里亚海",
+    "name_ja": "アドリヤ海",
+    "name_kjv": "Adria",
+    "site_today": "Adriatic and Ionian Seas",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Adriatic and Ionian Seas.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.27.27",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/1004",
+    "wikidata": "https://www.wikidata.org/wiki/Q13924",
+    "openbible_url": "https://www.openbible.info/geo/ancient/adc77fb"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.41173,
+     35.93346
+    ]
+   },
+   "properties": {
+    "id": "a57835d",
+    "name_en": "Malta",
+    "name_ar": "مَلِيطَةَ",
+    "name_de": "Melite",
+    "name_es": "Melita",
+    "name_fr": "Malte",
+    "name_it": "Malta",
+    "name_nl": "Melite",
+    "name_pt": "Malta",
+    "name_ru": "Мелит",
+    "name_zh": "马耳他",
+    "name_ja": "マルタ",
+    "name_kjv": "Melita",
+    "site_today": "Malta",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Malta.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.28.1",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/462218",
+    "wikidata": "https://www.wikidata.org/wiki/Q193896",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a57835d",
+    "pauls_journeys": "rome:8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.29306,
+     37.06389
+    ]
+   },
+   "properties": {
+    "id": "a1e3697",
+    "name_en": "Syracuse",
+    "name_ar": "سِرَاكُوسَا",
+    "name_de": "Syrakus",
+    "name_es": "Siracusa",
+    "name_fr": "Syracuse",
+    "name_it": "Siracusa",
+    "name_nl": "Syrakuse",
+    "name_pt": "Siracusa",
+    "name_ru": "Сиракузы",
+    "name_zh": "叙拉古",
+    "name_ja": "シラクサ",
+    "name_kjv": "Syracuse",
+    "site_today": "Syracuse",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Syracuse.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.28.12",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/462503",
+    "wikidata": "https://www.wikidata.org/wiki/Q13670",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a1e3697",
+    "pauls_journeys": "rome:9"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.12056,
+     40.82611
+    ]
+   },
+   "properties": {
+    "id": "a4488e9",
+    "name_en": "Puteoli",
+    "name_ar": "بُوطِيُولِي",
+    "name_de": "Puteoli",
+    "name_es": "Puteolos",
+    "name_fr": "Pouzzoles",
+    "name_it": "Pozzuoli",
+    "name_nl": "Puteoli",
+    "name_pt": "Putéoli",
+    "name_ru": "Путеол",
+    "name_zh": "部丢利",
+    "name_ja": "ポテオリ",
+    "name_kjv": "Puteoli",
+    "site_today": "Pozzuoli",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Pozzuoli.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.28.13",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/432815",
+    "wikidata": "https://www.wikidata.org/wiki/Q72425",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a4488e9",
+    "pauls_journeys": "rome:11"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.64412,
+     38.1088
+    ]
+   },
+   "properties": {
+    "id": "a63bb26",
+    "name_en": "Rhegium",
+    "name_ar": "رِيغِيُونَ",
+    "name_de": "Rhegion",
+    "name_es": "Regio",
+    "name_fr": "Reggio",
+    "name_it": "Reggio",
+    "name_nl": "Regium",
+    "name_pt": "Régio",
+    "name_ru": "Ригия",
+    "name_zh": "利基翁",
+    "name_ja": "レギオン",
+    "name_kjv": "Rhegium",
+    "site_today": "Reggio Calabria",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Reggio Calabria.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.28.13",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/452416",
+    "wikidata": "https://www.wikidata.org/wiki/Q3429952",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a63bb26",
+    "pauls_journeys": "rome:10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.9975,
+     41.46639
+    ]
+   },
+   "properties": {
+    "id": "a121d5e",
+    "name_en": "Forum of Appius",
+    "name_ar": "فُورُنِ أَبِّيُوسَ",
+    "name_de": "Appifor",
+    "name_es": "Plaza de Appio",
+    "name_fr": "Forum d’Appius",
+    "name_it": "Foro Appio",
+    "name_nl": "Appiusmarkt",
+    "name_pt": "Praça de Ápio",
+    "name_ru": "Аппиева площадь",
+    "name_zh": "亚比乌市",
+    "name_ja": "アピオ・ポロ",
+    "name_kjv": "Appii Forum",
+    "site_today": "Forum Appii",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Forum Appii.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.28.15",
+    "books": "Acts",
+    "pleiades": "https://pleiades.stoa.org/places/422927",
+    "wikidata": "https://www.wikidata.org/wiki/Q3748871",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a121d5e",
+    "pauls_journeys": "rome:12"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.87389,
+     41.56194
+    ]
+   },
+   "properties": {
+    "id": "afef438",
+    "name_en": "Three Taverns",
+    "name_ar": "ٱلثَّلَاثَةِ ٱلْحَوَانِيتِ",
+    "name_de": "Tretabern",
+    "name_es": "Las Tres Tabernas",
+    "name_fr": "Trois Tavernes",
+    "name_it": "Tre Taverne",
+    "name_nl": "Drie tabernen",
+    "name_pt": "Três tavernas",
+    "name_ru": "Три гостиницы",
+    "name_zh": "三馆",
+    "name_ja": "トレス・タベルネ",
+    "name_kjv": "Three Taverns",
+    "site_today": "Three Taverns",
+    "openbible_score": 1000,
+    "certainty": "sure",
+    "certainty_note": "Its site is not in doubt: Three Taverns.",
+    "sources_surveyed": 0,
+    "gospels_acts_verses": "Acts.28.15",
+    "books": "Acts",
+    "wikidata": "https://www.wikidata.org/wiki/Q622536",
+    "openbible_url": "https://www.openbible.info/geo/ancient/afef438",
+    "pauls_journeys": "rome:13"
+   }
+  }
+ ]
+}

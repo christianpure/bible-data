@@ -3,8 +3,8 @@
  "name": "christianpure-pauls-journeys",
  "title": "Paul's missionary journeys: stops, legs and places",
  "description": "Every stop on Paul's three missionary journeys and his voyage to Rome, in order, with coordinates, the verse in Acts, distances by Roman road and by sea, heights, and the days Acts gives. The data behind the Christian Pure map at https://christianpure.com/pauls-missionary-journeys/.",
- "version": "1.0.0",
- "created": "2026-11-18T00:00:00Z",
+ "version": "1.1.0",
+ "created": "2026-11-19T00:00:00Z",
  "homepage": "https://christianpure.com/pauls-missionary-journeys/",
  "licenses": [
   {

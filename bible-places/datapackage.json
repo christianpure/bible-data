@@ -1,0 +1,286 @@
+{
+ "profile": "data-package",
+ "name": "christianpure-bible-places",
+ "title": "Places in the Gospels and Acts, with their names in 11 languages",
+ "description": "Every place named in the four Gospels and Acts: its location, how sure that location is, the verses that name it, and its name as the Bible in each of 11 languages prints it. Built on the OpenBible.info Bible Geocoding Data (CC BY 4.0) for the map at https://christianpure.com/bible-places-map/. CC BY 4.0: credit OpenBible.info and Christian Pure.",
+ "version": "1.1.0",
+ "created": "2026-11-19T00:00:00Z",
+ "homepage": "https://christianpure.com/bible-places-map/",
+ "licenses": [
+  {
+   "name": "CC-BY-4.0",
+   "path": "https://creativecommons.org/licenses/by/4.0/",
+   "title": "Creative Commons Attribution 4.0 International"
+  }
+ ],
+ "contributors": [
+  {
+   "title": "Christian Pure",
+   "role": "author",
+   "path": "https://christianpure.com/"
+  }
+ ],
+ "keywords": [
+  "Bible",
+  "geography",
+  "gazetteer",
+  "Gospels",
+  "Acts",
+  "GeoJSON",
+  "place names",
+  "multilingual"
+ ],
+ "sources": [
+  {
+   "title": "OpenBible.info, Bible Geocoding Data (CC BY 4.0)",
+   "path": "https://github.com/openbibleinfo/Bible-Geocoding-Data"
+  },
+  {
+   "title": "Pleiades gazetteer of ancient places (CC BY 3.0)",
+   "path": "https://pleiades.stoa.org/"
+  },
+  {
+   "title": "Wikidata (CC0)",
+   "path": "https://www.wikidata.org/"
+  }
+ ],
+ "resources": [
+  {
+   "name": "places",
+   "path": "places.csv",
+   "profile": "tabular-data-resource",
+   "title": "Places",
+   "description": "One row per place.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "id",
+      "type": "string",
+      "description": "OpenBible.info ancient-place id; join with its Bible Geocoding Data.",
+      "constraints": {
+       "required": true,
+       "unique": true,
+       "pattern": "a[0-9a-f]{6}"
+      }
+     },
+     {
+      "name": "name_en",
+      "type": "string",
+      "description": "Name in English, as the Berean Standard Bible prints it.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "name_ar",
+      "type": "string",
+      "description": "Name in Arabic, as the Van Dyck Bible (1865) prints it. Empty where that Bible does not print the name."
+     },
+     {
+      "name": "name_de",
+      "type": "string",
+      "description": "Name in German, as the Lutherbibel 1912 prints it. Empty where that Bible does not print the name."
+     },
+     {
+      "name": "name_es",
+      "type": "string",
+      "description": "Name in Spanish, as the Reina-Valera 1909 prints it. Empty where that Bible does not print the name."
+     },
+     {
+      "name": "name_fr",
+      "type": "string",
+      "description": "Name in French, as the Louis Segond 1910 prints it. Empty where that Bible does not print the name."
+     },
+     {
+      "name": "name_it",
+      "type": "string",
+      "description": "Name in Italian, as the Riveduta 1927 prints it. Empty where that Bible does not print the name."
+     },
+     {
+      "name": "name_nl",
+      "type": "string",
+      "description": "Name in Dutch, as the De Heilige Schrift 1917 prints it. Empty where that Bible does not print the name."
+     },
+     {
+      "name": "name_pt",
+      "type": "string",
+      "description": "Name in Portuguese, as the Bíblia Livre (CC BY 4.0) prints it. Empty where that Bible does not print the name."
+     },
+     {
+      "name": "name_ru",
+      "type": "string",
+      "description": "Name in Russian, as the Synodal translation prints it. Empty where that Bible does not print the name."
+     },
+     {
+      "name": "name_zh",
+      "type": "string",
+      "description": "Name in Chinese, as the Chinese Union Version prints it. Empty where that Bible does not print the name."
+     },
+     {
+      "name": "name_ja",
+      "type": "string",
+      "description": "Name in Japanese, as the Colloquial Japanese Bible (1955) prints it. Empty where that Bible does not print the name."
+     },
+     {
+      "name": "name_kjv",
+      "type": "string",
+      "description": "Name as the King James Version prints it, where it differs or for reference."
+     },
+     {
+      "name": "lat",
+      "type": "number",
+      "description": "Latitude of the point, WGS 84 (OpenBible.info).",
+      "constraints": {
+       "required": true,
+       "minimum": -90,
+       "maximum": 90
+      }
+     },
+     {
+      "name": "lon",
+      "type": "number",
+      "description": "Longitude of the point, WGS 84 (OpenBible.info).",
+      "constraints": {
+       "required": true,
+       "minimum": -180,
+       "maximum": 180
+      }
+     },
+     {
+      "name": "label_lat",
+      "type": "number",
+      "description": "For a region: latitude where the map prints its name. Empty for other places."
+     },
+     {
+      "name": "label_lon",
+      "type": "number",
+      "description": "For a region: longitude where the map prints its name. Empty for other places."
+     },
+     {
+      "name": "site_today",
+      "type": "string",
+      "description": "The modern place or site the point stands for.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "openbible_score",
+      "type": "integer",
+      "description": "OpenBible.info confidence in the identification, 0 to 1000.",
+      "constraints": {
+       "required": true,
+       "minimum": 0,
+       "maximum": 1000
+      }
+     },
+     {
+      "name": "certainty",
+      "type": "string",
+      "description": "Our reading of how sure the location is: sure, likely, unsure, or region (an area, not a point).",
+      "constraints": {
+       "required": true,
+       "enum": [
+        "sure",
+        "likely",
+        "unsure",
+        "region"
+       ]
+      }
+     },
+     {
+      "name": "certainty_note",
+      "type": "string",
+      "description": "One sentence on why, as the map shows it.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "other_proposed_sites",
+      "type": "string",
+      "description": "Other sites proposed for it, separated by \"; \"."
+     },
+     {
+      "name": "sources_surveyed",
+      "type": "integer",
+      "description": "Reference works OpenBible.info surveyed for this place.",
+      "constraints": {
+       "required": true,
+       "minimum": 0
+      }
+     },
+     {
+      "name": "gospels_acts_verses",
+      "type": "string",
+      "description": "Every verse in the Gospels and Acts that names it, OSIS references separated by \"; \".",
+      "constraints": {
+       "required": true,
+       "pattern": "[1-3]?[A-Z][A-Za-z]+[.][0-9]+[.][0-9]+(; [1-3]?[A-Z][A-Za-z]+[.][0-9]+[.][0-9]+)*"
+      }
+     },
+     {
+      "name": "books",
+      "type": "string",
+      "description": "The books among Matthew, Mark, Luke, John and Acts that name it, OSIS codes separated by \"; \".",
+      "constraints": {
+       "required": true,
+       "pattern": "(Matt|Mark|Luke|John|Acts)(; (Matt|Mark|Luke|John|Acts))*"
+      }
+     },
+     {
+      "name": "pleiades",
+      "type": "string",
+      "description": "Pleiades gazetteer page, where one matches.",
+      "format": "uri"
+     },
+     {
+      "name": "wikidata",
+      "type": "string",
+      "description": "Wikidata item, where one matches.",
+      "format": "uri"
+     },
+     {
+      "name": "openbible_url",
+      "type": "string",
+      "description": "The place on OpenBible.info.",
+      "constraints": {
+       "required": true
+      },
+      "format": "uri"
+     },
+     {
+      "name": "pauls_journeys",
+      "type": "string",
+      "description": "Where Paul stops here on our Paul map: journey_id:stop_order pairs, separated by \"; \", matching pauls-journeys/stops.csv."
+     }
+    ],
+    "primaryKey": [
+     "id"
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "places-geojson",
+   "path": "places.geojson",
+   "profile": "data-resource",
+   "title": "Places as GeoJSON",
+   "description": "The same places as GeoJSON points (WGS 84), with the names, certainty and verses as properties.",
+   "format": "geojson",
+   "mediatype": "application/geo+json",
+   "encoding": "utf-8"
+  }
+ ]
+}
