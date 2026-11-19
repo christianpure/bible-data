@@ -52,6 +52,6 @@ If you use this, we'd be grateful for a credit link to [https://christianpure.co
 
 To cite the data in a paper, see `CITATION.cff` at the top of this repository, or use:
 
-> Christian Pure. "Bible Subjects and Their Verses." Version 1.1.0, 19 November 2026. https://christianpure.com/what-does-the-bible-say-about/.
+> Christian Pure. "Bible Subjects and Their Verses." Version 1.2.0, 19 November 2026. https://christianpure.com/what-does-the-bible-say-about/.
 
 Found a mistake? Please open an issue in this repository. Corrections to our pages are logged on [our editorial standards page](https://christianpure.com/editorial-standards/).

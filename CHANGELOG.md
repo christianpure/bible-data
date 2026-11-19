@@ -1,5 +1,12 @@
 # Changes
 
+## 1.2.0, 19 November 2026
+
+- `bible-places` now covers the whole Bible: 1,246 places from Genesis to Revelation (was 151 from the Gospels and Acts), as the [Bible places map](https://christianpure.com/bible-places-map/) now does. The column `gospels_acts_verses` is renamed `verses`, and `books` can name any book of the Bible. The 151 places of 1.1.0 are all still here.
+- The description of `openbible_score` is corrected: it is OpenBible.info's time-weighted score, which a few places carry below 0 or above 1000.
+
+The other five folders have not changed apart from their version number.
+
 ## 1.1.0, 19 November 2026
 
 Two new folders:

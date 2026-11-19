@@ -7,13 +7,13 @@ abstract: >-
   journeys (stops, legs and places, as CSV and GeoJSON); 378 saints with their feast days in
   the Western and Orthodox calendars, patronages and sources; 22 Christian churches and
   traditions, and Protestants in general, on 55 questions, each answered from the church's
-  own documents; Western and Orthodox Easter dates from 1900 to 2099; the 151 places named
-  in the Gospels and Acts, with their names in 11 languages; and 6,699 Bible subjects with
+  own documents; Western and Orthodox Easter dates from 1900 to 2099; the 1,246 places the
+  Bible names, from Genesis to Revelation, with their names in 11 languages; and 6,699 Bible subjects with
   their verses.
 authors:
   - name: "Christian Pure"
     website: "https://christianpure.com/"
-version: "1.1.0"
+version: "1.2.0"
 date-released: "2026-11-19"
 license:
   - CC-BY-4.0
@@ -23,6 +23,7 @@ repository-code: "https://github.com/christianpure/bible-data"
 keywords:
   - Bible
   - Acts of the Apostles
+  - Bible places
   - Paul's missionary journeys
   - historical geography
   - saints

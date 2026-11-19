@@ -176,6 +176,6 @@ If you use this, we'd be grateful for a credit link to [https://christianpure.co
 
 To cite the data in a paper, see `CITATION.cff` at the top of this repository, or use:
 
-> Christian Pure. "Paul's Missionary Journeys: Stops, Legs and Places." Version 1.1.0, 19 November 2026. https://christianpure.com/pauls-missionary-journeys/.
+> Christian Pure. "Paul's Missionary Journeys: Stops, Legs and Places." Version 1.2.0, 19 November 2026. https://christianpure.com/pauls-missionary-journeys/.
 
 Found a mistake? Please open an issue in this repository. Corrections to our pages are logged on [our editorial standards page](https://christianpure.com/editorial-standards/).

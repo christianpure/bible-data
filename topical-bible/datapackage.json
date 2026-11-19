@@ -3,7 +3,7 @@
  "name": "christianpure-topical-bible",
  "title": "Bible subjects and their verses",
  "description": "6,699 Bible subjects and the verses on each, one row per subject, verse and source: the OpenBible.info Topical Bible rankings (CC BY 4.0) joined with the verses Christian Pure's own pages quote, and a link to our page where there is one. References only, no Bible text. It powers https://christianpure.com/what-does-the-bible-say-about/. CC BY 4.0: credit OpenBible.info and Christian Pure.",
- "version": "1.1.0",
+ "version": "1.2.0",
  "created": "2026-11-19T00:00:00Z",
  "homepage": "https://christianpure.com/what-does-the-bible-say-about/",
  "licenses": [

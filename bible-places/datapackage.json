@@ -1,9 +1,9 @@
 {
  "profile": "data-package",
  "name": "christianpure-bible-places",
- "title": "Places in the Gospels and Acts, with their names in 11 languages",
- "description": "Every place named in the four Gospels and Acts: its location, how sure that location is, the verses that name it, and its name as the Bible in each of 11 languages prints it. Built on the OpenBible.info Bible Geocoding Data (CC BY 4.0) for the map at https://christianpure.com/bible-places-map/. CC BY 4.0: credit OpenBible.info and Christian Pure.",
- "version": "1.1.0",
+ "title": "Places in the Bible, with their names in 11 languages",
+ "description": "Every place the Bible names that can be put on a map, from Genesis to Revelation: its location, how sure that location is, the verses that name it, and its name as the Bible in each of 11 languages prints it. Built on the OpenBible.info Bible Geocoding Data (CC BY 4.0) for the map at https://christianpure.com/bible-places-map/. CC BY 4.0: credit OpenBible.info and Christian Pure.",
+ "version": "1.2.0",
  "created": "2026-11-19T00:00:00Z",
  "homepage": "https://christianpure.com/bible-places-map/",
  "licenses": [
@@ -24,8 +24,8 @@
   "Bible",
   "geography",
   "gazetteer",
-  "Gospels",
-  "Acts",
+  "Old Testament",
+  "New Testament",
   "GeoJSON",
   "place names",
   "multilingual"
@@ -176,11 +176,11 @@
      {
       "name": "openbible_score",
       "type": "integer",
-      "description": "OpenBible.info confidence in the identification, 0 to 1000.",
+      "description": "OpenBible.info confidence in the identification (its time-weighted score, time_total): read it as thousandths, where 1000 is very high confidence. It is a trend line, so a few run below 0 or above 1000.",
       "constraints": {
        "required": true,
-       "minimum": 0,
-       "maximum": 1000
+       "minimum": -1000,
+       "maximum": 2000
       }
      },
      {
@@ -220,9 +220,9 @@
       }
      },
      {
-      "name": "gospels_acts_verses",
+      "name": "verses",
       "type": "string",
-      "description": "Every verse in the Gospels and Acts that names it, OSIS references separated by \"; \".",
+      "description": "Every verse in the Bible that names it, in English verse numbering, OSIS references separated by \"; \".",
       "constraints": {
        "required": true,
        "pattern": "[1-3]?[A-Z][A-Za-z]+[.][0-9]+[.][0-9]+(; [1-3]?[A-Z][A-Za-z]+[.][0-9]+[.][0-9]+)*"
@@ -231,10 +231,10 @@
      {
       "name": "books",
       "type": "string",
-      "description": "The books among Matthew, Mark, Luke, John and Acts that name it, OSIS codes separated by \"; \".",
+      "description": "The books of the Bible that name it, in Bible order, OSIS codes separated by \"; \".",
       "constraints": {
        "required": true,
-       "pattern": "(Matt|Mark|Luke|John|Acts)(; (Matt|Mark|Luke|John|Acts))*"
+       "pattern": "[1-3]?[A-Z][A-Za-z]+(; [1-3]?[A-Z][A-Za-z]+)*"
       }
      },
      {
