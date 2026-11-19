@@ -1,6 +1,6 @@
 # Bible subjects and their verses
 
-This table lists 6,699 Bible subjects, from "10 commandments" to "zoroastrian priests", and the verses on each: 79,134 rows, one for each subject, verse and source. It joins the rankings of the OpenBible.info Topical Bible with the verses that Christian Pure's own pages on 418 of those subjects quote, and links each subject to our page where we have one. It is the data behind our search page [What does the Bible say about…?](https://christianpure.com/what-does-the-bible-say-about/)
+This table lists over 6,500 Bible subjects, from "10 commandments" to "zoroastrian priests", and the verses on each: 79,134 rows, one for each subject, verse and source. It joins the rankings of the OpenBible.info Topical Bible with the verses that Christian Pure's own pages on 418 of those subjects quote, and links each subject to our page where we have one. It is the data behind our search page [What does the Bible say about…?](https://christianpure.com/what-does-the-bible-say-about/)
 
 The table holds verse references only, no Bible text, so you can pair it with any translation you are free to use.
 
