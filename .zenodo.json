@@ -1,0 +1,40 @@
+{
+  "upload_type": "dataset",
+  "title": "Bible Data from Christian Pure",
+  "version": "1.2.0",
+  "creators": [
+    {
+      "name": "Christian Pure"
+    }
+  ],
+  "description": "<p>Six open datasets behind the free Bible and church tools at <a href=\"https://christianpure.com/\">christianpure.com</a>, as CSV, JSON and GeoJSON with Frictionless Data descriptions:</p><ul><li>bible-places: the 1,246 places the Bible names, from Genesis to Revelation, with coordinates, how sure each location is, the verses that name them and their names in 11 languages; built on OpenBible.info's Bible geocoding, with Pleiades and Wikidata links.</li><li>topical-bible: over 6,500 Bible subjects and their verse references (no Bible text), from the OpenBible.info Topical Bible and Christian Pure's pages.</li><li>pauls-journeys: Paul's three missionary journeys and his voyage to Rome, 69 stops and 65 legs, with distances by Roman road and by sea.</li><li>saints: 378 saints with their feast days in the Western and Orthodox calendars, patronages and 1,090 sources.</li><li>denominations: 22 churches and traditions, and Protestants in general, on 55 questions, each answered from the church's own documents.</li><li>easter-dates: Western and Orthodox Easter and the movable feasts for every year from 1900 to 2099.</li></ul><p>Everything is under CC BY 4.0 except the Easter dates, which are CC0. Each folder has its own README with sources, limits and how to cite it. Source repository: <a href=\"https://github.com/christianpure/bible-data\">github.com/christianpure/bible-data</a>.</p>",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "Bible",
+    "Bible places",
+    "historical geography",
+    "gazetteer",
+    "Paul's missionary journeys",
+    "saints",
+    "feast days",
+    "liturgical calendar",
+    "Easter",
+    "computus",
+    "Christian denominations",
+    "topical Bible",
+    "open data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/christianpure/bible-data",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://christianpure.com/",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    }
+  ]
+}
