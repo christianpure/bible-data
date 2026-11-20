@@ -7,6 +7,8 @@
   </a>
 </p>
 
+<p align="center"><a href="https://doi.org/10.5281/zenodo.24396556"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.24396556.svg" alt="DOI 10.5281/zenodo.24396556"></a></p>
+
 # Bible data from Christian Pure
 
 This repository holds six sets of data that [Christian Pure](https://christianpure.com/) built for its free Bible and church tools, released so that anyone can use them: app builders, teachers, researchers and anyone who simply likes a good table. Each set is a folder of plain files (spreadsheets you can open in Excel or Google Sheets, JSON and, for the map, GeoJSON) with a README that says what is in it, how it was made, where it falls short and how to cite it.
@@ -45,7 +47,9 @@ easter = pd.read_csv("easter-dates/easter-dates.csv", parse_dates=["western_east
 
 [`CITATION.cff`](CITATION.cff) gives the citation in a form GitHub and reference managers read; GitHub shows it under "Cite this repository". In short:
 
-> Christian Pure. *Bible Data from Christian Pure*. Version 1.2.0, 19 November 2026. https://github.com/christianpure/bible-data.
+> Christian Pure. *Bible Data from Christian Pure*. Version 1.2.0, 19 November 2026. https://doi.org/10.5281/zenodo.24396556.
+
+The DOI always points to the latest version on [Zenodo](https://doi.org/10.5281/zenodo.24396556), which keeps a permanent copy of every release; each version also has its own DOI there.
 
 ## Versions and corrections
 
