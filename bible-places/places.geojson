@@ -26861,7 +26861,7 @@
     "certainty": "region",
     "certainty_note": "A region, not a single town. Its name sits roughly in the middle of the land it named.",
     "sources_surveyed": 16,
-    "verses": "1Kgs.10.1 1Kgs.10.4 1Kgs.10.10 1Kgs.10.13 2Chr.9.1 2Chr.9.3 2Chr.9.9 2Chr.9.12 Job.6.19 Ps.72.10 Ps.72.15 Isa.43.3 Isa.60.6 Jer.6.20 Ezek.27.22 Ezek.27.23 Ezek.38.13 Joel.3.8",
+    "verses": "1Kgs.10.1 1Kgs.10.4 1Kgs.10.10 1Kgs.10.13 2Chr.9.1 2Chr.9.3 2Chr.9.9 2Chr.9.12 Job.6.19 Ps.72.10 Ps.72.15 Isa.60.6 Jer.6.20 Ezek.27.22 Ezek.27.23 Ezek.38.13 Joel.3.8",
     "books": "1Kgs 2Chr Job Ps Isa Jer Ezek Joel",
     "wikidata": "https://www.wikidata.org/wiki/Q216068",
     "openbible_url": "https://www.openbible.info/geo/ancient/a81ab85"
@@ -33066,6 +33066,39 @@
     "verses": "Ps.68.15",
     "books": "Ps",
     "openbible_url": "https://www.openbible.info/geo/ancient/aac759d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.74944,
+     16.93806
+    ]
+   },
+   "properties": {
+    "id": "cp-seba",
+    "name_en": "Seba",
+    "name_ar": "سَبَا",
+    "name_de": "Seba",
+    "name_es": "Seba",
+    "name_fr": "Saba",
+    "name_it": "Seba",
+    "name_nl": "Seba",
+    "name_pt": "Seba",
+    "name_ru": "Савея",
+    "name_zh": "西巴",
+    "name_ja": "セバ",
+    "name_kjv": "Seba",
+    "site_today": "Meroë",
+    "certainty": "unsure",
+    "certainty_note": "Nobody knows for sure; the few reference works that discuss it favour Meroë.",
+    "other_proposed_sites": "Yemen",
+    "sources_surveyed": 0,
+    "verses": "Ps.72.10 Isa.43.3",
+    "books": "Ps Isa",
+    "openbible_url": "https://www.openbible.info/geo/ancient/a81ab85"
    }
   },
   {

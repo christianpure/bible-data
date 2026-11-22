@@ -18,7 +18,7 @@ This repository holds six sets of data that [Christian Pure](https://christianpu
 | [`pauls-journeys`](pauls-journeys/) | Paul's three missionary journeys and his voyage to Rome: every stop with its coordinates and verse in Acts, every leg with its distance by Roman road and by sea, and the places matched to OpenBible.info, Pleiades and Wikidata. | 4 journeys, 69 stops, 65 legs, 48 places | CC BY 4.0 | [Paul's missionary journeys map](https://christianpure.com/pauls-missionary-journeys/) |
 | [`saints`](saints/) | 378 saints with their feast days in the Western and Orthodox calendars, patronages and sources. | 378 saints, 1,090 sources | CC BY 4.0 | [Saint finder](https://christianpure.com/saint-finder/) |
 | [`denominations`](denominations/) | 22 churches and traditions, and Protestants in general, on 55 questions, each answered from the church's own documents, with the passage named and linked. | 23 churches, 55 questions, 1,265 answers | CC BY 4.0 | [Compare Christian Denominations](https://christianpure.com/compare-denominations/) |
-| [`bible-places`](bible-places/) | Every place the Bible names that can be put on a map, from Genesis to Revelation: its location, how sure that location is, the verses that name it, and its name as the Bible in each of 11 languages prints it. | 1,246 places, 11 languages | CC BY 4.0 | [Bible places map](https://christianpure.com/bible-places-map/) |
+| [`bible-places`](bible-places/) | Every place the Bible names that can be put on a map, from Genesis to Revelation: its location, how sure that location is, the verses that name it, and its name as the Bible in each of 11 languages prints it. | 1,247 places, 11 languages | CC BY 4.0 | [Bible places map](https://christianpure.com/bible-places-map/) |
 | [`topical-bible`](topical-bible/) | Over 6,500 Bible subjects and the verses on each, from the OpenBible.info Topical Bible and our own pages, as references only. | 79,134 rows | CC BY 4.0 | [What does the Bible say about…?](https://christianpure.com/what-does-the-bible-say-about/) |
 | [`easter-dates`](easter-dates/) | Western and Orthodox Easter, with Lent, Palm Sunday, Good Friday, Ascension and Pentecost, for every year from 1900 to 2099. | 200 years | CC0 (no conditions) | [When is Easter?](https://christianpure.com/when-is-easter/) |
 
@@ -47,13 +47,13 @@ easter = pd.read_csv("easter-dates/easter-dates.csv", parse_dates=["western_east
 
 [`CITATION.cff`](CITATION.cff) gives the citation in a form GitHub and reference managers read; GitHub shows it under "Cite this repository". In short:
 
-> Christian Pure. *Bible Data from Christian Pure*. Version 1.2.0, 19 November 2026. https://doi.org/10.5281/zenodo.24396556.
+> Christian Pure. *Bible Data from Christian Pure*. Version 1.2.1, 22 November 2026. https://doi.org/10.5281/zenodo.24396556.
 
 The DOI always points to the latest version on [Zenodo](https://doi.org/10.5281/zenodo.24396556), which keeps a permanent copy of every release; each version also has its own DOI there.
 
 ## Versions and corrections
 
-This is version 1.2.0, released on 19 November 2026, and it matches what the six tools showed that day. [`CHANGELOG.md`](CHANGELOG.md) says what changed in each version. When the tools change, a new version will follow, and older versions stay available in the repository's history.
+This is version 1.2.1, released on 22 November 2026, and it matches what the six tools showed that day. [`CHANGELOG.md`](CHANGELOG.md) says what changed in each version. When the tools change, a new version will follow, and older versions stay available in the repository's history.
 
 If you find a mistake, please [open an issue](https://github.com/christianpure/bible-data/issues). We fix the tools and the data together, and corrections to our pages are logged on [our editorial standards page](https://christianpure.com/editorial-standards/).
 

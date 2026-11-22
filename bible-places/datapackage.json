@@ -3,8 +3,8 @@
  "name": "christianpure-bible-places",
  "title": "Places in the Bible, with their names in 11 languages",
  "description": "Every place the Bible names that can be put on a map, from Genesis to Revelation: its location, how sure that location is, the verses that name it, and its name as the Bible in each of 11 languages prints it. Built on the OpenBible.info Bible Geocoding Data (CC BY 4.0) for the map at https://christianpure.com/bible-places-map/. CC BY 4.0: credit OpenBible.info and Christian Pure.",
- "version": "1.2.0",
- "created": "2026-11-19T00:00:00Z",
+ "version": "1.2.1",
+ "created": "2026-11-22T00:00:00Z",
  "homepage": "https://christianpure.com/bible-places-map/",
  "licenses": [
   {
@@ -65,11 +65,11 @@
      {
       "name": "id",
       "type": "string",
-      "description": "OpenBible.info ancient-place id; join with its Bible Geocoding Data.",
+      "description": "OpenBible.info ancient-place id; join with its Bible Geocoding Data. One place OpenBible.info files under another has our own id: cp-seba (Seba, filed under Sheba, a81ab85).",
       "constraints": {
        "required": true,
        "unique": true,
-       "pattern": "a[0-9a-f]{6}"
+       "pattern": "a[0-9a-f]{6}|cp-[a-z]+"
       }
      },
      {
@@ -138,7 +138,7 @@
      {
       "name": "lat",
       "type": "number",
-      "description": "Latitude of the point, WGS 84 (OpenBible.info).",
+      "description": "Latitude of the point, WGS 84 (OpenBible.info; ours for cp-seba).",
       "constraints": {
        "required": true,
        "minimum": -90,
@@ -148,7 +148,7 @@
      {
       "name": "lon",
       "type": "number",
-      "description": "Longitude of the point, WGS 84 (OpenBible.info).",
+      "description": "Longitude of the point, WGS 84 (OpenBible.info; ours for cp-seba).",
       "constraints": {
        "required": true,
        "minimum": -180,
@@ -176,9 +176,8 @@
      {
       "name": "openbible_score",
       "type": "integer",
-      "description": "OpenBible.info confidence in the identification (its time-weighted score, time_total): read it as thousandths, where 1000 is very high confidence. It is a trend line, so a few run below 0 or above 1000.",
+      "description": "OpenBible.info confidence in the identification (its time-weighted score, time_total): read it as thousandths, where 1000 is very high confidence. It is a trend line, so a few run below 0 or above 1000. Empty for cp-seba, which OpenBible.info does not list.",
       "constraints": {
-       "required": true,
        "minimum": -1000,
        "maximum": 2000
       }
@@ -213,7 +212,7 @@
      {
       "name": "sources_surveyed",
       "type": "integer",
-      "description": "Reference works OpenBible.info surveyed for this place.",
+      "description": "Reference works OpenBible.info surveyed for this place (0 for cp-seba).",
       "constraints": {
        "required": true,
        "minimum": 0
@@ -252,7 +251,7 @@
      {
       "name": "openbible_url",
       "type": "string",
-      "description": "The place on OpenBible.info.",
+      "description": "The place on OpenBible.info (for cp-seba, the Sheba page it is filed under).",
       "constraints": {
        "required": true
       },
