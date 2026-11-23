@@ -1,0 +1,21 @@
+event_id,catalogue,entry,year,where,size,distance_km,catalogue_flag,base_count_100y,base_rate_per_century
+q-amos-uzziah,CFTI5Med,M1001 (N),-760,"Jerusalem, Israel",,1,no observations behind the entry (CFTI5Med note N),2,0.79
+q-amos-uzziah,NOAA NCEI significant earthquakes,14,-759,ISRAEL:  JERUSALEM,intensity 11,138,,2,0.79
+q-michmash,,,,,,,,0,0.79
+q-jordan-adam,NOAA NCEI significant earthquakes,12,-1250,ISRAEL:  ARIHA (JERICHO),M6.5,12,,0,0.87
+q-jericho,NOAA NCEI significant earthquakes,12,-1250,ISRAEL:  ARIHA (JERICHO),M6.5,15,,0,0.79
+q-korah,NOAA NCEI significant earthquakes,12,-1250,ISRAEL:  ARIHA (JERICHO),M6.5,182,,0,0.57
+q-crucifixion,NOAA NCEI significant earthquakes,8178,33,ISRAEL:  PALESTINE,,4,flagged doubtful in NOAA's notes,1,0.79
+q-tomb,NOAA NCEI significant earthquakes,8178,33,ISRAEL:  PALESTINE,,4,flagged doubtful in NOAA's notes,1,0.79
+q-philippi,CFTI5Med,M1087 (N),50,"Krinides, Greece",,4,no observations behind the entry (CFTI5Med note N),4,0.26
+q-philippi,CFTI5Med,M1088 (N),50,"Hellespont, Turkey",,199,no observations behind the entry (CFTI5Med note N),4,0.26
+q-philippi,NOAA NCEI significant earthquakes,49,52,"GREECE:  PHILIPPI,DRAMA,KAVALA",,2,,4,0.26
+q-philippi,CFTI5Med,M1094 (N),61,"Greece, Macedonia, Greece, Macedon",,192,no observations behind the entry (CFTI5Med note N),4,0.26
+q-bithynia-phlegon,NOAA NCEI significant earthquakes,44,29,"TURKEY:  IZNIK,IZMIT",intensity 9,69,,3,1.58
+q-bithynia-phlegon,CFTI5Med,M1082,29,"Iznik, Turkey",Mw 6.0,0,,3,1.58
+q-galilee-363,NOAA NCEI significant earthquakes,86,348,LEBANON:  BAYRUT (BEROUTH),intensity 9,125,,5,0.87
+q-galilee-363,CFTI5Med,M1145 (S),348,"Beirut, Lebanon",Mw 5.8,122,,5,0.87
+q-galilee-363,NOAA NCEI tsunamis,36,348,LEVANTIAN SEA,tsunami,125,,5,0.87
+q-galilee-363,NOAA NCEI significant earthquakes,92,362,JORDAN:  AL-KARAK,M6.4,164,,5,0.87
+q-galilee-363,NOAA NCEI tsunamis,37,362,DEAD SEA,tsunami,164,,5,0.87
+q-galilee-363,CFTI5Med,M1153,363,"Jerusalem, Israel",Mw 6.4,116,,5,0.87

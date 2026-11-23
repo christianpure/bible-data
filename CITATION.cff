@@ -3,21 +3,23 @@ message: "If you use this data, we'd be grateful if you cited it as below. A cre
 type: dataset
 title: "Bible Data from Christian Pure"
 abstract: >-
-  Six open datasets behind Christian Pure's free Bible and church tools: Paul's missionary
+  Seven open datasets behind Christian Pure's free Bible and church tools: Paul's missionary
   journeys (stops, legs and places, as CSV and GeoJSON); 378 saints with their feast days in
   the Western and Orthodox calendars, patronages and sources; 22 Christian churches and
   traditions, and Protestants in general, on 55 questions, each answered from the church's
   own documents; Western and Orthodox Easter dates from 1900 to 2099; the 1,247 places the
   Bible names, from Genesis to Revelation, with their names in 11 languages; and over 6,500 Bible subjects with
-  their verses.
+  their verses; and 25 earthquakes, eclipses and famines from the Bible and the early church, set
+  against the scientific record and graded.
 authors:
   - name: "Christian Pure"
     website: "https://christianpure.com/"
 doi: "10.5281/zenodo.24396556"
-version: "1.2.1"
-date-released: "2026-11-22"
+version: "1.3.0"
+date-released: "2026-11-23"
 license:
   - CC-BY-4.0
+  - CC-BY-SA-4.0
   - CC0-1.0
 url: "https://christianpure.com/"
 repository-code: "https://github.com/christianpure/bible-data"

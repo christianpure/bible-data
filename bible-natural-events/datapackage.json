@@ -1,0 +1,754 @@
+{
+ "profile": "data-package",
+ "name": "christianpure-natural-events",
+ "title": "Earthquakes, eclipses and famines in the Bible, set against the scientific record",
+ "description": "Every natural event the Bible and two early church writers name (earthquakes, eclipses and darkness, famines and droughts), each matched to earthquake catalogues, eclipse canons and climate records and given one of four grades, with the nearest fault, how common such events were, and every source. Rows with no match stay in.",
+ "version": "1.3.0",
+ "created": "2026-11-23T00:00:00Z",
+ "homepage": "https://christianpure.com/bible-earthquakes-eclipses-famines/",
+ "licenses": [
+  {
+   "name": "CC-BY-SA-4.0",
+   "path": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "title": "Creative Commons Attribution-ShareAlike 4.0 International"
+  }
+ ],
+ "contributors": [
+  {
+   "title": "Christian Pure",
+   "role": "author",
+   "path": "https://christianpure.com/"
+  }
+ ],
+ "keywords": [
+  "Bible",
+  "earthquakes",
+  "eclipses",
+  "famine",
+  "drought",
+  "historical seismology",
+  "archaeoastronomy",
+  "palaeoclimate",
+  "GeoJSON"
+ ],
+ "sources": [
+  {
+   "title": "NOAA NCEI/WDS Global Significant Earthquake Database (public domain), doi:10.7289/V5TD9V7K",
+   "path": "https://doi.org/10.7289/V5TD9V7K"
+  },
+  {
+   "title": "NOAA NCEI/WDS Global Historical Tsunami Database (public domain), doi:10.7289/V5PN93H7",
+   "path": "https://doi.org/10.7289/V5PN93H7"
+  },
+  {
+   "title": "CFTI5Med, Catalogue of Strong Earthquakes in Italy and the Mediterranean, Guidoboni et al. 2018/2019 (CC BY 4.0), via PANGAEA",
+   "path": "https://doi.org/10.1594/PANGAEA.896750"
+  },
+  {
+   "title": "GEM Global Active Faults Database, Styron and Pagani 2020 (CC BY-SA 4.0)",
+   "path": "https://github.com/GEMScienceTools/gem-global-active-faults"
+  },
+  {
+   "title": "Five Millennium Canon of Solar Eclipses and of Lunar Eclipses, Espenak and Meeus (NASA)",
+   "path": "https://eclipse.gsfc.nasa.gov/"
+  },
+  {
+   "title": "JPL DE441 ephemeris (Park et al. 2021), via Skyfield",
+   "path": "https://ssd.jpl.nasa.gov/planets/eph_export.html"
+  },
+  {
+   "title": "Christian Pure Bible places (CC BY 4.0), built on OpenBible.info and Pleiades",
+   "path": "https://christianpure.com/"
+  }
+ ],
+ "resources": [
+  {
+   "name": "natural-events",
+   "path": "natural-events.csv",
+   "profile": "tabular-data-resource",
+   "title": "Events and grades",
+   "description": "One row per natural event named in the Bible or early church writings, with its place, the passage's date, the grade and the best match in the scientific record.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "schema": {
+    "fields": [
+     {
+      "name": "id",
+      "type": "string",
+      "description": "Short id of the event. Starts with e- (eclipse or darkness), f- (famine or drought) or q- (earthquake).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "kind",
+      "type": "string",
+      "description": "earthquake, eclipse, darkness, famine or drought.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "event",
+      "type": "string",
+      "description": "Short title of the event.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "passages",
+      "type": "string",
+      "description": "Where the event is told: Bible references, or the ancient writer for the two rows outside the Bible.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "place",
+      "type": "string",
+      "description": "The place used for matching: where the passage puts the event, or the nearest place it names.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "place_id",
+      "type": "string",
+      "description": "Id of the place in the Christian Pure Bible places list, or add-… for the two places added here (see place-additions.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "latitude",
+      "type": "number",
+      "description": "WGS 84 latitude of the place.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "longitude",
+      "type": "number",
+      "description": "WGS 84 longitude of the place.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "passage_date_from",
+      "type": "integer",
+      "description": "Earliest year scholars give for the passage. Negative years are BC: -760 is 760 BC (there is no year 0).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "passage_date_to",
+      "type": "integer",
+      "description": "Latest year scholars give for the passage, same numbering.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "passage_date",
+      "type": "string",
+      "description": "The same range in words, for example 766 BC to 751 BC.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "date_note",
+      "type": "string",
+      "description": "Where the date range comes from and where scholars disagree.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "grade",
+      "type": "string",
+      "description": "One of four: strong match, possible match, no match found, beyond the records. See the README for what each means.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "reason",
+      "type": "string",
+      "description": "Why the row has its grade, naming the record it rests on.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "best_match",
+      "type": "string",
+      "description": "The record that comes closest. Empty where nothing comes close; starts with None. where the nearest candidate does not fit."
+     },
+     {
+      "name": "best_match_catalogue",
+      "type": "string",
+      "description": "The catalogue or writer that holds the best match."
+     },
+     {
+      "name": "best_match_entry",
+      "type": "string",
+      "description": "The entry's number in that catalogue, where it has one."
+     },
+     {
+      "name": "best_match_year",
+      "type": "integer",
+      "description": "Year of the best match, same numbering as passage_date_from."
+     },
+     {
+      "name": "how_common",
+      "type": "string",
+      "description": "How often events of this kind happened at this place in the same period, counted from the same records (earthquakes within 200 km; eclipses visible from the place).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "nearest_fault_km",
+      "type": "number",
+      "description": "Earthquake rows: distance in km from the place to the nearest mapped active fault (GEM Global Active Faults)."
+     },
+     {
+      "name": "nearest_fault",
+      "type": "string",
+      "description": "Earthquake rows: that fault's type and slip rate. Most faults in this region have no name in the source."
+     },
+     {
+      "name": "nearest_fault_gem_id",
+      "type": "string",
+      "description": "Earthquake rows: the fault's id in the GEM file (catalogue name and id)."
+     },
+     {
+      "name": "graded_on",
+      "type": "string",
+      "description": "Date the grade was last set, YYYY-MM-DD.",
+      "constraints": {
+       "required": true
+      }
+     }
+    ],
+    "primaryKey": "id"
+   }
+  },
+  {
+   "name": "natural-events-sources",
+   "path": "natural-events-sources.csv",
+   "profile": "tabular-data-resource",
+   "title": "Sources",
+   "description": "Every source consulted for each event, numbered as in the research notes.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "schema": {
+    "fields": [
+     {
+      "name": "event_id",
+      "type": "string",
+      "description": "Event (natural-events.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "n",
+      "type": "integer",
+      "description": "Number of the source within its event.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "citation",
+      "type": "string",
+      "description": "The citation, with a note where the source was not opened or is cited only to show a claim exists.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "url",
+      "type": "string",
+      "description": "Link or DOI for the source, where there is one."
+     }
+    ],
+    "foreignKeys": [
+     {
+      "fields": "event_id",
+      "reference": {
+       "resource": "natural-events",
+       "fields": "id"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "earthquake-candidates",
+   "path": "earthquake-candidates.csv",
+   "profile": "tabular-data-resource",
+   "title": "Earthquake candidates",
+   "description": "Every catalogue earthquake within 200 km of an earthquake row's place and within 25 years either side of its date range. An event with no candidates has one row with the catalogue fields empty.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "schema": {
+    "fields": [
+     {
+      "name": "event_id",
+      "type": "string",
+      "description": "Event (natural-events.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "catalogue",
+      "type": "string",
+      "description": "NOAA NCEI significant earthquakes, NOAA NCEI tsunamis, or CFTI5Med."
+     },
+     {
+      "name": "entry",
+      "type": "string",
+      "description": "Entry number in that catalogue. CFTI5Med notes in brackets: N = no observations behind the entry, S = a single data point, D = doubtful."
+     },
+     {
+      "name": "year",
+      "type": "integer",
+      "description": "Year the catalogue gives, same numbering as natural-events.csv."
+     },
+     {
+      "name": "where",
+      "type": "string",
+      "description": "Place name the catalogue gives."
+     },
+     {
+      "name": "size",
+      "type": "string",
+      "description": "Magnitude (M, Mw) or intensity (I0) where the catalogue gives one."
+     },
+     {
+      "name": "distance_km",
+      "type": "integer",
+      "description": "Distance in km from the event's place to the catalogue's epicentre."
+     },
+     {
+      "name": "catalogue_flag",
+      "type": "string",
+      "description": "Where the catalogue itself marks the entry as doubtful or as resting on no observations."
+     },
+     {
+      "name": "base_count_100y",
+      "type": "integer",
+      "description": "Catalogue earthquakes within 200 km in the 50 years either side of the middle of the passage's range.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "base_rate_per_century",
+      "type": "number",
+      "description": "Catalogue earthquakes within 200 km per century, 2150 BC to AD 500.",
+      "constraints": {
+       "required": true
+      }
+     }
+    ],
+    "foreignKeys": [
+     {
+      "fields": "event_id",
+      "reference": {
+       "resource": "natural-events",
+       "fields": "id"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "eclipse-visibility",
+   "path": "eclipse-visibility.csv",
+   "profile": "tabular-data-resource",
+   "title": "Eclipse visibility",
+   "description": "What each proposed eclipse looked like from Jerusalem, Samaria and Nineveh, from the Christian Pure sky engine (JPL DE441), worked out three times: at the engine's central value for the slowing of Earth's spin (Delta T) and at two standard errors either side.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "schema": {
+    "fields": [
+     {
+      "name": "event",
+      "type": "string",
+      "description": "Event (natural-events.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "kind",
+      "type": "string",
+      "description": "solar or lunar.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "nasa_catalogue_number",
+      "type": "string",
+      "description": "Number of the same eclipse in NASA's Five Millennium Canon, for reference.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "date_julian",
+      "type": "string",
+      "description": "Date (Universal Time) in the Julian calendar, astronomical year first: -762 Jun 15 is 15 June 763 BC.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "nasa_type",
+      "type": "string",
+      "description": "NASA's type for the eclipse as a whole: T total, A annular, H hybrid, P partial.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "local_type",
+      "type": "string",
+      "description": "The eclipse as seen from the place at the central Delta T: Total, Annular or Partial (lunar: the eclipse's own type).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "delta_t_case",
+      "type": "string",
+      "description": "central, minus_2sigma or plus_2sigma.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "delta_t_s",
+      "type": "integer",
+      "description": "Delta T used, in seconds.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "delta_t_2sigma_s",
+      "type": "integer",
+      "description": "Two standard errors of Delta T, in seconds (Morrison and Stephenson 2004, 0.8 t^2 s; stretched before 1000 BC).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "place_id",
+      "type": "string",
+      "description": "Place id.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "place",
+      "type": "string",
+      "description": "Jerusalem, Samaria or Nineveh.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "visible",
+      "type": "string",
+      "description": "yes or no. Solar: the sun was up while partly covered. Lunar: the moon was up during the shadow (umbral) phase. Normal bending of light at the horizon is counted.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "magnitude",
+      "type": "number",
+      "description": "Solar: fraction of the sun's width covered at greatest eclipse at the place. Lunar: umbral magnitude.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "altitude_deg",
+      "type": "number",
+      "description": "Height of the sun (solar) or moon (lunar) above the horizon at greatest eclipse, degrees. Negative means below the horizon.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "minutes_visible",
+      "type": "integer",
+      "description": "Minutes the eclipse (solar) or its umbral phase (lunar) could be seen with the sun or moon up.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "local_start",
+      "type": "string",
+      "description": "Central Delta T only: local mean time the eclipse (solar) or umbral phase (lunar) began, HH:MM."
+     },
+     {
+      "name": "local_greatest",
+      "type": "string",
+      "description": "Central Delta T only: local mean time of greatest eclipse, HH:MM."
+     },
+     {
+      "name": "local_end",
+      "type": "string",
+      "description": "Central Delta T only: local mean time the eclipse or umbral phase ended, HH:MM."
+     },
+     {
+      "name": "ut_greatest",
+      "type": "string",
+      "description": "Central Delta T only: Universal Time of greatest eclipse, HH:MM."
+     },
+     {
+      "name": "first_seen_local",
+      "type": "string",
+      "description": "Central Delta T only: local mean time the eclipse could first be seen, HH:MM."
+     },
+     {
+      "name": "note",
+      "type": "string",
+      "description": "Warnings, for example where the Delta T error formula is used outside its stated range."
+     }
+    ],
+    "foreignKeys": [
+     {
+      "fields": "event",
+      "reference": {
+       "resource": "natural-events",
+       "fields": "id"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "eclipse-counts",
+   "path": "eclipse-counts.csv",
+   "profile": "tabular-data-resource",
+   "title": "Eclipse counts",
+   "description": "For each eclipse or darkness row, every eclipse in the sky engine's table inside the passage's date range that was visible from the row's place at the central Delta T: how common eclipses were.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "schema": {
+    "fields": [
+     {
+      "name": "event_id",
+      "type": "string",
+      "description": "Event (natural-events.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "place",
+      "type": "string",
+      "description": "Place the eclipses were worked out for.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "range",
+      "type": "string",
+      "description": "The passage's date range.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "kind_counted",
+      "type": "string",
+      "description": "What was counted: solar eclipses covering half the sun or more at greatest eclipse with the sun up, or lunar eclipses with the moon up during the shadow (umbral) phase.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "visible_count",
+      "type": "integer",
+      "description": "How many eclipses were counted.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "per_century",
+      "type": "number",
+      "description": "visible_count per hundred years.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "visible_list",
+      "type": "string",
+      "description": "The counted eclipses, separated by \"; \": date (Julian calendar) and fraction of the sun covered, or minutes of the lunar shadow phase with the moon up."
+     }
+    ],
+    "foreignKeys": [
+     {
+      "fields": "event_id",
+      "reference": {
+       "resource": "natural-events",
+       "fields": "id"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "grade-log",
+   "path": "grade-log.csv",
+   "profile": "tabular-data-resource",
+   "title": "Grade changes",
+   "description": "Every change to a grade after first release, with its date and reason. Empty until a grade changes.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "schema": {
+    "fields": [
+     {
+      "name": "event_id",
+      "type": "string",
+      "description": "Event (natural-events.csv).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "date",
+      "type": "string",
+      "description": "Date of the change, YYYY-MM-DD.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "old_grade",
+      "type": "string",
+      "description": "Grade before.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "new_grade",
+      "type": "string",
+      "description": "Grade after.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "why",
+      "type": "string",
+      "description": "What changed: a new study, a corrected figure, or a reviewer's reading.",
+      "constraints": {
+       "required": true
+      }
+     }
+    ],
+    "foreignKeys": [
+     {
+      "fields": "event_id",
+      "reference": {
+       "resource": "natural-events",
+       "fields": "id"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "place-additions",
+   "path": "place-additions.csv",
+   "profile": "tabular-data-resource",
+   "title": "Added places",
+   "description": "Places used here that are not in the Christian Pure Bible places list.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "schema": {
+    "fields": [
+     {
+      "name": "id",
+      "type": "string",
+      "description": "Id used in natural-events.csv place_id.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "name",
+      "type": "string",
+      "description": "Name.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "lat",
+      "type": "number",
+      "description": "WGS 84 latitude.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "lon",
+      "type": "number",
+      "description": "WGS 84 longitude.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Where the point comes from.",
+      "constraints": {
+       "required": true
+      }
+     }
+    ],
+    "primaryKey": "id"
+   }
+  },
+  {
+   "name": "natural-events-geojson",
+   "path": "natural-events.geojson",
+   "title": "Events as points",
+   "description": "natural-events.csv as GeoJSON points (longitude first).",
+   "format": "geojson",
+   "mediatype": "application/geo+json"
+  }
+ ],
+ "dataset_version": "1.1.0"
+}

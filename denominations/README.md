@@ -105,6 +105,6 @@ If you use this, we'd be grateful for a credit link to [https://christianpure.co
 
 To cite the data in a paper, see `CITATION.cff` at the top of this repository, or use:
 
-> Christian Pure. "What Christian Churches Teach: 55 Questions, Answered from Their Own Documents." Version 1.2.1, 22 November 2026. https://christianpure.com/compare-denominations/.
+> Christian Pure. "What Christian Churches Teach: 55 Questions, Answered from Their Own Documents." Version 1.3.0, 23 November 2026. https://christianpure.com/compare-denominations/.
 
 An error in this table is seen first by the church it describes, so please tell us. Open an issue in this repository; corrections to our pages are logged on [our editorial standards page](https://christianpure.com/editorial-standards/).

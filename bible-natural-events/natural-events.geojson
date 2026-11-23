@@ -1,0 +1,830 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.195,
+     32.27611
+    ]
+   },
+   "properties": {
+    "id": "e-amos-sun-noon",
+    "kind": "eclipse",
+    "event": "The sun goes down at noon",
+    "passages": "Amos 8:9",
+    "place": "Samaria",
+    "place_id": "a041bb3",
+    "passage_date_from": "-793",
+    "passage_date_to": "-746",
+    "passage_date": "793 BC to 746 BC",
+    "date_note": "Reign of Jeroboam II, named in Amos 1:1 (Albright and Thiele dates combined).",
+    "grade": "possible match",
+    "reason": "The total solar eclipse of 15 June 763 BC, fixed by the Assyrian eponym list and NASA's canon, falls inside the reign Amos names. At Samaria about 87 to 95 percent of the sun was covered, in mid-morning (around 10 local time), not at noon; totality fell in Assyria. Six other eclipses covered half the sun or more at Samaria in the same reign, the 784 BC eclipse is also proposed, and some commentators read the verse as imagery, not an eclipse.",
+    "best_match": "Solar eclipse of 15 June 763 BC (about 0.91 of the sun covered at Samaria)",
+    "best_match_catalogue": "NASA Five Millennium Canon of Solar Eclipses",
+    "best_match_entry": "2937",
+    "best_match_year": "-763",
+    "how_common": "7 solar eclipses covering half the sun or more were visible from Samaria in the reign of Jeroboam II (793 to 746 BC), about 15 per century.",
+    "nearest_fault_km": "",
+    "nearest_fault": "",
+    "nearest_fault_gem_id": "",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "e-joel-blood-moon",
+    "kind": "eclipse",
+    "event": "The moon turned to blood",
+    "passages": "Joel 2:31; Acts 2:20",
+    "place": "Jerusalem",
+    "place_id": "a15257a",
+    "passage_date_from": "30",
+    "passage_date_to": "33",
+    "passage_date": "AD 30 to AD 33",
+    "date_note": "Pentecost after the crucifixion, AD 30 or AD 33.",
+    "grade": "possible match",
+    "reason": "A partial lunar eclipse on 3 April AD 33 was under way as the moon rose over Jerusalem; the moon was in Earth's shadow for about 18 minutes after rising (9 to 26 minutes across the range of Earth-rotation values, counting the normal bending of light at the horizon). The crucifixion year is disputed (AD 30 would leave no eclipse at Passover), and two published studies argue the eclipse was too faint or low to be noticed.",
+    "best_match": "Partial lunar eclipse of 3 April AD 33, seen at moonrise",
+    "best_match_catalogue": "NASA Five Millennium Canon of Lunar Eclipses",
+    "best_match_entry": "04904",
+    "best_match_year": "33",
+    "how_common": "4 lunar eclipses with the shadow phase visible from Jerusalem in AD 30 to 33; the one on 3 April AD 33 is the only one at Passover.",
+    "nearest_fault_km": "",
+    "nearest_fault": "",
+    "nearest_fault_gem_id": "",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "e-crucifixion-darkness",
+    "kind": "darkness",
+    "event": "Darkness at the crucifixion",
+    "passages": "Matthew 27:45; Mark 15:33; Luke 23:44-45",
+    "place": "Jerusalem",
+    "place_id": "a15257a",
+    "passage_date_from": "30",
+    "passage_date_to": "33",
+    "passage_date": "AD 30 to AD 33",
+    "date_note": "Passover, AD 30 or AD 33 (Humphreys and Waddington; Schaefer).",
+    "grade": "no match found",
+    "reason": "The crucifixion was at Passover, at full moon, when a solar eclipse cannot happen. NASA's canon covers these years in full and shows no solar eclipse covering half the sun or more at Jerusalem from AD 30 to 33. The nearest, 24 November AD 29, is neither at Passover nor in the passage's years. Any lunar eclipse is a separate row (the blood moon).",
+    "best_match": "None. Nearest solar eclipse: 24 November AD 29 (about 0.93 of the sun covered at Jerusalem)",
+    "best_match_catalogue": "NASA Five Millennium Canon of Solar Eclipses",
+    "best_match_entry": "4847",
+    "best_match_year": "29",
+    "how_common": "No solar eclipse covering half the sun or more was visible from Jerusalem in AD 30 to 33.",
+    "nearest_fault_km": "",
+    "nearest_fault": "",
+    "nearest_fault_gem_id": "",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.18335,
+     31.84745
+    ]
+   },
+   "properties": {
+    "id": "e-joshua-sun-stands",
+    "kind": "eclipse",
+    "event": "The sun stands still over Gibeon",
+    "passages": "Joshua 10:12-13",
+    "place": "Gibeon",
+    "place_id": "aede336",
+    "passage_date_from": "-1500",
+    "passage_date_to": "-1050",
+    "passage_date": "1500 BC to 1050 BC",
+    "date_note": "No agreed date; the window used by the eclipse proposals.",
+    "grade": "beyond the records",
+    "reason": "The battle cannot be dated more closely than a window of about 450 years, which holds dozens of eclipses visible at Gibeon (the annular eclipse of 1207 BC and the total eclipse of 1131 BC are both proposed), and before 1000 BC the Earth-rotation correction is extrapolated rather than measured. No record can single out one event for this battle.",
+    "best_match": "",
+    "best_match_catalogue": "",
+    "best_match_entry": "",
+    "best_match_year": "",
+    "how_common": "80 solar eclipses covering half the sun or more were visible from Gibeon between 1500 and 1050 BC, about 18 per century.",
+    "nearest_fault_km": "",
+    "nearest_fault": "",
+    "nearest_fault_gem_id": "",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "e-hezekiah-shadow",
+    "kind": "eclipse",
+    "event": "The shadow goes back ten steps",
+    "passages": "2 Kings 20:8-11; Isaiah 38:7-8",
+    "place": "Jerusalem",
+    "place_id": "a15257a",
+    "passage_date_from": "-713",
+    "passage_date_to": "-701",
+    "passage_date": "713 BC to 701 BC",
+    "date_note": "Fifteen years before Hezekiah's death, before 701 BC; differs by chronology (Thiele, Young, Galil).",
+    "grade": "no match found",
+    "reason": "No eclipse in these years could make a shadow go back. NASA's canon covers this time and place. An eclipse on 5 March 702 BC falls inside the range under one chronology (Thiele) and covered about 72 percent of the sun at Jerusalem, and the January 689 BC eclipse falls after the illness on every chronology found. A partial eclipse dims the light but does not move a shadow back, and no published calculation shows that it would.",
+    "best_match": "None. Nearest proposal: solar eclipse of 5 March 702 BC (about 0.72 at Jerusalem)",
+    "best_match_catalogue": "NASA Five Millennium Canon of Solar Eclipses",
+    "best_match_entry": "3083",
+    "best_match_year": "-702",
+    "how_common": "4 solar eclipses covering half the sun or more were visible from Jerusalem between 713 and 701 BC.",
+    "nearest_fault_km": "",
+    "nearest_fault": "",
+    "nearest_fault_gem_id": "",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.33333,
+     32.76667
+    ]
+   },
+   "properties": {
+    "id": "f-abram-egypt",
+    "kind": "famine",
+    "event": "Famine sends Abram to Egypt",
+    "passages": "Genesis 12:10",
+    "place": "Canaan",
+    "place_id": "a581f0c",
+    "passage_date_from": "-2100",
+    "passage_date_to": "-1500",
+    "passage_date": "2100 BC to 1500 BC",
+    "date_note": "No secure date; traditional and scholarly placements span six centuries, and some scholars give none.",
+    "grade": "beyond the records",
+    "reason": "The passage has no secure date (estimates run across six centuries, and some scholars give it none), and the climate records for this region resolve decades to centuries, so none can show a famine of a few years.",
+    "best_match": "",
+    "best_match_catalogue": "",
+    "best_match_entry": "",
+    "best_match_year": "",
+    "how_common": "Not countable: none of the records used here gives famines or droughts year by year for this place and time.",
+    "nearest_fault_km": "",
+    "nearest_fault": "",
+    "nearest_fault_gem_id": "",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.6065,
+     31.3821
+    ]
+   },
+   "properties": {
+    "id": "f-isaac-gerar",
+    "kind": "famine",
+    "event": "Famine sends Isaac to Gerar",
+    "passages": "Genesis 26:1",
+    "place": "Gerar",
+    "place_id": "a3f5814",
+    "passage_date_from": "-2066",
+    "passage_date_to": "-1500",
+    "passage_date": "2066 BC to 1500 BC",
+    "date_note": "No secure date; as for Abraham's famine.",
+    "grade": "beyond the records",
+    "reason": "The famine has no secure date, and the records for this region resolve decades to centuries, so none can show a famine of a few years.",
+    "best_match": "",
+    "best_match_catalogue": "",
+    "best_match_entry": "",
+    "best_match_year": "",
+    "how_common": "Not countable: none of the records used here gives famines or droughts year by year for this place and time.",
+    "nearest_fault_km": "",
+    "nearest_fault": "",
+    "nearest_fault_gem_id": "",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3075,
+     30.12944
+    ]
+   },
+   "properties": {
+    "id": "f-joseph-seven-years",
+    "kind": "famine",
+    "event": "Joseph's seven years of famine",
+    "passages": "Genesis 41-47",
+    "place": "Egypt",
+    "place_id": "af301ca",
+    "passage_date_from": "-1900",
+    "passage_date_to": "-1500",
+    "passage_date": "1900 BC to 1500 BC",
+    "date_note": "No secure date; proposals run from the 19th century BC to no historical date.",
+    "grade": "beyond the records",
+    "reason": "The famine has no secure date (proposals run from the 19th century BC to no historical date at all), and the Nile and Levant records resolve centuries or decades. The Famine Stela is a later literary text set some 800 years before the traditional date, so it is not a record of this event.",
+    "best_match": "",
+    "best_match_catalogue": "",
+    "best_match_entry": "",
+    "best_match_year": "",
+    "how_common": "Not countable: none of the records used here gives famines or droughts year by year for this place and time.",
+    "nearest_fault_km": "",
+    "nearest_fault": "",
+    "nearest_fault_gem_id": "",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.20764,
+     31.70431
+    ]
+   },
+   "properties": {
+    "id": "f-ruth-judges",
+    "kind": "famine",
+    "event": "Famine in the days of the judges",
+    "passages": "Ruth 1:1",
+    "place": "Bethlehem",
+    "place_id": "a112427",
+    "passage_date_from": "-1200",
+    "passage_date_to": "-1050",
+    "passage_date": "1200 BC to 1050 BC",
+    "date_note": "Only 'when the judges ruled'; the genealogy points to the generations before David.",
+    "grade": "beyond the records",
+    "reason": "No record can show a single famine at Bethlehem in a span of a century or more. A regional dry phase of about 1250 to 1100 BC overlaps the likely setting and has been linked to it (Eames 2020), but a dry phase lasting generations cannot show whether a particular famine happened at Bethlehem.",
+    "best_match": "Regional dry phase, about 1250 to 1100 BC (pollen and lake records)",
+    "best_match_catalogue": "",
+    "best_match_entry": "",
+    "best_match_year": "",
+    "how_common": "Not countable: none of the records used here gives famines or droughts year by year for this place and time.",
+    "nearest_fault_km": "",
+    "nearest_fault": "",
+    "nearest_fault_gem_id": "",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "f-david-three-years",
+    "kind": "famine",
+    "event": "Three years of famine under David",
+    "passages": "2 Samuel 21:1",
+    "place": "Jerusalem",
+    "place_id": "a15257a",
+    "passage_date_from": "-1010",
+    "passage_date_to": "-962",
+    "passage_date": "1010 BC to 962 BC",
+    "date_note": "Some point in David's reign; the chapter does not follow the main story's order.",
+    "grade": "beyond the records",
+    "reason": "The famine lasted three years at an unknown point in a forty-year reign, and the records for this period sample every few decades. The wetter conditions they show for the period neither support nor rule out a short famine.",
+    "best_match": "",
+    "best_match_catalogue": "",
+    "best_match_entry": "",
+    "best_match_year": "",
+    "how_common": "Not countable: none of the records used here gives famines or droughts year by year for this place and time.",
+    "nearest_fault_km": "",
+    "nearest_fault": "",
+    "nearest_fault_gem_id": "",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.195,
+     32.27611
+    ]
+   },
+   "properties": {
+    "id": "f-elijah-drought",
+    "kind": "drought",
+    "event": "Elijah's drought",
+    "passages": "1 Kings 17-18; Luke 4:25; James 5:17",
+    "place": "Samaria",
+    "place_id": "a041bb3",
+    "passage_date_from": "-874",
+    "passage_date_to": "-850",
+    "passage_date": "874 BC to 850 BC",
+    "date_note": "Reign of Ahab (Thiele, Galil, Albright combined); the years within it are not given.",
+    "grade": "possible match",
+    "reason": "Menander of Ephesus, a historian of Tyre quoted by Josephus, records a year-long drought in Phoenicia, next to Zarephath, under Ithobaal, Jezebel's father and Ahab's contemporary. But its date can only be placed somewhere in a reign of about 32 years, it gives one year rather than three and a half, and the link to Elijah was made by Josephus.",
+    "best_match": "Drought under Ithobaal of Tyre (Menander of Ephesus, quoted by Josephus, Antiquities 8.324)",
+    "best_match_catalogue": "Menander of Ephesus via Josephus",
+    "best_match_entry": "",
+    "best_match_year": "",
+    "how_common": "Not countable: none of the records used here gives famines or droughts year by year for this place and time.",
+    "nearest_fault_km": "",
+    "nearest_fault": "",
+    "nearest_fault_gem_id": "",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.3343,
+     32.6056
+    ]
+   },
+   "properties": {
+    "id": "f-elisha-seven-years",
+    "kind": "famine",
+    "event": "Elisha's seven years of famine",
+    "passages": "2 Kings 8:1-6",
+    "place": "Shunem (Sulam)",
+    "place_id": "add-shunem",
+    "passage_date_from": "-852",
+    "passage_date_to": "-841",
+    "passage_date": "852 BC to 841 BC",
+    "date_note": "Placed in the reign of Joram of Israel; the Elisha stories are not in strict order.",
+    "grade": "beyond the records",
+    "reason": "The records for the 9th century BC sample every few decades and cannot show a seven-year famine; the one written record of drought from the period (Menander) is a single year linked by Josephus to Elijah, not to this event.",
+    "best_match": "",
+    "best_match_catalogue": "",
+    "best_match_entry": "",
+    "best_match_year": "",
+    "how_common": "Not countable: none of the records used here gives famines or droughts year by year for this place and time.",
+    "nearest_fault_km": "",
+    "nearest_fault": "",
+    "nearest_fault_gem_id": "",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "f-jeremiah-drought",
+    "kind": "drought",
+    "event": "Jeremiah's drought",
+    "passages": "Jeremiah 14:1-6",
+    "place": "Jerusalem",
+    "place_id": "a15257a",
+    "passage_date_from": "-626",
+    "passage_date_to": "-586",
+    "passage_date": "626 BC to 586 BC",
+    "date_note": "Jeremiah's ministry; chapter 14 is undated.",
+    "grade": "beyond the records",
+    "reason": "The passage is undated within about forty years, and the records for this period sample every few decades, so none can show a single drought of a few years in Judah.",
+    "best_match": "",
+    "best_match_catalogue": "",
+    "best_match_entry": "",
+    "best_match_year": "",
+    "how_common": "Not countable: none of the records used here gives famines or droughts year by year for this place and time.",
+    "nearest_fault_km": "",
+    "nearest_fault": "",
+    "nearest_fault_gem_id": "",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "f-haggai-drought",
+    "kind": "drought",
+    "event": "Drought in Haggai's day",
+    "passages": "Haggai 1:10-11",
+    "place": "Jerusalem",
+    "place_id": "a15257a",
+    "passage_date_from": "-520",
+    "passage_date_to": "-520",
+    "passage_date": "520 BC",
+    "date_note": "Second year of Darius I; the drought had lasted some time before.",
+    "grade": "beyond the records",
+    "reason": "No record can show whether 520 BC itself was a drought year. The only record found shows a dry phase of about seventy years beginning near this date in the same region, measured by methods that sample every few decades.",
+    "best_match": "Regional dry phase beginning about 520 BC",
+    "best_match_catalogue": "",
+    "best_match_entry": "",
+    "best_match_year": "",
+    "how_common": "Not countable: none of the records used here gives famines or droughts year by year for this place and time.",
+    "nearest_fault_km": "",
+    "nearest_fault": "",
+    "nearest_fault_gem_id": "",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "f-claudius-famine",
+    "kind": "famine",
+    "event": "The famine under Claudius",
+    "passages": "Acts 11:27-30",
+    "place": "Jerusalem",
+    "place_id": "a15257a",
+    "passage_date_from": "41",
+    "passage_date_to": "54",
+    "passage_date": "AD 41 to AD 54",
+    "date_note": "Acts gives the reign of Claudius (AD 41-54); scholars narrow it to AD 44-48 using Josephus, which is the record matched here.",
+    "grade": "strong match",
+    "reason": "Josephus, writing independently of Acts, places a great famine at Jerusalem and in Judea under the procurators Fadus and Tiberius Alexander (AD 44 to 48), inside the reign of Claudius that Acts names; Egyptian tax papyri add hardship in Egypt in AD 45 to 47. The grade is for the famine. Its natural cause is not shown: no climate record here can test a few years in the 40s AD over Judea.",
+    "best_match": "Great famine in Judea, AD 44 to 48 (Josephus, Antiquities 20.51-53 and 20.100-102)",
+    "best_match_catalogue": "Josephus, Antiquities",
+    "best_match_entry": "",
+    "best_match_year": "46",
+    "how_common": "Not countable: none of the records used here gives famines or droughts year by year for this place and time.",
+    "nearest_fault_km": "",
+    "nearest_fault": "",
+    "nearest_fault_gem_id": "",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "q-amos-uzziah",
+    "kind": "earthquake",
+    "event": "The earthquake in the days of Uzziah",
+    "passages": "Amos 1:1; Zechariah 14:5",
+    "place": "Jerusalem",
+    "place_id": "a15257a",
+    "passage_date_from": "-766",
+    "passage_date_to": "-751",
+    "passage_date": "766 BC to 751 BC",
+    "date_note": "Overlap of Uzziah's and Jeroboam II's reigns (Thiele); usually 'about 760 BC'.",
+    "grade": "possible match",
+    "reason": "Lake-bed layers and destruction at Hazor and other sites point to strong shaking in the region in the mid-8th century BC. But scholars dispute whether it was one quake or two and whether it was 760 or 750 BC, the lake-bed date leans partly on Amos, and Ambraseys doubts the archaeological reading. The catalogue entries for Jerusalem (NOAA 14, CFTI5Med M1001) come from the biblical date itself and do not count as separate records.",
+    "best_match": "Mid-8th-century BC destruction layers (Hazor) and Dead Sea lake-bed layers",
+    "best_match_catalogue": "Excavations at Hazor and Dead Sea lake-bed studies",
+    "best_match_entry": "",
+    "best_match_year": "-760",
+    "how_common": "2 catalogue earthquakes within 200 km in the 100 years around the passage; about 0.8 per century across 2150 BC to AD 500.",
+    "nearest_fault_km": "22.6",
+    "nearest_fault": "strike-slip fault, slip about 3.5 mm a year",
+    "nearest_fault_gem_id": "EMME ME_JO2",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.27686,
+     31.87282
+    ]
+   },
+   "properties": {
+    "id": "q-michmash",
+    "kind": "earthquake",
+    "event": "The ground shakes at Michmash",
+    "passages": "1 Samuel 14:15",
+    "place": "Michmash",
+    "place_id": "adea06c",
+    "passage_date_from": "-1050",
+    "passage_date_to": "-1000",
+    "passage_date": "1050 BC to 1000 BC",
+    "date_note": "Early in Saul's reign; the text of 1 Samuel 13:1 is damaged and every date is a reconstruction.",
+    "grade": "beyond the records",
+    "reason": "The passage's own date is uncertain by decades, and the only lake-bed layers in that window have ages set by matching to a catalogue rather than by independent dating, so no record can be tied to the battle.",
+    "best_match": "",
+    "best_match_catalogue": "",
+    "best_match_entry": "",
+    "best_match_year": "",
+    "how_common": "0 catalogue earthquakes within 200 km in the 100 years around the passage; about 0.8 per century across 2150 BC to AD 500.",
+    "nearest_fault_km": "23.4",
+    "nearest_fault": "strike-slip fault, slip about 4.8 mm a year",
+    "nearest_fault_gem_id": "EMME ME_JO1",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.54679,
+     32.10393
+    ]
+   },
+   "properties": {
+    "id": "q-jordan-adam",
+    "kind": "earthquake",
+    "event": "The Jordan stops at Adam",
+    "passages": "Joshua 3:16",
+    "place": "Adam",
+    "place_id": "adc31c7",
+    "passage_date_from": "-1410",
+    "passage_date_to": "-1200",
+    "passage_date": "1410 BC to 1200 BC",
+    "date_note": "Shares the Jericho date dispute: about 1400 BC or the 13th century BC.",
+    "grade": "beyond the records",
+    "reason": "Modern blockages show the Jordan at Damiya can be dammed by bank collapse (in 1267, 1546, 1906 and 1927, the 1546 and 1927 blockages after earthquakes), but no record is dated closely enough to the crossing, whose own date is disputed by two centuries. NOAA's entry for Jericho in 1250 BC cites only a 1988 hazard study (Kovach), gives no description, and may follow the conquest story.",
+    "best_match": "",
+    "best_match_catalogue": "",
+    "best_match_entry": "",
+    "best_match_year": "",
+    "how_common": "0 catalogue earthquakes within 200 km in the 100 years around the passage; about 0.9 per century across 2150 BC to AD 500.",
+    "nearest_fault_km": "1.3",
+    "nearest_fault": "strike-slip fault, slip about 4.8 mm a year",
+    "nearest_fault_gem_id": "EMME ME_JO1",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.44456,
+     31.87172
+    ]
+   },
+   "properties": {
+    "id": "q-jericho",
+    "kind": "earthquake",
+    "event": "The walls of Jericho fall",
+    "passages": "Joshua 6:20",
+    "place": "Jericho",
+    "place_id": "a231f80",
+    "passage_date_from": "-1410",
+    "passage_date_to": "-1200",
+    "passage_date": "1410 BC to 1200 BC",
+    "date_note": "About 1400 BC (early date) or the 13th century BC (late date); many doubt a single campaign.",
+    "grade": "beyond the records",
+    "reason": "There is good evidence of earthquake damage at Jericho in the Middle Bronze Age, but it is dated about 1600 to 1550 BC, before both proposed dates for Joshua. NOAA's 1250 BC entry for Jericho cites only a 1988 hazard study (Kovach), gives no description, and may follow the story itself.",
+    "best_match": "",
+    "best_match_catalogue": "",
+    "best_match_entry": "",
+    "best_match_year": "",
+    "how_common": "0 catalogue earthquakes within 200 km in the 100 years around the passage; about 0.8 per century across 2150 BC to AD 500.",
+    "nearest_fault_km": "8.2",
+    "nearest_fault": "strike-slip fault, slip about 4.8 mm a year",
+    "nearest_fault_gem_id": "EMME ME_JO1",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.42222,
+     30.64833
+    ]
+   },
+   "properties": {
+    "id": "q-korah",
+    "kind": "earthquake",
+    "event": "The ground swallows Korah",
+    "passages": "Numbers 16:31-32",
+    "place": "Kadesh",
+    "place_id": "ac2cef0",
+    "passage_date_from": "-1450",
+    "passage_date_to": "-1200",
+    "passage_date": "1450 BC to 1200 BC",
+    "date_note": "Wilderness years; a range spanning both conventional Exodus dates. The passage names no place; Kadesh is the nearest named camp.",
+    "grade": "beyond the records",
+    "reason": "The passage names no place and has no secure date, so no record can be checked against it.",
+    "best_match": "",
+    "best_match_catalogue": "",
+    "best_match_entry": "",
+    "best_match_year": "",
+    "how_common": "0 catalogue earthquakes within 200 km in the 100 years around the passage; about 0.6 per century across 2150 BC to AD 500.",
+    "nearest_fault_km": "85.7",
+    "nearest_fault": "strike-slip fault, slip about 4.8 mm a year",
+    "nearest_fault_gem_id": "EMME ME_JO4",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "q-crucifixion",
+    "kind": "earthquake",
+    "event": "The earthquake at the crucifixion",
+    "passages": "Matthew 27:51-54",
+    "place": "Jerusalem",
+    "place_id": "a15257a",
+    "passage_date_from": "30",
+    "passage_date_to": "33",
+    "passage_date": "AD 30 to AD 33",
+    "date_note": "Passover, AD 30 or AD 33.",
+    "grade": "possible match",
+    "reason": "A Dead Sea lake-bed layer at Ein Gedi, about 39 km away, dates regional shaking to AD 31 plus or minus 5 years (Williams, Schwab and Brauer 2012). It overlaps the passage, but its range is wider than AD 30 to 33 and it shows shaking in the Dead Sea basin, not in Jerusalem. NOAA's AD 33 Jerusalem entry (8178) comes from Matthew, and Ambraseys rates it of low validity, so it does not count.",
+    "best_match": "Dead Sea lake-bed layer dated AD 31 plus or minus 5 (Ein Gedi core)",
+    "best_match_catalogue": "Williams, Schwab and Brauer 2012",
+    "best_match_entry": "",
+    "best_match_year": "31",
+    "how_common": "1 catalogue earthquake within 200 km in the 100 years around the passage; about 0.8 per century across 2150 BC to AD 500.",
+    "nearest_fault_km": "22.6",
+    "nearest_fault": "strike-slip fault, slip about 3.5 mm a year",
+    "nearest_fault_gem_id": "EMME ME_JO2",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.23417,
+     31.77667
+    ]
+   },
+   "properties": {
+    "id": "q-tomb",
+    "kind": "earthquake",
+    "event": "The earthquake at the tomb",
+    "passages": "Matthew 28:2",
+    "place": "Jerusalem",
+    "place_id": "a15257a",
+    "passage_date_from": "30",
+    "passage_date_to": "33",
+    "passage_date": "AD 30 to AD 33",
+    "date_note": "The Sunday after the crucifixion.",
+    "grade": "possible match",
+    "reason": "The only dated record is the same regional AD 31 plus or minus 5 lake-bed layer used for the crucifixion row. It overlaps the passage but is wider and regional, and it cannot be assigned to this earthquake rather than the one two days earlier: the two rows share one piece of evidence.",
+    "best_match": "Dead Sea lake-bed layer dated AD 31 plus or minus 5 (Ein Gedi core), shared with the crucifixion row",
+    "best_match_catalogue": "Williams, Schwab and Brauer 2012",
+    "best_match_entry": "",
+    "best_match_year": "31",
+    "how_common": "1 catalogue earthquake within 200 km in the 100 years around the passage; about 0.8 per century across 2150 BC to AD 500.",
+    "nearest_fault_km": "22.6",
+    "nearest_fault": "strike-slip fault, slip about 3.5 mm a year",
+    "nearest_fault_gem_id": "EMME ME_JO2",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.28458,
+     41.01207
+    ]
+   },
+   "properties": {
+    "id": "q-philippi",
+    "kind": "earthquake",
+    "event": "The prison at Philippi shakes",
+    "passages": "Acts 16:26",
+    "place": "Philippi",
+    "place_id": "a49e1d0",
+    "passage_date_from": "49",
+    "passage_date_to": "51",
+    "passage_date": "AD 49 to AD 51",
+    "date_note": "Paul's second journey, before his stay in Corinth (fixed by the Gallio inscription).",
+    "grade": "no match found",
+    "reason": "No independent record of an earthquake at Philippi in these years was found. Searched NOAA's significant-earthquake database and CFTI5Med for Macedonia in this decade. Both hold entries at Philippi (NOAA 49, AD 52; CFTI5Med M1087, AD 50, marked as having no observations behind it), but as far as could be checked they rest on Acts itself, and no independent writer, inscription or excavation reports an earthquake there at this time.",
+    "best_match": "None. Catalogue entries NOAA 49 and CFTI5Med M1087 trace back to Acts",
+    "best_match_catalogue": "",
+    "best_match_entry": "",
+    "best_match_year": "",
+    "how_common": "4 catalogue earthquakes within 200 km in the 100 years around the passage; about 0.3 per century across 2150 BC to AD 500.",
+    "nearest_fault_km": "17.2",
+    "nearest_fault": "normal fault, slip about 0.3 mm a year",
+    "nearest_fault_gem_id": "SHARE EUR_GRCS140",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.71468,
+     40.42909
+    ]
+   },
+   "properties": {
+    "id": "q-bithynia-phlegon",
+    "kind": "earthquake",
+    "event": "Phlegon's earthquake in Bithynia",
+    "passages": "Phlegon of Tralles, Olympiads 13, quoted by Eusebius",
+    "place": "Nicaea (Iznik)",
+    "place_id": "add-nicaea",
+    "passage_date_from": "29",
+    "passage_date_to": "33",
+    "passage_date": "AD 29 to AD 33",
+    "date_note": "Olympiad 202 year 4 (AD 32-33) as transmitted; some read AD 29.",
+    "grade": "possible match",
+    "reason": "Phlegon of Tralles, a non-Christian writer, is the only witness to this earthquake; the Christian writers who repeat it (Eusebius, Jerome, probably Orosius) depend on his report. Catalogues accept it as a real earthquake that damaged Nicaea (CFTI5Med M1082, intensity 9 from two places; NOAA 44; Ambraseys 2009), but they rest on his report too and disagree on the year: 24 November AD 29 or AD 32-33. With no record independent of Phlegon and the year disputed, the grade goes no higher than possible match.",
+    "best_match": "Earthquake at Nicaea (Iznik) accepted by the catalogues from Phlegon's report, dated 24 November AD 29 (CFTI5Med) or AD 32-33 (Ambraseys)",
+    "best_match_catalogue": "CFTI5Med",
+    "best_match_entry": "M1082",
+    "best_match_year": "29",
+    "how_common": "3 catalogue earthquakes within 200 km in the 100 years around the passage; about 1.6 per century across 2150 BC to AD 500.",
+    "nearest_fault_km": "3.6",
+    "nearest_fault": "strike-slip fault, slip about 6.4 mm a year",
+    "nearest_fault_gem_id": "EMME ME_TRCS022",
+    "graded_on": "2026-11-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.54417,
+     32.77361
+    ]
+   },
+   "properties": {
+    "id": "q-galilee-363",
+    "kind": "earthquake",
+    "event": "The Galilee earthquake of AD 363",
+    "passages": "Letter attributed to Cyril of Jerusalem (Syriac)",
+    "place": "Tiberias",
+    "place_id": "ac9adc9",
+    "passage_date_from": "363",
+    "passage_date_to": "363",
+    "passage_date": "AD 363",
+    "date_note": "Night of 18-19 May 363; the letter's authorship is disputed, the date is not.",
+    "grade": "strong match",
+    "reason": "The earthquake of 18 to 19 May 363 is also described by Philostorgius and the Syriac Chronicon miscellaneum, is listed in several earthquake catalogues (CFTI5Med M1153 gives 18 May 363), and matches dated destruction at Sepphoris, Petra and other sites. The Dead Sea cores do not record it and the letter's authorship is disputed, but neither changes the date or region of the earthquake.",
+    "best_match": "Earthquake of 18 to 19 May AD 363",
+    "best_match_catalogue": "CFTI5Med",
+    "best_match_entry": "M1153",
+    "best_match_year": "363",
+    "how_common": "5 catalogue earthquakes within 200 km in the 100 years around the passage; about 0.9 per century across 2150 BC to AD 500.",
+    "nearest_fault_km": "6.4",
+    "nearest_fault": "strike-slip fault, slip about 4.8 mm a year",
+    "nearest_fault_gem_id": "EMME ME_JO1",
+    "graded_on": "2026-11-23"
+   }
+  }
+ ]
+}

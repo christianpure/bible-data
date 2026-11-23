@@ -3,8 +3,8 @@
  "name": "christianpure-bible-places",
  "title": "Places in the Bible, with their names in 11 languages",
  "description": "Every place the Bible names that can be put on a map, from Genesis to Revelation: its location, how sure that location is, the verses that name it, and its name as the Bible in each of 11 languages prints it. Built on the OpenBible.info Bible Geocoding Data (CC BY 4.0) for the map at https://christianpure.com/bible-places-map/. CC BY 4.0: credit OpenBible.info and Christian Pure.",
- "version": "1.2.1",
- "created": "2026-11-22T00:00:00Z",
+ "version": "1.3.0",
+ "created": "2026-11-23T00:00:00Z",
  "homepage": "https://christianpure.com/bible-places-map/",
  "licenses": [
   {

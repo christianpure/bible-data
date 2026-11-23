@@ -1,0 +1,73 @@
+event,kind,nasa_catalogue_number,date_julian,nasa_type,local_type,delta_t_case,delta_t_s,delta_t_2sigma_s,place_id,place,visible,magnitude,altitude_deg,minutes_visible,local_start,local_greatest,local_end,ut_greatest,first_seen_local,note
+e-amos-sun-noon,solar,2937,-762 Jun 15,T,Partial,central,21051,1067,a15257a,Jerusalem,yes,0.891,62.4,165,08:37,09:54,11:22,07:33,08:37,
+e-amos-sun-noon,solar,2937,-762 Jun 15,T,Partial,central,21051,1067,a041bb3,Samaria,yes,0.907,62.5,165,08:37,09:55,11:22,07:34,08:37,
+e-amos-sun-noon,solar,2937,-762 Jun 15,T,Partial,central,21051,1067,a70fd5d,Nineveh,yes,0.979,70.5,170,09:25,10:47,12:15,07:54,09:25,
+e-amos-sun-noon,solar,2937,-762 Jun 15,T,Partial,minus_2sigma,19984,1067,a15257a,Jerusalem,yes,0.855,68.1,170,,,,,,
+e-amos-sun-noon,solar,2937,-762 Jun 15,T,Partial,minus_2sigma,19984,1067,a041bb3,Samaria,yes,0.871,67.9,169,,,,,,
+e-amos-sun-noon,solar,2937,-762 Jun 15,T,Partial,minus_2sigma,19984,1067,a70fd5d,Nineveh,yes,0.959,74.3,173,,,,,,
+e-amos-sun-noon,solar,2937,-762 Jun 15,T,Partial,plus_2sigma,22118,1067,a15257a,Jerusalem,yes,0.933,57.0,160,,,,,,
+e-amos-sun-noon,solar,2937,-762 Jun 15,T,Partial,plus_2sigma,22118,1067,a041bb3,Samaria,yes,0.948,57.1,160,,,,,,
+e-amos-sun-noon,solar,2937,-762 Jun 15,T,Partial,plus_2sigma,22118,1067,a70fd5d,Nineveh,yes,1.006,65.9,166,,,,,,
+e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,central,21409,1084,a15257a,Jerusalem,yes,0.292,40.1,125,11:58,13:03,14:03,10:42,11:59,
+e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,central,21409,1084,a041bb3,Samaria,yes,0.282,39.6,122,11:00,13:03,14:02,10:42,12:01,
+e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,central,21409,1084,a70fd5d,Nineveh,yes,0.339,32.5,123,12:46,13:49,14:49,10:57,12:46,
+e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,minus_2sigma,20325,1084,a15257a,Jerusalem,yes,0.372,38.4,134,,,,,,
+e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,minus_2sigma,20325,1084,a041bb3,Samaria,yes,0.361,38.0,132,,,,,,
+e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,minus_2sigma,20325,1084,a70fd5d,Nineveh,yes,0.414,30.2,130,,,,,,
+e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,plus_2sigma,22493,1084,a15257a,Jerusalem,yes,0.213,41.0,112,,,,,,
+e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,plus_2sigma,22493,1084,a041bb3,Samaria,yes,0.204,40.5,110,,,,,,
+e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,plus_2sigma,22493,1084,a70fd5d,Nineveh,yes,0.264,34.4,114,,,,,,
+e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Annular,central,29367,1465,a15257a,Jerusalem,yes,0.949,7.5,120,15:26,16:48,17:59,14:27,15:27,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Annular,central,29367,1465,a041bb3,Samaria,yes,0.939,7.6,121,15:25,16:47,17:58,14:26,15:26,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Partial,central,29367,1465,a70fd5d,Nineveh,yes,0.885,0.9,82,15:00,17:16,18:23,14:24,16:00,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Annular,minus_2sigma,27902,1465,a15257a,Jerusalem,yes,0.957,2.0,89,,,,,,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Annular,minus_2sigma,27902,1465,a041bb3,Samaria,yes,0.956,2.2,89,,,,,,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Partial,minus_2sigma,27902,1465,a70fd5d,Nineveh,yes,0.908,-4.6,52,,,,,,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Annular,plus_2sigma,30832,1465,a15257a,Jerusalem,yes,0.936,13.2,155,,,,,,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Annular,plus_2sigma,30832,1465,a041bb3,Samaria,yes,0.927,13.2,155,,,,,,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Partial,plus_2sigma,30832,1465,a70fd5d,Nineveh,yes,0.867,5.9,113,,,,,,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-hezekiah-shadow,solar,3114,-688 Jan 11,A,Partial,central,19857,1006,a15257a,Jerusalem,yes,0.831,34.6,219,09:46,11:36,13:26,09:15,09:47,
+e-hezekiah-shadow,solar,3114,-688 Jan 11,A,Partial,central,19857,1006,a041bb3,Samaria,yes,0.839,34.1,219,09:47,11:36,13:26,09:15,09:48,
+e-hezekiah-shadow,solar,3114,-688 Jan 11,A,Partial,central,19857,1006,a70fd5d,Nineveh,yes,0.836,30.5,210,10:42,12:30,14:13,09:38,10:43,
+e-hezekiah-shadow,solar,3114,-688 Jan 11,A,Partial,minus_2sigma,18851,1006,a15257a,Jerusalem,yes,0.800,35.2,218,,,,,,
+e-hezekiah-shadow,solar,3114,-688 Jan 11,A,Partial,minus_2sigma,18851,1006,a041bb3,Samaria,yes,0.809,34.7,217,,,,,,
+e-hezekiah-shadow,solar,3114,-688 Jan 11,A,Partial,minus_2sigma,18851,1006,a70fd5d,Nineveh,yes,0.794,29.7,205,,,,,,
+e-hezekiah-shadow,solar,3114,-688 Jan 11,A,Partial,plus_2sigma,20863,1006,a15257a,Jerusalem,yes,0.853,33.1,219,,,,,,
+e-hezekiah-shadow,solar,3114,-688 Jan 11,A,Partial,plus_2sigma,20863,1006,a041bb3,Samaria,yes,0.861,32.7,218,,,,,,
+e-hezekiah-shadow,solar,3114,-688 Jan 11,A,Partial,plus_2sigma,20863,1006,a70fd5d,Nineveh,yes,0.872,30.6,214,,,,,,
+e-hezekiah-shadow,solar,3083,-701 Mar 05,T,Partial,central,20063,1017,a15257a,Jerusalem,yes,0.719,46.2,159,09:51,11:09,12:31,08:48,09:52,
+e-hezekiah-shadow,solar,3083,-701 Mar 05,T,Partial,central,20063,1017,a041bb3,Samaria,yes,0.708,45.8,159,09:52,11:10,12:30,08:49,09:52,
+e-hezekiah-shadow,solar,3083,-701 Mar 05,T,Partial,central,20063,1017,a70fd5d,Nineveh,yes,0.709,44.5,156,10:44,12:03,13:21,09:10,10:45,
+e-hezekiah-shadow,solar,3083,-701 Mar 05,T,Partial,minus_2sigma,19046,1017,a15257a,Jerusalem,yes,0.765,48.1,162,,,,,,
+e-hezekiah-shadow,solar,3083,-701 Mar 05,T,Partial,minus_2sigma,19046,1017,a041bb3,Samaria,yes,0.754,47.6,162,,,,,,
+e-hezekiah-shadow,solar,3083,-701 Mar 05,T,Partial,minus_2sigma,19046,1017,a70fd5d,Nineveh,yes,0.758,44.6,158,,,,,,
+e-hezekiah-shadow,solar,3083,-701 Mar 05,T,Partial,plus_2sigma,21080,1017,a15257a,Jerusalem,yes,0.679,43.6,155,,,,,,
+e-hezekiah-shadow,solar,3083,-701 Mar 05,T,Partial,plus_2sigma,21080,1017,a041bb3,Samaria,yes,0.668,43.3,154,,,,,,
+e-hezekiah-shadow,solar,3083,-701 Mar 05,T,Partial,plus_2sigma,21080,1017,a70fd5d,Nineveh,yes,0.662,43.7,154,,,,,,
+e-joshua-sun-stands,solar,2087,-1130 Sep 30,T,Total,central,27831,1392,a15257a,Jerusalem,yes,1.005,57.4,166,11:21,12:45,14:06,10:24,11:21,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,2087,-1130 Sep 30,T,Partial,central,27831,1392,a041bb3,Samaria,yes,0.994,57.1,165,11:20,12:44,14:05,10:23,11:21,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,2087,-1130 Sep 30,T,Partial,central,27831,1392,a70fd5d,Nineveh,yes,0.804,49.4,155,12:05,13:25,14:40,10:32,12:06,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,2087,-1130 Sep 30,T,Total,minus_2sigma,26439,1392,a15257a,Jerusalem,yes,0.929,53.7,161,,,,,,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,2087,-1130 Sep 30,T,Partial,minus_2sigma,26439,1392,a041bb3,Samaria,yes,0.918,53.4,161,,,,,,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,2087,-1130 Sep 30,T,Partial,minus_2sigma,26439,1392,a70fd5d,Nineveh,yes,0.739,45.0,148,,,,,,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,2087,-1130 Sep 30,T,Total,plus_2sigma,29223,1392,a15257a,Jerusalem,yes,0.965,59.4,167,,,,,,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,2087,-1130 Sep 30,T,Partial,plus_2sigma,29223,1392,a041bb3,Samaria,yes,0.976,58.9,167,,,,,,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,2087,-1130 Sep 30,T,Partial,plus_2sigma,29223,1392,a70fd5d,Nineveh,yes,0.874,52.7,160,,,,,,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-crucifixion-darkness,solar,4847,29 Nov 24,T,Partial,central,10124,513,a15257a,Jerusalem,yes,0.930,36.7,171,09:46,11:08,12:37,08:47,09:46,
+e-crucifixion-darkness,solar,4847,29 Nov 24,T,Partial,central,10124,513,a041bb3,Samaria,yes,0.939,36.2,170,09:46,11:08,12:36,08:47,09:46,
+e-crucifixion-darkness,solar,4847,29 Nov 24,T,Partial,central,10124,513,a70fd5d,Nineveh,yes,0.903,33.1,170,10:29,11:53,13:20,09:00,10:30,
+e-crucifixion-darkness,solar,4847,29 Nov 24,T,Partial,minus_2sigma,9611,513,a15257a,Jerusalem,yes,0.962,37.2,173,,,,,,
+e-crucifixion-darkness,solar,4847,29 Nov 24,T,Partial,minus_2sigma,9611,513,a041bb3,Samaria,yes,0.971,36.7,172,,,,,,
+e-crucifixion-darkness,solar,4847,29 Nov 24,T,Partial,minus_2sigma,9611,513,a70fd5d,Nineveh,yes,0.878,33.0,171,,,,,,
+e-crucifixion-darkness,solar,4847,29 Nov 24,T,Partial,plus_2sigma,10637,513,a15257a,Jerusalem,yes,0.897,36.1,168,,,,,,
+e-crucifixion-darkness,solar,4847,29 Nov 24,T,Partial,plus_2sigma,10637,513,a041bb3,Samaria,yes,0.906,35.6,167,,,,,,
+e-crucifixion-darkness,solar,4847,29 Nov 24,T,Partial,plus_2sigma,10637,513,a70fd5d,Nineveh,yes,0.929,33.0,170,,,,,,
+e-joel-blood-moon,lunar,04904,33 Apr 03,P,Partial,central,10089,511,a15257a,Jerusalem,yes,0.575,-14.4,18,15:46,17:11,18:36,14:50,18:19,
+e-joel-blood-moon,lunar,04904,33 Apr 03,P,Partial,central,10089,511,a041bb3,Samaria,yes,0.575,-14.4,17,15:46,17:11,18:36,14:50,18:20,
+e-joel-blood-moon,lunar,04904,33 Apr 03,P,Partial,central,10089,511,a70fd5d,Nineveh,yes,0.575,-7.8,48,16:18,17:43,19:08,14:50,18:21,
+e-joel-blood-moon,lunar,04904,33 Apr 03,P,Partial,minus_2sigma,9578,511,a15257a,Jerusalem,yes,0.575,-12.6,26,,,,,,
+e-joel-blood-moon,lunar,04904,33 Apr 03,P,Partial,minus_2sigma,9578,511,a041bb3,Samaria,yes,0.575,-12.6,26,,,,,,
+e-joel-blood-moon,lunar,04904,33 Apr 03,P,Partial,minus_2sigma,9578,511,a70fd5d,Nineveh,yes,0.575,-6.1,57,,,,,,
+e-joel-blood-moon,lunar,04904,33 Apr 03,P,Partial,plus_2sigma,10600,511,a15257a,Jerusalem,yes,0.575,-16.2,9,,,,,,
+e-joel-blood-moon,lunar,04904,33 Apr 03,P,Partial,plus_2sigma,10600,511,a041bb3,Samaria,yes,0.575,-16.2,8,,,,,,
+e-joel-blood-moon,lunar,04904,33 Apr 03,P,Partial,plus_2sigma,10600,511,a70fd5d,Nineveh,yes,0.575,-9.6,39,,,,,,
