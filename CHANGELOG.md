@@ -4,6 +4,8 @@
 
 Wording only. The descriptions of `jerusalem-sky` and `easter-moons`, here and on Zenodo, now open with the question each folder answers: on which day and weekday Passover fell in a given year, and why Western and Orthodox Easter fall on different days. No data changed, apart from the version number in each file.
 
+This version's own DOI is [10.5281/zenodo.24469450](https://doi.org/10.5281/zenodo.24469450).
+
 ## 1.4.0, 23 November 2026
 
 Two new folders, both CC0, worked out from the positions of the sun and moon over Jerusalem (JPL DE441, read with Skyfield):
