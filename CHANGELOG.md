@@ -1,8 +1,12 @@
 # Changes
 
+## 1.4.1, 23 November 2026
+
+Wording only. The descriptions of `jerusalem-sky` and `easter-moons`, here and on Zenodo, now open with the question each folder answers: on which day and weekday Passover fell in a given year, and why Western and Orthodox Easter fall on different days. No data changed, apart from the version number in each file.
+
 ## 1.4.0, 23 November 2026
 
-Two new folders, both CC0, from one calculation of the sky over Jerusalem (JPL DE441, read with Skyfield):
+Two new folders, both CC0, worked out from the positions of the sun and moon over Jerusalem (JPL DE441, read with Skyfield):
 
 - `jerusalem-sky`: when each Hebrew month most likely began, by whether the thin crescent could be seen after sunset from the Temple Mount (Yallop's test, 1997), for all 14,038 months from 1000 BC to AD 135; the date and weekday of Passover (14 and 15 Nisan) in each of the 1,135 years under two month-start rules, with the 14th of the month before and after; every eclipse seen from Jerusalem, Samaria or Nineveh from 1999 BC to AD 500 (21,137 rows); and the sky on named nights, among them the Star of Bethlehem candidates and 3 April AD 33. Every row carries the margin from Earth's uneven spin (Delta T). Dates are Julian, with Julian Day Numbers beside them. It is the data behind [When did Jesus die?](https://christianpure.com/the-day-jesus-died/).
 - `easter-moons`: the full moon the church's Easter tables use beside the real full moon over Jerusalem, for every year from AD 325 to 2100, with Western, Orthodox and astronomical Easter, and how far each table's moon has drifted.

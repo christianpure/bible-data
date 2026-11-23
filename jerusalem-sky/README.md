@@ -1,6 +1,6 @@
 # The sky over Jerusalem: months, Passover and eclipses, 1000 BC to AD 135
 
-These tables work out, from the positions of the sun and moon, when each Hebrew month most likely began in Jerusalem and on which day and weekday Passover fell, for every year from 1000 BC to AD 135. They also list every eclipse that could be seen from Jerusalem, Samaria or Nineveh from 1999 BC to AD 500, and describe the sky on a few nights that writers link to the Bible: the Star of Bethlehem candidates, the two proposed dates of the crucifixion, the eclipse of 763 BC and the autumn of Paul's shipwreck.
+On which day, and which weekday, did Passover fall in a given year? These tables answer that for every year from 1000 BC to AD 135, worked out from the positions of the sun and moon over Jerusalem. They also list every eclipse that could be seen from Jerusalem, Samaria or Nineveh from 1999 BC to AD 500, and describe the sky on a few nights that writers link to the Bible: the Star of Bethlehem candidates, the two proposed dates of the crucifixion, the eclipse of 763 BC and the autumn of Paul's shipwreck.
 
 The ancient calendar began each month when the thin crescent moon was first seen after sunset, so a table of new moons is not enough. These tables test, evening by evening, whether that crescent could have been seen from the Temple Mount. Where the answer is unsure, they give both possible evenings and say why, rather than pick one.
 
@@ -190,9 +190,9 @@ Every check in `CHECKS.md` passed before release. In short:
 
 ## How to cite
 
-> Christian Pure. *The sky over Jerusalem: months, Passover and eclipses, 1000 BC to AD 135.* In *Bible Data from Christian Pure*, version 1.4.0, 23 November 2026. https://doi.org/10.5281/zenodo.24396556.
+> Christian Pure. *The sky over Jerusalem: months, Passover and eclipses, 1000 BC to AD 135.* In *Bible Data from Christian Pure*, version 1.4.1, 23 November 2026. https://doi.org/10.5281/zenodo.24396556.
 
-That DOI always points to the latest version. To cite this version and no other, use https://doi.org/10.5281/zenodo.24468741.
+That DOI always points to the latest version. The data first appeared in version 1.4.0, https://doi.org/10.5281/zenodo.24468741; version 1.4.1 changed only the wording of the descriptions.
 
 ## License
 

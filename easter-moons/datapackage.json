@@ -3,7 +3,7 @@
  "name": "christianpure-easter-moons",
  "title": "The Easter moon and the real moon, AD 325 to 2100",
  "description": "For every year from AD 325 to 2100: the full moon the church's Easter tables use (Julian every year, Gregorian from 1583), the real spring equinox and full moon as seen from Jerusalem, Western, Orthodox and astronomical (1997 Aleppo proposal) Easter, how many days each table's moon sits from the real one, and how many weeks apart the two Easters fall. From JPL DE441 through Skyfield. Dedicated to the public domain under CC0.",
- "version": "1.4.0",
+ "version": "1.4.1",
  "created": "2026-11-23T00:00:00Z",
  "homepage": "https://christianpure.com/when-is-easter/",
  "licenses": [

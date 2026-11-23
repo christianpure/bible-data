@@ -18,7 +18,7 @@ authors:
   - name: "Christian Pure"
     website: "https://christianpure.com/"
 doi: "10.5281/zenodo.24396556"
-version: "1.4.0"
+version: "1.4.1"
 date-released: "2026-11-23"
 license:
   - CC-BY-4.0

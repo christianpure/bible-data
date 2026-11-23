@@ -3,7 +3,7 @@
  "name": "christianpure-jerusalem-sky",
  "title": "The sky over Jerusalem: months, Passover and eclipses, 1000 BC to AD 135",
  "description": "When each Hebrew month most likely began, by crescent sighting from the Temple Mount, for all 14,038 months from 1000 BC to AD 135; the date and weekday of Passover (14 and 15 Nisan) for every year under two month-start rules; every lunar eclipse and every solar eclipse seen at Jerusalem, Samaria or Nineveh from 1999 BC to AD 500; and the sky on named nights (the Star of Bethlehem candidates, AD 30 and AD 33, 15 June 763 BC, Paul's voyage). From JPL DE441 through Skyfield, with Yallop's crescent test and the Delta T margin on every row. Julian calendar, with Julian Day Numbers. Dedicated to the public domain under CC0.",
- "version": "1.4.0",
+ "version": "1.4.1",
  "created": "2026-11-23T00:00:00Z",
  "homepage": "https://christianpure.com/the-day-jesus-died/",
  "licenses": [

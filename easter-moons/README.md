@@ -1,10 +1,10 @@
 # The Easter moon and the real moon, AD 325 to 2100
 
-Easter falls on the Sunday after the first full moon of spring, but the churches never looked at the sky to find it. They used tables. This table sets the full moon the tables give beside the real full moon, as seen from Jerusalem, for every year from AD 325 to 2100, with the Easter each one produces.
+Why do Western and Orthodox Easter so often fall on different days? Easter is the Sunday after the first full moon of spring, but the churches find that moon in tables, not in the sky. This table sets the tables' full moon beside the real full moon over Jerusalem for every year from AD 325 to 2100, with the Easter each one gives.
 
-It shows why Western and Orthodox Easter so often fall on different days. The Orthodox churches still use the old Julian tables, whose moon has drifted: it now runs about four days behind the real one. The Western churches have used the Gregorian tables since 1583, which stay within a day or two. The table also gives the Easter of the 1997 Aleppo proposal of the World Council of Churches: the same rule applied to the real moon and equinox at Jerusalem.
+The Orthodox churches still use the old Julian tables, whose moon has drifted: it now runs about four days behind the real one. The Western churches have used the Gregorian tables since 1583, which stay within a day or two. The table also gives the Easter of the 1997 Aleppo proposal of the World Council of Churches: the same rule applied to the real moon and equinox at Jerusalem.
 
-It is calculation, so it comes with no conditions: it is dedicated to the public domain under CC0.
+It is a calculation, so it comes with no conditions: it is dedicated to the public domain under CC0.
 
 ## What the table shows
 
@@ -89,9 +89,9 @@ Every check in `CHECKS.md` passed before release. In short:
 
 ## How to cite
 
-> Christian Pure. *The Easter moon and the real moon, AD 325 to 2100.* In *Bible Data from Christian Pure*, version 1.4.0, 23 November 2026. https://doi.org/10.5281/zenodo.24396556.
+> Christian Pure. *The Easter moon and the real moon, AD 325 to 2100.* In *Bible Data from Christian Pure*, version 1.4.1, 23 November 2026. https://doi.org/10.5281/zenodo.24396556.
 
-That DOI always points to the latest version. To cite this version and no other, use https://doi.org/10.5281/zenodo.24468741.
+That DOI always points to the latest version. The data first appeared in version 1.4.0, https://doi.org/10.5281/zenodo.24468741; version 1.4.1 changed only the wording of the descriptions.
 
 ## License
 

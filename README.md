@@ -50,13 +50,13 @@ easter = pd.read_csv("easter-dates/easter-dates.csv", parse_dates=["western_east
 
 [`CITATION.cff`](CITATION.cff) gives the citation in a form GitHub and reference managers read; GitHub shows it under "Cite this repository". In short:
 
-> Christian Pure. *Bible Data from Christian Pure*. Version 1.4.0, 23 November 2026. https://doi.org/10.5281/zenodo.24396556.
+> Christian Pure. *Bible Data from Christian Pure*. Version 1.4.1, 23 November 2026. https://doi.org/10.5281/zenodo.24396556.
 
 The DOI always points to the latest version on [Zenodo](https://doi.org/10.5281/zenodo.24396556), which keeps a permanent copy of every release; each version also has its own DOI there.
 
 ## Versions and corrections
 
-This is version 1.4.0, released on 23 November 2026, and it matches what our tools and pages showed that day. [`CHANGELOG.md`](CHANGELOG.md) says what changed in each version. When the tools change, a new version will follow, and older versions stay available in the repository's history.
+This is version 1.4.1, released on 23 November 2026, and it matches what our tools and pages showed that day. [`CHANGELOG.md`](CHANGELOG.md) says what changed in each version. When the tools change, a new version will follow, and older versions stay available in the repository's history.
 
 If you find a mistake, please [open an issue](https://github.com/christianpure/bible-data/issues). We fix the tools and the data together, and corrections to our pages are logged on [our editorial standards page](https://christianpure.com/editorial-standards/).
 
