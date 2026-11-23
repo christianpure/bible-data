@@ -9,7 +9,7 @@ e-amos-sun-noon,solar,2937,-762 Jun 15,T,Partial,plus_2sigma,22118,1067,a15257a,
 e-amos-sun-noon,solar,2937,-762 Jun 15,T,Partial,plus_2sigma,22118,1067,a041bb3,Samaria,yes,0.948,57.1,160,,,,,,
 e-amos-sun-noon,solar,2937,-762 Jun 15,T,Partial,plus_2sigma,22118,1067,a70fd5d,Nineveh,yes,1.006,65.9,166,,,,,,
 e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,central,21409,1084,a15257a,Jerusalem,yes,0.292,40.1,125,11:58,13:03,14:03,10:42,11:59,
-e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,central,21409,1084,a041bb3,Samaria,yes,0.282,39.6,122,11:00,13:03,14:02,10:42,12:01,
+e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,central,21409,1084,a041bb3,Samaria,yes,0.282,39.6,122,12:00,13:03,14:02,10:42,12:01,
 e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,central,21409,1084,a70fd5d,Nineveh,yes,0.339,32.5,123,12:46,13:49,14:49,10:57,12:46,
 e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,minus_2sigma,20325,1084,a15257a,Jerusalem,yes,0.372,38.4,134,,,,,,
 e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,minus_2sigma,20325,1084,a041bb3,Samaria,yes,0.361,38.0,132,,,,,,
@@ -19,7 +19,7 @@ e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,plus_2sigma,22493,1084,a041bb3,
 e-amos-sun-noon,solar,2889,-783 Feb 09,H,Partial,plus_2sigma,22493,1084,a70fd5d,Nineveh,yes,0.264,34.4,114,,,,,,
 e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Annular,central,29367,1465,a15257a,Jerusalem,yes,0.949,7.5,120,15:26,16:48,17:59,14:27,15:27,Delta T error formula used outside its stated range (1000 BC to AD 1200)
 e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Annular,central,29367,1465,a041bb3,Samaria,yes,0.939,7.6,121,15:25,16:47,17:58,14:26,15:26,Delta T error formula used outside its stated range (1000 BC to AD 1200)
-e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Partial,central,29367,1465,a70fd5d,Nineveh,yes,0.885,0.9,82,15:00,17:16,18:23,14:24,16:00,Delta T error formula used outside its stated range (1000 BC to AD 1200)
+e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Partial,central,29367,1465,a70fd5d,Nineveh,yes,0.885,0.9,82,16:00,17:16,18:23,14:24,16:00,Delta T error formula used outside its stated range (1000 BC to AD 1200)
 e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Annular,minus_2sigma,27902,1465,a15257a,Jerusalem,yes,0.957,2.0,89,,,,,,Delta T error formula used outside its stated range (1000 BC to AD 1200)
 e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Annular,minus_2sigma,27902,1465,a041bb3,Samaria,yes,0.956,2.2,89,,,,,,Delta T error formula used outside its stated range (1000 BC to AD 1200)
 e-joshua-sun-stands,solar,1895,-1206 Oct 30,A,Partial,minus_2sigma,27902,1465,a70fd5d,Nineveh,yes,0.908,-4.6,52,,,,,,Delta T error formula used outside its stated range (1000 BC to AD 1200)
