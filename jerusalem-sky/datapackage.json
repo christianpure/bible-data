@@ -1,0 +1,843 @@
+{
+ "profile": "data-package",
+ "name": "christianpure-jerusalem-sky",
+ "title": "The sky over Jerusalem: months, Passover and eclipses, 1000 BC to AD 135",
+ "description": "When each Hebrew month most likely began, by crescent sighting from the Temple Mount, for all 14,038 months from 1000 BC to AD 135; the date and weekday of Passover (14 and 15 Nisan) for every year under two month-start rules; every lunar eclipse and every solar eclipse seen at Jerusalem, Samaria or Nineveh from 1999 BC to AD 500; and the sky on named nights (the Star of Bethlehem candidates, AD 30 and AD 33, 15 June 763 BC, Paul's voyage). From JPL DE441 through Skyfield, with Yallop's crescent test and the Delta T margin on every row. Julian calendar, with Julian Day Numbers. Dedicated to the public domain under CC0.",
+ "version": "1.4.0",
+ "created": "2026-11-23T00:00:00Z",
+ "homepage": "https://christianpure.com/the-day-jesus-died/",
+ "licenses": [
+  {
+   "name": "CC0-1.0",
+   "path": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "title": "CC0 1.0 Universal"
+  }
+ ],
+ "contributors": [
+  {
+   "title": "Christian Pure",
+   "role": "author",
+   "path": "https://christianpure.com/"
+  }
+ ],
+ "keywords": [
+  "Jerusalem",
+  "Passover",
+  "Nisan",
+  "Hebrew calendar",
+  "new moon",
+  "crescent visibility",
+  "Yallop",
+  "eclipses",
+  "Delta T",
+  "crucifixion date",
+  "Star of Bethlehem",
+  "archaeoastronomy",
+  "DE441"
+ ],
+ "sources": [
+  {
+   "title": "JPL planetary and lunar ephemeris DE441: Park, R. S., Folkner, W. M., Williams, J. G., and Boggs, D. H. 2021. The JPL Planetary and Lunar Ephemerides DE440 and DE441. Astronomical Journal 161:105",
+   "path": "https://doi.org/10.3847/1538-3881/abd414"
+  },
+  {
+   "title": "Skyfield 1.55, Brandon Rhodes (Astrophysics Source Code Library ascl:1907.024)",
+   "path": "https://rhodesmill.org/skyfield/"
+  },
+  {
+   "title": "Yallop, B. D. 1997. A Method for Predicting the First Sighting of the New Crescent Moon. NAO Technical Note 69, HM Nautical Almanac Office"
+  },
+  {
+   "title": "Morrison, L. V., and Stephenson, F. R. 2004. Historical values of the Earth's clock error Delta T and the calculation of eclipses. Journal for the History of Astronomy 35:327-336 (the Delta T margin)",
+   "path": "https://doi.org/10.1177/002182860403500305"
+  },
+  {
+   "title": "Morrison, L. V., Stephenson, F. R., Hohenkerk, C. Y., and Zawilski, M. 2021. Addendum 2020 to Measurement of the Earth's rotation: 720 BC to AD 2015. Proceedings of the Royal Society A 477:20200776 (Delta T itself, as Skyfield uses it)",
+   "path": "https://doi.org/10.1098/rspa.2020.0776"
+  },
+  {
+   "title": "Stephenson, F. R., Morrison, L. V., and Hohenkerk, C. Y. 2016. Measurement of the Earth's rotation: 720 BC to AD 2015. Proceedings of the Royal Society A 472:20160404 (Delta T before 720 BC)",
+   "path": "https://doi.org/10.1098/rspa.2016.0404"
+  },
+  {
+   "title": "Espenak, F., and Meeus, J. Five Millennium Canon of Lunar Eclipses and Five Millennium Catalog of Moon Phases, NASA (the checks)",
+   "path": "https://eclipse.gsfc.nasa.gov/"
+  }
+ ],
+ "resources": [
+  {
+   "name": "jerusalem-months",
+   "path": "jerusalem-months.csv",
+   "profile": "tabular-data-resource",
+   "title": "Months",
+   "description": "One row per lunar month, 1000 BC to AD 135.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer",
+      "description": "Year in astronomers' numbering: 1 BC is 0, 2 BC is -1, AD 1 is 1.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "year_label",
+      "type": "string",
+      "description": "The same year written for readers, BC or AD.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "new_moon_jd_ut",
+      "type": "number",
+      "description": "Moment of the true new moon (sun and moon at the same ecliptic longitude) as a Julian Date in Universal Time.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "new_moon_date_local",
+      "type": "string",
+      "description": "Date of the new moon in Jerusalem local mean time (UT + 2 h 21 min). Civil date, Julian calendar, astronomers' year numbering (1 BC is 0000, 2 BC is -0001), written YYYY-MM-DD.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "new_moon_date_local_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `new_moon_date_local` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "new_moon_time_local",
+      "type": "string",
+      "description": "Time of the new moon, local mean time, HH:MM.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "delta_t_s",
+      "type": "integer",
+      "description": "Delta T used (TT minus UT), in seconds, as Skyfield gives it.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "delta_t_sigma_s",
+      "type": "integer",
+      "description": "Standard error of Delta T in seconds, 0.8 t^2 with t in centuries from 1820 (Morrison and Stephenson 2004).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "eve1_date",
+      "type": "string",
+      "description": "Evening 1 after the new moon: its date. Civil date, Julian calendar, astronomers' year numbering (1 BC is 0000, 2 BC is -0001), written YYYY-MM-DD.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "eve1_date_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `eve1_date` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "eve1_moon_age_h",
+      "type": "number",
+      "description": "Moon's age at sunset on that evening, in hours from the new moon."
+     },
+     {
+      "name": "eve1_lag_min",
+      "type": "integer",
+      "description": "Minutes from sunset to moonset that evening (negative when the moon set first)."
+     },
+     {
+      "name": "eve1_q",
+      "type": "number",
+      "description": "Yallop's q value at his best time for sighting (sunset plus four-ninths of the lag)."
+     },
+     {
+      "name": "eve1_grade",
+      "type": "string",
+      "description": "Yallop's visibility grade: A easily seen by eye, B seen by eye in perfect conditions, C may need optical aid to find, then seen by eye, D needs optical aid, E not visible with a telescope, F not visible (the moon sets before the sun or is below Danjon's limit).",
+      "constraints": {
+       "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+       ]
+      }
+     },
+     {
+      "name": "eve2_date",
+      "type": "string",
+      "description": "Evening 2 after the new moon: its date. Civil date, Julian calendar, astronomers' year numbering (1 BC is 0000, 2 BC is -0001), written YYYY-MM-DD.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "eve2_date_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `eve2_date` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "eve2_moon_age_h",
+      "type": "number",
+      "description": "Moon's age at sunset on that evening, in hours from the new moon."
+     },
+     {
+      "name": "eve2_lag_min",
+      "type": "integer",
+      "description": "Minutes from sunset to moonset that evening (negative when the moon set first)."
+     },
+     {
+      "name": "eve2_q",
+      "type": "number",
+      "description": "Yallop's q value at his best time for sighting (sunset plus four-ninths of the lag)."
+     },
+     {
+      "name": "eve2_grade",
+      "type": "string",
+      "description": "Yallop's visibility grade: A easily seen by eye, B seen by eye in perfect conditions, C may need optical aid to find, then seen by eye, D needs optical aid, E not visible with a telescope, F not visible (the moon sets before the sun or is below Danjon's limit).",
+      "constraints": {
+       "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+       ]
+      }
+     },
+     {
+      "name": "eve3_date",
+      "type": "string",
+      "description": "Evening 3 after the new moon: its date. Civil date, Julian calendar, astronomers' year numbering (1 BC is 0000, 2 BC is -0001), written YYYY-MM-DD.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "eve3_date_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `eve3_date` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "eve3_moon_age_h",
+      "type": "number",
+      "description": "Moon's age at sunset on that evening, in hours from the new moon."
+     },
+     {
+      "name": "eve3_lag_min",
+      "type": "integer",
+      "description": "Minutes from sunset to moonset that evening (negative when the moon set first)."
+     },
+     {
+      "name": "eve3_q",
+      "type": "number",
+      "description": "Yallop's q value at his best time for sighting (sunset plus four-ninths of the lag)."
+     },
+     {
+      "name": "eve3_grade",
+      "type": "string",
+      "description": "Yallop's visibility grade: A easily seen by eye, B seen by eye in perfect conditions, C may need optical aid to find, then seen by eye, D needs optical aid, E not visible with a telescope, F not visible (the moon sets before the sun or is below Danjon's limit).",
+      "constraints": {
+       "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+       ]
+      }
+     },
+     {
+      "name": "likely_start_evening",
+      "type": "string",
+      "description": "Likely start: the first evening graded A or B. The month begins at sunset that evening, so day 1 is the next daylight day. Civil date, Julian calendar, astronomers' year numbering (1 BC is 0000, 2 BC is -0001), written YYYY-MM-DD.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "likely_start_evening_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `likely_start_evening` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "likely_margin",
+      "type": "string",
+      "description": "Empty when the likely start is firm. Otherwise says in words why it could move a night: moving Delta T by twice its standard error, or the 30-day rule."
+     },
+     {
+      "name": "earliest_start_evening",
+      "type": "string",
+      "description": "Earliest start: the first evening graded C or better. Civil date, Julian calendar, astronomers' year numbering (1 BC is 0000, 2 BC is -0001), written YYYY-MM-DD.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "earliest_start_evening_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `earliest_start_evening` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "earliest_margin",
+      "type": "string",
+      "description": "As likely_margin, for the earliest start."
+     }
+    ]
+   }
+  },
+  {
+   "name": "jerusalem-months-json",
+   "path": "jerusalem-months.json",
+   "title": "Months as JSON",
+   "description": "The same rows as JSON.",
+   "format": "json",
+   "mediatype": "application/json"
+  },
+  {
+   "name": "passover-years",
+   "path": "passover-years.csv",
+   "profile": "tabular-data-resource",
+   "title": "Passover years",
+   "description": "One row per year, 1000 BC to AD 135.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer",
+      "description": "Year in astronomers' numbering: 1 BC is 0, 2 BC is -1, AD 1 is 1.",
+      "constraints": {
+       "unique": true,
+       "required": true
+      }
+     },
+     {
+      "name": "year_label",
+      "type": "string",
+      "description": "The same year written for readers, BC or AD.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "spring_equinox",
+      "type": "string",
+      "description": "Date of the spring (March) equinox in Jerusalem local mean time. Civil date, Julian calendar, astronomers' year numbering (1 BC is 0000, 2 BC is -0001), written YYYY-MM-DD.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "spring_equinox_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `spring_equinox` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "nisan_new_moon",
+      "type": "string",
+      "description": "Date of the true new moon that began Nisan, local mean time. Civil date, Julian calendar, astronomers' year numbering (1 BC is 0000, 2 BC is -0001), written YYYY-MM-DD.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "nisan_new_moon_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `nisan_new_moon` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "nisan14_likely",
+      "type": "string",
+      "description": "14 Nisan (Passover) under the likely start: the daylight day. The Jewish day began at sunset the evening before. Civil date, Julian calendar, astronomers' year numbering (1 BC is 0000, 2 BC is -0001), written YYYY-MM-DD.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "nisan14_likely_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `nisan14_likely` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "nisan14_likely_weekday",
+      "type": "string",
+      "description": "Weekday of `nisan14_likely`.",
+      "constraints": {
+       "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+       ],
+       "required": true
+      }
+     },
+     {
+      "name": "nisan15_likely",
+      "type": "string",
+      "description": "15 Nisan under the likely start: the daylight day. Civil date, Julian calendar, astronomers' year numbering (1 BC is 0000, 2 BC is -0001), written YYYY-MM-DD.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "nisan15_likely_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `nisan15_likely` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "nisan15_likely_weekday",
+      "type": "string",
+      "description": "Weekday of `nisan15_likely`.",
+      "constraints": {
+       "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+       ],
+       "required": true
+      }
+     },
+     {
+      "name": "likely_margin",
+      "type": "string",
+      "description": "Empty when firm; otherwise why 14 Nisan could move a day under the likely rule."
+     },
+     {
+      "name": "nisan14_earliest",
+      "type": "string",
+      "description": "14 Nisan under the earliest start: the daylight day. Civil date, Julian calendar, astronomers' year numbering (1 BC is 0000, 2 BC is -0001), written YYYY-MM-DD.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "nisan14_earliest_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `nisan14_earliest` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "nisan14_earliest_weekday",
+      "type": "string",
+      "description": "Weekday of `nisan14_earliest`.",
+      "constraints": {
+       "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+       ],
+       "required": true
+      }
+     },
+     {
+      "name": "nisan15_earliest",
+      "type": "string",
+      "description": "15 Nisan under the earliest start: the daylight day. Civil date, Julian calendar, astronomers' year numbering (1 BC is 0000, 2 BC is -0001), written YYYY-MM-DD.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "nisan15_earliest_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `nisan15_earliest` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "nisan15_earliest_weekday",
+      "type": "string",
+      "description": "Weekday of `nisan15_earliest`.",
+      "constraints": {
+       "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+       ],
+       "required": true
+      }
+     },
+     {
+      "name": "earliest_margin",
+      "type": "string",
+      "description": "Empty when firm; otherwise why 14 Nisan could move a day under the earliest rule."
+     },
+     {
+      "name": "nisan14_if_month_before",
+      "type": "string",
+      "description": "14th day of the month before, likely start: Passover if Nisan was a month earlier. Civil date, Julian calendar, astronomers' year numbering (1 BC is 0000, 2 BC is -0001), written YYYY-MM-DD.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "nisan14_if_month_before_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `nisan14_if_month_before` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "nisan14_if_month_before_weekday",
+      "type": "string",
+      "description": "Weekday of `nisan14_if_month_before`.",
+      "constraints": {
+       "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+       ],
+       "required": true
+      }
+     },
+     {
+      "name": "nisan14_if_month_after",
+      "type": "string",
+      "description": "14th day of the month after, likely start: Passover if a thirteenth month was added. Civil date, Julian calendar, astronomers' year numbering (1 BC is 0000, 2 BC is -0001), written YYYY-MM-DD.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "nisan14_if_month_after_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `nisan14_if_month_after` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "nisan14_if_month_after_weekday",
+      "type": "string",
+      "description": "Weekday of `nisan14_if_month_after`.",
+      "constraints": {
+       "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+       ],
+       "required": true
+      }
+     }
+    ],
+    "primaryKey": [
+     "year"
+    ]
+   }
+  },
+  {
+   "name": "passover-years-json",
+   "path": "passover-years.json",
+   "title": "Passover years as JSON",
+   "description": "The same rows as JSON.",
+   "format": "json",
+   "mediatype": "application/json"
+  },
+  {
+   "name": "eclipses",
+   "path": "eclipses-jerusalem-samaria-nineveh.csv",
+   "profile": "tabular-data-resource",
+   "title": "Eclipses at Jerusalem, Samaria and Nineveh",
+   "description": "One row per eclipse per place, 1999 BC to AD 500.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "kind",
+      "type": "string",
+      "description": "solar or lunar.",
+      "constraints": {
+       "enum": [
+        "solar",
+        "lunar"
+       ],
+       "required": true
+      }
+     },
+     {
+      "name": "type",
+      "type": "string",
+      "description": "Type of eclipse: for lunar, Total, Partial or Penumbral as seen from Earth; for solar, the type seen at this place (Total, Annular, Partial).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "year",
+      "type": "integer",
+      "description": "Year in astronomers' numbering: 1 BC is 0, 2 BC is -1, AD 1 is 1.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "year_label",
+      "type": "string",
+      "description": "The same year written for readers, BC or AD.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "greatest_ut_date",
+      "type": "string",
+      "description": "Date of greatest eclipse in Universal Time. Civil date, Julian calendar, astronomers' year numbering (1 BC is 0000, 2 BC is -0001), written YYYY-MM-DD.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "greatest_ut_date_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `greatest_ut_date` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "greatest_ut",
+      "type": "string",
+      "description": "Time of greatest eclipse, UT, HH:MM. For a solar eclipse, greatest as seen at this place.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "greatest_jd_ut",
+      "type": "number",
+      "description": "Greatest eclipse as a Julian Date in UT.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "delta_t_s",
+      "type": "integer",
+      "description": "Delta T used, seconds.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "delta_t_2sigma_s",
+      "type": "integer",
+      "description": "Twice the standard error of Delta T, seconds: the margin each way.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "place_id",
+      "type": "string",
+      "description": "Place ID in the bible-places folder of this repository.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "place",
+      "type": "string",
+      "description": "Place name: Jerusalem, Samaria or Nineveh.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "greatest_local",
+      "type": "string",
+      "description": "Greatest eclipse at the place. Local mean time at the place, Julian calendar, astronomers' years: YYYY-MM-DD HH:MM."
+     },
+     {
+      "name": "phase_start_local",
+      "type": "string",
+      "description": "Start of the umbral phase (lunar) or first contact (solar). Local mean time at the place, Julian calendar, astronomers' years: YYYY-MM-DD HH:MM."
+     },
+     {
+      "name": "phase_end_local",
+      "type": "string",
+      "description": "End of the umbral phase (lunar) or last contact (solar). Local mean time at the place, Julian calendar, astronomers' years: YYYY-MM-DD HH:MM."
+     },
+     {
+      "name": "magnitude",
+      "type": "number",
+      "description": "Lunar: umbral magnitude (share of the moon's diameter inside Earth's dark shadow; 1 or more is total; negative for penumbral eclipses). Solar: share of the sun's diameter covered at this place."
+     },
+     {
+      "name": "penumbral_magnitude",
+      "type": "number",
+      "description": "Lunar only: penumbral magnitude."
+     },
+     {
+      "name": "magnitude_dt_low",
+      "type": "number",
+      "description": "Solar only: magnitude at the place with Delta T moved down by twice its standard error."
+     },
+     {
+      "name": "magnitude_dt_high",
+      "type": "number",
+      "description": "Solar only: magnitude with Delta T moved up by twice its standard error."
+     },
+     {
+      "name": "body_alt_at_greatest_dt_low",
+      "type": "number",
+      "description": "Height of the moon (lunar) or sun (solar) above the horizon at greatest, degrees, Delta T low."
+     },
+     {
+      "name": "body_alt_at_greatest_dt_mid",
+      "type": "number",
+      "description": "The same with the usual Delta T."
+     },
+     {
+      "name": "body_alt_at_greatest_dt_high",
+      "type": "number",
+      "description": "The same with Delta T high."
+     },
+     {
+      "name": "visible_dt_low",
+      "type": "string",
+      "description": "yes if any of the eclipse could be seen from the place, Delta T low.",
+      "constraints": {
+       "enum": [
+        "yes",
+        "no"
+       ]
+      }
+     },
+     {
+      "name": "visible_dt_mid",
+      "type": "string",
+      "description": "The same with the usual Delta T.",
+      "constraints": {
+       "enum": [
+        "yes",
+        "no"
+       ]
+      }
+     },
+     {
+      "name": "visible_dt_high",
+      "type": "string",
+      "description": "The same with Delta T high.",
+      "constraints": {
+       "enum": [
+        "yes",
+        "no"
+       ]
+      }
+     },
+     {
+      "name": "minutes_visible_dt_low",
+      "type": "integer",
+      "description": "Minutes of the eclipse with the body above the horizon (lunar: umbral phase, moon up and sun down), Delta T low."
+     },
+     {
+      "name": "minutes_visible_dt_mid",
+      "type": "integer",
+      "description": "The same with the usual Delta T."
+     },
+     {
+      "name": "minutes_visible_dt_high",
+      "type": "integer",
+      "description": "The same with Delta T high."
+     },
+     {
+      "name": "first_seen_local",
+      "type": "string",
+      "description": "When the eclipse could first be seen, usual Delta T. Local mean time at the place, Julian calendar, astronomers' years: YYYY-MM-DD HH:MM."
+     },
+     {
+      "name": "sun_alt_when_first_seen",
+      "type": "number",
+      "description": "Height of the sun at that moment, degrees (lunar: shows whether the sky was still light)."
+     }
+    ]
+   }
+  },
+  {
+   "name": "eclipses-json",
+   "path": "eclipses-jerusalem-samaria-nineveh.json",
+   "title": "Eclipses as JSON",
+   "description": "The same rows as JSON.",
+   "format": "json",
+   "mediatype": "application/json"
+  },
+  {
+   "name": "named-nights",
+   "path": "named-nights.json",
+   "title": "Named nights",
+   "description": "The sky on named nights, as JSON.",
+   "format": "json",
+   "mediatype": "application/json"
+  }
+ ]
+}

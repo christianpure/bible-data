@@ -3,7 +3,7 @@
  "name": "christianpure-denominations",
  "title": "What 22 Christian churches teach: 55 questions, in their own words",
  "description": "Answers from 22 churches and traditions, plus Protestants in general, to 55 questions of belief and practice, each answered from the church's own documents, with the passage named and linked. The data behind Compare Christian Denominations at https://christianpure.com/compare-denominations/. The CC BY 4.0 licence covers our selection of which passage answers which question, our arrangement, ids and notes. The quoted words belong to the churches that wrote them, so they are not included: follow source_url to read each passage.",
- "version": "1.3.0",
+ "version": "1.4.0",
  "created": "2026-11-23T00:00:00Z",
  "homepage": "https://christianpure.com/compare-denominations/",
  "licenses": [

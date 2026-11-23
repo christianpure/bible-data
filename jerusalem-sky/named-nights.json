@@ -1,0 +1,385 @@
+{
+ "version": "1.4.0",
+ "released": "2026-11-23",
+ "license": "CC0-1.0",
+ "name": "christianpure-named-nights",
+ "star_of_bethlehem_candidates": {
+  "jupiter_and_saturn": [
+   {
+    "when": "Friday 29 May 7 BC, 10:14 local time",
+    "date": "-0006-05-29",
+    "separation_deg": 0.985,
+    "separation_moon_widths": 1.9,
+    "constellation": "Pisces",
+    "angle_from_sun_deg": 73.5
+   },
+   {
+    "when": "Wednesday 30 Sep 7 BC, 22:47 local time",
+    "date": "-0006-09-30",
+    "separation_deg": 0.975,
+    "separation_moon_widths": 1.9,
+    "constellation": "Pisces",
+    "angle_from_sun_deg": 162.2
+   },
+   {
+    "when": "Saturday 5 Dec 7 BC, 07:12 local time",
+    "date": "-0006-12-05",
+    "separation_deg": 1.054,
+    "separation_moon_widths": 2.0,
+    "constellation": "Pisces",
+    "angle_from_sun_deg": 94.0
+   }
+  ],
+  "jupiter_and_venus": [
+   {
+    "when": "Monday 12 Aug 3 BC, 07:46 local time",
+    "date": "-0002-08-12",
+    "separation_deg": 0.072,
+    "separation_moon_widths": 0.1,
+    "constellation": "Leo",
+    "angle_from_sun_deg": 20.7
+   },
+   {
+    "when": "Tuesday 17 Jun 2 BC, 20:17 local time",
+    "date": "-0001-06-17",
+    "separation_deg": 0.007,
+    "separation_moon_widths": 0.0,
+    "constellation": "Leo",
+    "angle_from_sun_deg": 45.4
+   }
+  ],
+  "jupiter_and_regulus": [
+   {
+    "when": "Saturday 14 Sep 3 BC, 10:16 local time",
+    "date": "-0002-09-14",
+    "separation_deg": 0.332,
+    "separation_moon_widths": 0.6,
+    "constellation": "Leo",
+    "angle_from_sun_deg": 46.7
+   },
+   {
+    "when": "Monday 17 Feb 2 BC, 06:08 local time",
+    "date": "-0001-02-17",
+    "separation_deg": 0.856,
+    "separation_moon_widths": 1.6,
+    "constellation": "Leo",
+    "angle_from_sun_deg": 155.8
+   },
+   {
+    "when": "Friday 9 May 2 BC, 04:02 local time",
+    "date": "-0001-05-09",
+    "separation_deg": 0.717,
+    "separation_moon_widths": 1.4,
+    "constellation": "Leo",
+    "angle_from_sun_deg": 77.2
+   }
+  ],
+  "jupiter_halts": [
+   {
+    "date": "-0002-02-24",
+    "day": "Sunday 24 Feb 3 BC",
+    "turns": "moves east again (ends backward loop)",
+    "constellation": "Gemini"
+   },
+   {
+    "date": "-0002-11-27",
+    "day": "Wednesday 27 Nov 3 BC",
+    "turns": "starts backward loop (westward)",
+    "constellation": "Leo"
+   },
+   {
+    "date": "-0001-03-29",
+    "day": "Saturday 29 Mar 2 BC",
+    "turns": "moves east again (ends backward loop)",
+    "constellation": "Leo"
+   },
+   {
+    "date": "-0001-12-27",
+    "day": "Saturday 27 Dec 2 BC",
+    "turns": "starts backward loop (westward)",
+    "constellation": "Virgo"
+   }
+  ]
+ },
+ "crucifixion_candidates": {
+  "AD 30": {
+   "14 Nisan, evening before": {
+    "date": "0030-04-06",
+    "day": "Thursday 6 Apr AD 30",
+    "sunset": "Thursday 6 Apr AD 30, 18:20 local time",
+    "moonrise": "Thursday 6 Apr AD 30, 18:03 local time",
+    "moonset": "none that day",
+    "sky_one_hour_after_sunset": {
+     "Sun": {
+      "altitude_deg": -13.3,
+      "azimuth_deg": 285.5,
+      "constellation": "Aries"
+     },
+     "Moon": {
+      "altitude_deg": 14.8,
+      "azimuth_deg": 101.9,
+      "constellation": "Libra",
+      "lit_percent": 100
+     },
+     "Mercury": {
+      "altitude_deg": 5.1,
+      "azimuth_deg": 284.6,
+      "constellation": "Taurus"
+     },
+     "Venus": {
+      "altitude_deg": -57.3,
+      "azimuth_deg": 299.8,
+      "constellation": "Pisces"
+     },
+     "Mars": {
+      "altitude_deg": -64.7,
+      "azimuth_deg": 80.3,
+      "constellation": "Capricornus"
+     },
+     "Jupiter": {
+      "altitude_deg": -34.1,
+      "azimuth_deg": 289.0,
+      "constellation": "Pisces"
+     },
+     "Saturn": {
+      "altitude_deg": 37.9,
+      "azimuth_deg": 272.6,
+      "constellation": "Gemini"
+     }
+    }
+   },
+   "14 Nisan, Friday 7 April": {
+    "date": "0030-04-07",
+    "day": "Friday 7 Apr AD 30",
+    "sunset": "Friday 7 Apr AD 30, 18:21 local time",
+    "moonrise": "Friday 7 Apr AD 30, 19:14 local time",
+    "moonset": "Friday 7 Apr AD 30, 06:13 local time",
+    "sky_one_hour_after_sunset": {
+     "Sun": {
+      "altitude_deg": -13.3,
+      "azimuth_deg": 285.9,
+      "constellation": "Aries"
+     },
+     "Moon": {
+      "altitude_deg": 0.9,
+      "azimuth_deg": 100.6,
+      "constellation": "Libra",
+      "lit_percent": 99
+     },
+     "Mercury": {
+      "altitude_deg": 4.5,
+      "azimuth_deg": 285.0,
+      "constellation": "Taurus"
+     },
+     "Venus": {
+      "altitude_deg": -57.2,
+      "azimuth_deg": 300.4,
+      "constellation": "Pisces"
+     },
+     "Mars": {
+      "altitude_deg": -64.2,
+      "azimuth_deg": 80.8,
+      "constellation": "Capricornus"
+     },
+     "Jupiter": {
+      "altitude_deg": -34.8,
+      "azimuth_deg": 289.8,
+      "constellation": "Pisces"
+     },
+     "Saturn": {
+      "altitude_deg": 37.0,
+      "azimuth_deg": 273.1,
+      "constellation": "Gemini"
+     }
+    }
+   }
+  },
+  "AD 33": {
+   "14 Nisan, Friday 3 April": {
+    "date": "0033-04-03",
+    "day": "Friday 3 Apr AD 33",
+    "sunset": "Friday 3 Apr AD 33, 18:19 local time",
+    "moonrise": "Friday 3 Apr AD 33, 18:18 local time",
+    "moonset": "none that day",
+    "sky_one_hour_after_sunset": {
+     "Sun": {
+      "altitude_deg": -13.4,
+      "azimuth_deg": 284.2,
+      "constellation": "Aries"
+     },
+     "Moon": {
+      "altitude_deg": 11.5,
+      "azimuth_deg": 104.8,
+      "constellation": "Libra",
+      "lit_percent": 100
+     },
+     "Mercury": {
+      "altitude_deg": -37.7,
+      "azimuth_deg": 286.6,
+      "constellation": "Pisces"
+     },
+     "Venus": {
+      "altitude_deg": -31.5,
+      "azimuth_deg": 294.2,
+      "constellation": "Pisces"
+     },
+     "Mars": {
+      "altitude_deg": 41.8,
+      "azimuth_deg": 273.9,
+      "constellation": "Gemini"
+     },
+     "Jupiter": {
+      "altitude_deg": 48.3,
+      "azimuth_deg": 269.6,
+      "constellation": "Gemini"
+     },
+     "Saturn": {
+      "altitude_deg": 76.5,
+      "azimuth_deg": 234.6,
+      "constellation": "Cancer"
+     }
+    }
+   }
+  }
+ },
+ "amos_8_9_proposed_eclipse": {
+  "day": "15 June 763 BC",
+  "sky_at_greatest_from_jerusalem_0733_UT": {
+   "Sun": {
+    "altitude_deg": 62.3,
+    "azimuth_deg": 101.2,
+    "constellation": "Gemini"
+   },
+   "Moon": {
+    "altitude_deg": 62.3,
+    "azimuth_deg": 101.1,
+    "constellation": "Gemini",
+    "lit_percent": 0
+   },
+   "Mercury": {
+    "altitude_deg": 58.5,
+    "azimuth_deg": 106.9,
+    "constellation": "Gemini"
+   },
+   "Venus": {
+    "altitude_deg": 20.1,
+    "azimuth_deg": 76.3,
+    "constellation": "Leo"
+   },
+   "Mars": {
+    "altitude_deg": -43.9,
+    "azimuth_deg": 60.2,
+    "constellation": "Libra"
+   },
+   "Jupiter": {
+    "altitude_deg": 64.5,
+    "azimuth_deg": 104.6,
+    "constellation": "Gemini"
+   },
+   "Saturn": {
+    "altitude_deg": 33.1,
+    "azimuth_deg": 81.0,
+    "constellation": "Leo"
+   }
+  },
+  "note": "Eclipse times, depth and visibility from Jerusalem, Samaria and Nineveh are in eclipses-jerusalem-samaria-nineveh.csv. The link to Amos 8:9 is a proposal; its grade is the natural-events ledger's."
+ },
+ "paul_voyage_autumn": [
+  {
+   "year": 59,
+   "autumn_equinox": "Tuesday 25 Sep AD 59",
+   "fast_10_tishri_likely": "Sunday 7 Oct AD 59",
+   "fast_10_tishri_earliest": "Sunday 7 Oct AD 59",
+   "moon_phases_in_the_75_days_after": [
+    {
+     "phase": "Full moon",
+     "when_at_malta": "Tuesday 9 Oct AD 59, 20:50 local time"
+    },
+    {
+     "phase": "Last quarter",
+     "when_at_malta": "Wednesday 17 Oct AD 59, 02:32 local time"
+    },
+    {
+     "phase": "New moon",
+     "when_at_malta": "Thursday 25 Oct AD 59, 06:40 local time"
+    },
+    {
+     "phase": "First quarter",
+     "when_at_malta": "Thursday 1 Nov AD 59, 14:52 local time"
+    },
+    {
+     "phase": "Full moon",
+     "when_at_malta": "Thursday 8 Nov AD 59, 08:55 local time"
+    },
+    {
+     "phase": "Last quarter",
+     "when_at_malta": "Thursday 15 Nov AD 59, 23:12 local time"
+    },
+    {
+     "phase": "New moon",
+     "when_at_malta": "Friday 23 Nov AD 59, 22:59 local time"
+    },
+    {
+     "phase": "First quarter",
+     "when_at_malta": "Friday 30 Nov AD 59, 22:58 local time"
+    },
+    {
+     "phase": "Full moon",
+     "when_at_malta": "Friday 7 Dec AD 59, 23:04 local time"
+    },
+    {
+     "phase": "Last quarter",
+     "when_at_malta": "Saturday 15 Dec AD 59, 21:19 local time"
+    }
+   ]
+  },
+  {
+   "year": 60,
+   "autumn_equinox": "Wednesday 24 Sep AD 60",
+   "fast_10_tishri_likely": "Thursday 25 Sep AD 60",
+   "fast_10_tishri_earliest": "Thursday 25 Sep AD 60",
+   "moon_phases_in_the_75_days_after": [
+    {
+     "phase": "Full moon",
+     "when_at_malta": "Sunday 28 Sep AD 60, 12:45 local time"
+    },
+    {
+     "phase": "Last quarter",
+     "when_at_malta": "Sunday 5 Oct AD 60, 05:52 local time"
+    },
+    {
+     "phase": "New moon",
+     "when_at_malta": "Monday 13 Oct AD 60, 07:28 local time"
+    },
+    {
+     "phase": "First quarter",
+     "when_at_malta": "Tuesday 21 Oct AD 60, 06:49 local time"
+    },
+    {
+     "phase": "Full moon",
+     "when_at_malta": "Monday 27 Oct AD 60, 23:04 local time"
+    },
+    {
+     "phase": "Last quarter",
+     "when_at_malta": "Monday 3 Nov AD 60, 21:12 local time"
+    },
+    {
+     "phase": "New moon",
+     "when_at_malta": "Wednesday 12 Nov AD 60, 02:43 local time"
+    },
+    {
+     "phase": "First quarter",
+     "when_at_malta": "Wednesday 19 Nov AD 60, 18:25 local time"
+    },
+    {
+     "phase": "Full moon",
+     "when_at_malta": "Wednesday 26 Nov AD 60, 10:19 local time"
+    },
+    {
+     "phase": "Last quarter",
+     "when_at_malta": "Wednesday 3 Dec AD 60, 16:20 local time"
+    }
+   ]
+  }
+ ]
+}

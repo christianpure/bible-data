@@ -88,6 +88,6 @@ If you use this, we'd be grateful for a credit link to [https://christianpure.co
 
 To cite the data in a paper, see `CITATION.cff` at the top of this repository, or use:
 
-> Christian Pure. "Bible Places Map: Places in the Bible, Map and Data." Version 1.3.0, 23 November 2026. https://christianpure.com/bible-places-map/.
+> Christian Pure. "Bible Places Map: Places in the Bible, Map and Data." Version 1.4.0, 23 November 2026. https://christianpure.com/bible-places-map/.
 
 Found a mistake? Please open an issue in this repository. Corrections to our pages are logged on [our editorial standards page](https://christianpure.com/editorial-standards/).

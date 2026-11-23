@@ -1,0 +1,288 @@
+{
+ "profile": "data-package",
+ "name": "christianpure-easter-moons",
+ "title": "The Easter moon and the real moon, AD 325 to 2100",
+ "description": "For every year from AD 325 to 2100: the full moon the church's Easter tables use (Julian every year, Gregorian from 1583), the real spring equinox and full moon as seen from Jerusalem, Western, Orthodox and astronomical (1997 Aleppo proposal) Easter, how many days each table's moon sits from the real one, and how many weeks apart the two Easters fall. From JPL DE441 through Skyfield. Dedicated to the public domain under CC0.",
+ "version": "1.4.0",
+ "created": "2026-11-23T00:00:00Z",
+ "homepage": "https://christianpure.com/when-is-easter/",
+ "licenses": [
+  {
+   "name": "CC0-1.0",
+   "path": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "title": "CC0 1.0 Universal"
+  }
+ ],
+ "contributors": [
+  {
+   "title": "Christian Pure",
+   "role": "author",
+   "path": "https://christianpure.com/"
+  }
+ ],
+ "keywords": [
+  "Easter",
+  "Pascha",
+  "computus",
+  "full moon",
+  "Paschal full moon",
+  "Aleppo proposal",
+  "Orthodox",
+  "Julian calendar",
+  "Gregorian calendar",
+  "DE441"
+ ],
+ "sources": [
+  {
+   "title": "JPL planetary and lunar ephemeris DE441: Park, R. S., Folkner, W. M., Williams, J. G., and Boggs, D. H. 2021. The JPL Planetary and Lunar Ephemerides DE440 and DE441. Astronomical Journal 161:105",
+   "path": "https://doi.org/10.3847/1538-3881/abd414"
+  },
+  {
+   "title": "Skyfield 1.55, Brandon Rhodes (Astrophysics Source Code Library ascl:1907.024)",
+   "path": "https://rhodesmill.org/skyfield/"
+  },
+  {
+   "title": "Yallop, B. D. 1997. A Method for Predicting the First Sighting of the New Crescent Moon. NAO Technical Note 69, HM Nautical Almanac Office"
+  },
+  {
+   "title": "Morrison, L. V., and Stephenson, F. R. 2004. Historical values of the Earth's clock error Delta T and the calculation of eclipses. Journal for the History of Astronomy 35:327-336 (the Delta T margin)",
+   "path": "https://doi.org/10.1177/002182860403500305"
+  },
+  {
+   "title": "Morrison, L. V., Stephenson, F. R., Hohenkerk, C. Y., and Zawilski, M. 2021. Addendum 2020 to Measurement of the Earth's rotation: 720 BC to AD 2015. Proceedings of the Royal Society A 477:20200776 (Delta T itself, as Skyfield uses it)",
+   "path": "https://doi.org/10.1098/rspa.2020.0776"
+  },
+  {
+   "title": "Stephenson, F. R., Morrison, L. V., and Hohenkerk, C. Y. 2016. Measurement of the Earth's rotation: 720 BC to AD 2015. Proceedings of the Royal Society A 472:20160404 (Delta T before 720 BC)",
+   "path": "https://doi.org/10.1098/rspa.2016.0404"
+  },
+  {
+   "title": "Espenak, F., and Meeus, J. Five Millennium Canon of Lunar Eclipses and Five Millennium Catalog of Moon Phases, NASA (the checks)",
+   "path": "https://eclipse.gsfc.nasa.gov/"
+  }
+ ],
+ "resources": [
+  {
+   "name": "easter-moons",
+   "path": "easter-moons-325-2100.csv",
+   "profile": "tabular-data-resource",
+   "title": "Easter moons",
+   "description": "One row per year, AD 325 to 2100.",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ",",
+    "lineTerminator": "\n",
+    "quoteChar": "\"",
+    "header": true
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer",
+      "description": "Year AD (astronomers' numbering is the same for AD years).",
+      "constraints": {
+       "unique": true,
+       "minimum": 325,
+       "maximum": 2100,
+       "required": true
+      }
+     },
+     {
+      "name": "calendar",
+      "type": "string",
+      "description": "Calendar of the civil dates in this row: Julian to 1582, Gregorian from 1583 (the Gregorian calendar began on 15 October 1582).",
+      "constraints": {
+       "enum": [
+        "Julian",
+        "Gregorian"
+       ],
+       "required": true
+      }
+     },
+     {
+      "name": "real_equinox",
+      "type": "string",
+      "description": "The real spring (March) equinox, Jerusalem local time. Civil date written YYYY-MM-DD, in the calendar named in `calendar`.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "real_equinox_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `real_equinox` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "real_full_moon",
+      "type": "string",
+      "description": "The first real full moon on or after that equinox, Jerusalem local time. Civil date written YYYY-MM-DD, in the calendar named in `calendar`.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "real_full_moon_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `real_full_moon` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "real_full_moon_time_jerusalem",
+      "type": "string",
+      "description": "Time of that full moon, Jerusalem local mean time, HH:MM.",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "aleppo_easter",
+      "type": "string",
+      "description": "Easter by the 1997 Aleppo proposal: the Sunday after the real full moon, reckoned at Jerusalem's meridian. Civil date written YYYY-MM-DD, in the calendar named in `calendar`.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "aleppo_easter_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `aleppo_easter` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "julian_tables_full_moon",
+      "type": "string",
+      "description": "The Easter full moon of the Julian (Alexandrian) tables, which the Orthodox churches still use. Civil date written YYYY-MM-DD, in the calendar named in `calendar`.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "julian_tables_full_moon_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `julian_tables_full_moon` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "julian_tables_full_moon_julian_calendar",
+      "type": "string",
+      "description": "The same full moon in the Julian calendar, the calendar the tables run in.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "julian_tables_days_from_real",
+      "type": "integer",
+      "description": "Days from the real full moon to the Julian tables' full moon (positive: the tables run late).",
+      "constraints": {
+       "required": true
+      }
+     },
+     {
+      "name": "orthodox_easter",
+      "type": "string",
+      "description": "Easter by the Julian tables: Orthodox Easter (and every church's Easter before 1583). Civil date written YYYY-MM-DD, in the calendar named in `calendar`.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "orthodox_easter_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `orthodox_easter` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "orthodox_easter_julian_calendar",
+      "type": "string",
+      "description": "The same Easter in the Julian calendar.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "gregorian_tables_full_moon",
+      "type": "string",
+      "description": "From 1583: the Easter full moon of the Gregorian tables. Empty before 1583. Civil date written YYYY-MM-DD, in the calendar named in `calendar`.",
+      "constraints": {
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "gregorian_tables_full_moon_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `gregorian_tables_full_moon` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "gregorian_tables_days_from_real",
+      "type": "integer",
+      "description": "From 1583: days from the real full moon to the Gregorian tables' full moon."
+     },
+     {
+      "name": "western_easter",
+      "type": "string",
+      "description": "Western Easter: by the Gregorian tables from 1583, by the Julian tables before. Civil date written YYYY-MM-DD, in the calendar named in `calendar`.",
+      "constraints": {
+       "required": true,
+       "pattern": "-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      }
+     },
+     {
+      "name": "western_easter_jdn",
+      "type": "integer",
+      "description": "Julian Day Number of `western_easter` (the day that begins at noon UT on that date): one count of days with no calendar to doubt."
+     },
+     {
+      "name": "western_matches_aleppo",
+      "type": "string",
+      "description": "yes when Western Easter falls on the Aleppo (astronomical) date.",
+      "constraints": {
+       "enum": [
+        "yes",
+        "no"
+       ],
+       "required": true
+      }
+     },
+     {
+      "name": "orthodox_matches_aleppo",
+      "type": "string",
+      "description": "yes when Orthodox Easter falls on the Aleppo date.",
+      "constraints": {
+       "enum": [
+        "yes",
+        "no"
+       ],
+       "required": true
+      }
+     },
+     {
+      "name": "western_orthodox_weeks_apart",
+      "type": "integer",
+      "description": "Weeks from Western to Orthodox Easter: 0, 1, 4 or 5.",
+      "constraints": {
+       "required": true
+      }
+     }
+    ],
+    "primaryKey": [
+     "year"
+    ]
+   }
+  },
+  {
+   "name": "easter-moons-json",
+   "path": "easter-moons-325-2100.json",
+   "title": "Easter moons as JSON",
+   "description": "The same rows as JSON.",
+   "format": "json",
+   "mediatype": "application/json"
+  }
+ ]
+}

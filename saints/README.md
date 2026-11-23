@@ -80,6 +80,6 @@ The sources we link to belong to their publishers, and their own terms apply if 
 
 To cite the data in a paper, see `CITATION.cff` at the top of this repository, or use:
 
-> Christian Pure. "Saints with Their Feast Days in the Western and Orthodox Calendars." Version 1.3.0, 23 November 2026. https://christianpure.com/saint-finder/.
+> Christian Pure. "Saints with Their Feast Days in the Western and Orthodox Calendars." Version 1.4.0, 23 November 2026. https://christianpure.com/saint-finder/.
 
 Found a mistake? Please open an issue in this repository. Corrections to our pages are logged on [our editorial standards page](https://christianpure.com/editorial-standards/).
