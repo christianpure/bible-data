@@ -11,6 +11,8 @@ Each folder ships its checks in `CHECKS.md`: 23 of 23 passed, among them the Eas
 
 The other seven folders have not changed apart from their version number.
 
+This version's own DOI is [10.5281/zenodo.24468741](https://doi.org/10.5281/zenodo.24468741).
+
 ## 1.3.0, 23 November 2026
 
 A new folder:

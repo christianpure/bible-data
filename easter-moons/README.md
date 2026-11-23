@@ -91,6 +91,8 @@ Every check in `CHECKS.md` passed before release. In short:
 
 > Christian Pure. *The Easter moon and the real moon, AD 325 to 2100.* In *Bible Data from Christian Pure*, version 1.4.0, 23 November 2026. https://doi.org/10.5281/zenodo.24396556.
 
+That DOI always points to the latest version. To cite this version and no other, use https://doi.org/10.5281/zenodo.24468741.
+
 ## License
 
 [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/): no rights reserved, no conditions, no credit needed. The full text is in `LICENSE`. A credit is welcome but never required; our page that shows Easter for any year is [https://christianpure.com/when-is-easter/](https://christianpure.com/when-is-easter/).
